@@ -1,0 +1,7026 @@
+{
+ "rules": {
+  "coverage": {
+   "A1": 0.95,
+   "A2": 0.95,
+   "B1": 0.93
+  },
+  "budget": {
+   "A1": [
+    "A2",
+    3
+   ],
+   "A2": [
+    "B1",
+    3
+   ],
+   "B1": [
+    null,
+    0
+   ]
+  },
+  "words_per_passage": {
+   "A1": [
+    60,
+    90
+   ],
+   "A2": [
+    90,
+    120
+   ],
+   "B1": [
+    110,
+    150
+   ]
+  },
+  "questions": [
+   4,
+   5
+  ]
+ },
+ "passages": [
+  {
+   "id": "p0001",
+   "lv": "A1",
+   "title": "Hari Budi",
+   "oop": {},
+   "names": [
+    "Budi",
+    "Bandung"
+   ],
+   "sentences": [
+    [
+     "Nama saya Budi dan saya tinggal di Bandung.",
+     "My name is Budi and I live in Bandung."
+    ],
+    [
+     "Setiap hari saya bangun pukul enam pagi.",
+     "Every day I get up at six in the morning."
+    ],
+    [
+     "Saya mandi, lalu makan roti dan minum kopi.",
+     "I take a shower, then eat bread and drink coffee."
+    ],
+    [
+     "Saya bekerja di sebuah kantor di tengah kota.",
+     "I work in an office in the middle of the city."
+    ],
+    [
+     "Saya pergi ke kantor naik bus karena saya tidak punya mobil.",
+     "I go to the office by bus because I don't have a car."
+    ],
+    [
+     "Pada siang hari, saya makan nasi dengan teman-teman kantor.",
+     "At midday I eat rice with friends from the office."
+    ],
+    [
+     "Saya pulang ke rumah pukul lima sore.",
+     "I go home at five in the afternoon."
+    ],
+    [
+     "Malam hari, saya membaca buku atau menonton film sebelum tidur.",
+     "In the evening I read a book or watch a film before sleeping."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Pukul berapa Budi bangun?",
+     "en": "What time does Budi get up?",
+     "type": "mc",
+     "options": [
+      "Pukul enam",
+      "Pukul lima",
+      "Pukul tujuh",
+      "Pukul delapan"
+     ],
+     "answer": 0,
+     "words": [
+      "bangun"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Budi pergi ke kantor dengan mobilnya.",
+     "en": "Budi goes to the office in his car.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "mobil"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Dengan siapa Budi makan siang?",
+     "en": "Who does Budi have lunch with?",
+     "type": "mc",
+     "options": [
+      "Dengan orang tuanya",
+      "Dengan teman kantor",
+      "Dengan istrinya",
+      "Dengan adiknya"
+     ],
+     "answer": 1,
+     "words": [
+      "teman"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Budi pulang pada sore hari.",
+     "en": "Budi goes home in the afternoon.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "pulang",
+      "sore"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Budi membaca buku di kantor setiap malam.",
+     "en": "Budi reads a book at the office every evening.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "baca",
+      "buku"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0002",
+   "lv": "A1",
+   "title": "Keluarga Sari",
+   "oop": {},
+   "names": [
+    "Sari",
+    "Surabaya",
+    "Andi",
+    "Nina",
+    "Inggris"
+   ],
+   "sentences": [
+    [
+     "Umur Sari sepuluh tahun dan dia tinggal di Surabaya.",
+     "Sari is ten years old and she lives in Surabaya."
+    ],
+    [
+     "Di keluarganya ada lima orang.",
+     "There are five people in her family."
+    ],
+    [
+     "Ayahnya seorang dokter dan ibunya seorang guru bahasa Inggris.",
+     "Her father is a doctor and her mother is an English teacher."
+    ],
+    [
+     "Sari punya seorang kakak laki-laki, Andi, dan seorang adik perempuan, Nina.",
+     "Sari has an older brother, Andi, and a younger sister, Nina."
+    ],
+    [
+     "Umur Andi enam belas tahun dan dia sangat suka musik.",
+     "Andi is sixteen and he really likes music."
+    ],
+    [
+     "Nina masih kecil dan dia bermain dengan kucing setiap hari.",
+     "Nina is still small and she plays with the cat every day."
+    ],
+    [
+     "Pada hari Minggu, semua orang makan bersama di rumah.",
+     "On Sundays everyone eats together at home."
+    ],
+    [
+     "Sari senang karena ibunya memasak ayam yang enak.",
+     "Sari is happy because her mother cooks delicious chicken."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Berapa orang ada di keluarga Sari?",
+     "en": "How many people are there in Sari's family?",
+     "type": "mc",
+     "options": [
+      "Empat",
+      "Tiga",
+      "Lima",
+      "Enam"
+     ],
+     "answer": 2,
+     "words": [
+      "keluarga",
+      "orang"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Apa pekerjaan ayah Sari?",
+     "en": "What is Sari's father's job?",
+     "type": "mc",
+     "options": [
+      "Dia bekerja di toko",
+      "Dia guru",
+      "Dia polisi",
+      "Dia dokter"
+     ],
+     "answer": 3,
+     "words": [
+      "ayah",
+      "dokter"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Andi adalah adik Sari.",
+     "en": "Andi is Sari's younger brother.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kakak"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Nina suka bermain dengan anjing.",
+     "en": "Nina likes playing with a dog.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "bermain",
+      "kucing"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Keluarga Sari makan bersama pada hari Minggu.",
+     "en": "Sari's family eats together on Sunday.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "makan",
+      "minggu"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0003",
+   "lv": "A1",
+   "title": "Di pasar",
+   "oop": {},
+   "names": [
+    "Wati"
+   ],
+   "sentences": [
+    [
+     "Pagi ini Ibu Wati pergi ke pasar dekat rumahnya.",
+     "This morning Mrs Wati goes to the market near her house."
+    ],
+    [
+     "\"Selamat pagi, Bu. Mau beli apa?\" tanya seorang bapak.",
+     "\"Good morning, madam. What would you like to buy?\" a man asks."
+    ],
+    [
+     "\"Saya mau beli ikan dan sayur,\" jawab Ibu Wati.",
+     "\"I want to buy fish and vegetables,\" Mrs Wati answers."
+    ],
+    [
+     "\"Ikan ini enak dan tidak mahal,\" kata bapak itu.",
+     "\"This fish is good and not expensive,\" the man says."
+    ],
+    [
+     "Ibu Wati membeli dua ekor ikan dan sedikit sayur hijau.",
+     "Mrs Wati buys two fish and a few green vegetables."
+    ],
+    [
+     "Dia juga mencari buah untuk anak-anaknya, tetapi buahnya sudah habis.",
+     "She also looks for fruit for her children, but the fruit has run out."
+    ],
+    [
+     "Harga semuanya lima puluh ribu.",
+     "The price of everything is fifty thousand."
+    ],
+    [
+     "Ibu Wati membayar, lalu pulang dengan senang.",
+     "Mrs Wati pays and then goes home happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Ke mana Ibu Wati pergi pagi ini?",
+     "en": "Where does Mrs Wati go this morning?",
+     "type": "mc",
+     "options": [
+      "Ke pasar",
+      "Ke sekolah",
+      "Ke kantor",
+      "Ke rumah temannya"
+     ],
+     "answer": 0,
+     "words": [
+      "pasar"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Menurut bapak itu, ikannya mahal.",
+     "en": "According to the man, the fish is expensive.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "mahal"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang Ibu Wati beli?",
+     "en": "What does Mrs Wati buy?",
+     "type": "mc",
+     "options": [
+      "Buah dan roti",
+      "Ikan dan sayur",
+      "Ayam dan nasi",
+      "Daging dan telur"
+     ],
+     "answer": 1,
+     "words": [
+      "beli",
+      "ikan"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Ibu Wati tidak bisa membeli buah.",
+     "en": "Mrs Wati cannot buy fruit.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "buah",
+      "habis"
+     ],
+     "sentence": 5
+    }
+   ]
+  },
+  {
+   "id": "p0004",
+   "lv": "A1",
+   "title": "Pesan untuk Rina",
+   "oop": {},
+   "names": [
+    "Rina",
+    "Maya"
+   ],
+   "sentences": [
+    [
+     "Halo Rina, ini Maya.",
+     "Hello Rina, this is Maya."
+    ],
+    [
+     "Kamu ada waktu besok sore?",
+     "Do you have time tomorrow afternoon?"
+    ],
+    [
+     "Saya mau menonton film baru di kota.",
+     "I want to watch a new film in town."
+    ],
+    [
+     "Filmnya mulai pukul empat, jadi kita bisa bertemu di depan kantor pos pukul tiga.",
+     "The film starts at four, so we can meet in front of the post office at three."
+    ],
+    [
+     "Setelah film, kita bisa makan malam di rumah makan dekat sana.",
+     "After the film we can have dinner at a restaurant near there."
+    ],
+    [
+     "Kalau kamu tidak bisa datang, tolong telepon saya malam ini.",
+     "If you can't come, please call me tonight."
+    ],
+    [
+     "Nomor saya yang baru ada di bawah.",
+     "My new number is below."
+    ],
+    [
+     "Saya juga punya dua buku untuk kamu, jadi saya akan membawa buku itu besok.",
+     "I also have two books for you, so I will bring them tomorrow."
+    ],
+    [
+     "Sampai jumpa!",
+     "See you!"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Kapan Maya mau menonton film?",
+     "en": "When does Maya want to watch a film?",
+     "type": "mc",
+     "options": [
+      "Besok pagi",
+      "Malam ini",
+      "Besok sore",
+      "Hari Minggu"
+     ],
+     "answer": 2,
+     "words": [
+      "besok",
+      "sore"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Di mana mereka bisa bertemu?",
+     "en": "Where can they meet?",
+     "type": "mc",
+     "options": [
+      "Di rumah makan",
+      "Di rumah Maya",
+      "Di sekolah",
+      "Di depan kantor pos"
+     ],
+     "answer": 3,
+     "words": [
+      "bertemu",
+      "depan"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Film itu mulai pukul tiga.",
+     "en": "The film starts at three o'clock.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "mulai"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Kalau Rina tidak bisa datang, dia harus menelepon Maya.",
+     "en": "If Rina can't come, she should call Maya.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "datang",
+      "telepon"
+     ],
+     "sentence": 5
+    }
+   ]
+  },
+  {
+   "id": "p0005",
+   "lv": "A1",
+   "title": "Kamar saya",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Kamar saya tidak besar, tetapi saya sangat suka kamar ini.",
+     "My room is not big, but I really like this room."
+    ],
+    [
+     "Di dalam kamar ada sebuah tempat tidur, sebuah meja, dan dua kursi.",
+     "In the room there is a bed, a table and two chairs."
+    ],
+    [
+     "Meja saya dekat jendela, jadi saya bisa melihat pohon di luar.",
+     "My table is near the window, so I can see a tree outside."
+    ],
+    [
+     "Di atas meja ada beberapa buku dan sebuah telepon tua.",
+     "On the table there are some books and an old telephone."
+    ],
+    [
+     "Warna kamar saya biru, dan pintunya putih.",
+     "The colour of my room is blue, and its door is white."
+    ],
+    [
+     "Di dekat pintu ada foto keluarga saya.",
+     "Near the door there is a photo of my family."
+    ],
+    [
+     "Setiap pagi saya membuka jendela.",
+     "Every morning I open the window."
+    ],
+    [
+     "Saya suka duduk di sini dan membaca buku pada sore hari.",
+     "I like sitting here and reading a book in the afternoon."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa yang ada di dalam kamar?",
+     "en": "What is in the room?",
+     "type": "mc",
+     "options": [
+      "Tempat tidur, meja, dan kursi",
+      "Dua tempat tidur dan satu meja",
+      "Tiga kursi dan meja besar",
+      "Dua meja dan satu kursi"
+     ],
+     "answer": 0,
+     "words": [
+      "meja",
+      "kursi"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Dari meja, dia bisa melihat pohon.",
+     "en": "From the table he can see a tree.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "pohon"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa warna kamar itu?",
+     "en": "What colour is the room?",
+     "type": "mc",
+     "options": [
+      "Putih",
+      "Biru",
+      "Hijau",
+      "Kuning"
+     ],
+     "answer": 1,
+     "words": [
+      "biru"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Foto di dekat pintu adalah foto teman-temannya.",
+     "en": "The photo near the door is a photo of his friends.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "foto",
+      "keluarga"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Dia menutup jendela setiap pagi.",
+     "en": "He closes the window every morning.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "jendela"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0006",
+   "lv": "A1",
+   "title": "Toko tutup",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Untuk semua orang yang sering datang ke toko kami.",
+     "To everyone who often comes to our shop."
+    ],
+    [
+     "Toko kami tutup pada hari Senin dan Selasa minggu depan.",
+     "Our shop is closed on Monday and Tuesday next week."
+    ],
+    [
+     "Kami sedang membuat toko ini lebih besar dan lebih bagus.",
+     "We are making this shop bigger and nicer."
+    ],
+    [
+     "Pada hari Rabu toko buka lagi pukul delapan pagi.",
+     "On Wednesday the shop opens again at eight in the morning."
+    ],
+    [
+     "Hari itu semua roti murah, dan setiap orang mendapat satu kopi atau teh.",
+     "That day all the bread is cheap, and everyone gets one coffee or tea."
+    ],
+    [
+     "Anak-anak juga mendapat susu cokelat.",
+     "Children also get chocolate milk."
+    ],
+    [
+     "Kalau Anda punya pertanyaan, silakan menelepon kami atau mengirim surat.",
+     "If you have a question, please phone us or send a letter."
+    ],
+    [
+     "Maaf karena toko tutup, dan terima kasih banyak.",
+     "Sorry that the shop is closed, and thank you very much."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Kapan toko itu tutup?",
+     "en": "When is the shop closed?",
+     "type": "mc",
+     "options": [
+      "Hanya hari Senin",
+      "Selasa dan Rabu",
+      "Senin dan Selasa",
+      "Sabtu dan Minggu"
+     ],
+     "answer": 2,
+     "words": [
+      "tutup"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Toko itu buka lagi pada hari Kamis.",
+     "en": "The shop opens again on Thursday.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "buka"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang didapat setiap orang pada hari Rabu?",
+     "en": "What does everyone get on Wednesday?",
+     "type": "mc",
+     "options": [
+      "Sebuah tas",
+      "Satu roti",
+      "Sebuah buku",
+      "Kopi atau teh"
+     ],
+     "answer": 3,
+     "words": [
+      "kopi"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Orang yang punya pertanyaan bisa menelepon toko.",
+     "en": "People who have a question can phone the shop.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "pertanyaan",
+      "telepon"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0007",
+   "lv": "A1",
+   "title": "Kucing saya",
+   "oop": {},
+   "names": [
+    "Momo"
+   ],
+   "sentences": [
+    [
+     "Saya punya seekor kucing kecil, dan namanya Momo.",
+     "I have a small cat, and his name is Momo."
+    ],
+    [
+     "Momo putih dan hitam, dan matanya hijau.",
+     "Momo is white and black, and his eyes are green."
+    ],
+    [
+     "Dia datang ke rumah kami tahun lalu.",
+     "He came to our house last year."
+    ],
+    [
+     "Momo suka tidur di atas kursi dekat jendela.",
+     "Momo likes sleeping on the chair near the window."
+    ],
+    [
+     "Setiap pagi dan malam saya memberinya ikan.",
+     "Every morning and evening I give him fish."
+    ],
+    [
+     "Dia tidak suka air, jadi dia tidak pernah mandi.",
+     "He doesn't like water, so he never takes a bath."
+    ],
+    [
+     "Momo sering keluar rumah dan bermain dengan kucing lain.",
+     "Momo often goes out of the house and plays with other cats."
+    ],
+    [
+     "Kalau saya pulang dari sekolah, Momo selalu menunggu saya di depan pintu.",
+     "When I come home from school, Momo always waits for me in front of the door."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa warna mata Momo?",
+     "en": "What colour are Momo's eyes?",
+     "type": "mc",
+     "options": [
+      "Hijau",
+      "Hitam",
+      "Biru",
+      "Kuning"
+     ],
+     "answer": 0,
+     "words": [
+      "mata",
+      "hijau"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Momo suka tidur di dekat jendela.",
+     "en": "Momo likes sleeping near the window.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "tidur",
+      "jendela"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang dimakan Momo?",
+     "en": "What does Momo eat?",
+     "type": "mc",
+     "options": [
+      "Nasi",
+      "Ikan",
+      "Daging ayam",
+      "Roti"
+     ],
+     "answer": 1,
+     "words": [
+      "ikan"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Momo suka bermain di dalam air.",
+     "en": "Momo likes playing in the water.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "suka",
+      "air"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Momo menunggu di depan pintu ketika anak itu pulang.",
+     "en": "Momo waits in front of the door when the child comes home.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "tunggu",
+      "pintu"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0008",
+   "lv": "A1",
+   "title": "Hari Minggu di gunung",
+   "oop": {},
+   "names": [
+    "Rudi"
+   ],
+   "sentences": [
+    [
+     "Hari Minggu lalu keluarga Rudi pergi ke gunung.",
+     "Last Sunday Rudi's family went to the mountains."
+    ],
+    [
+     "Mereka pergi pada pagi hari naik mobil ayah.",
+     "They left in the morning in Dad's car."
+    ],
+    [
+     "Jalannya panjang, jadi mereka tiba di sana pukul sepuluh.",
+     "The road was long, so they arrived there at ten."
+    ],
+    [
+     "Udara di gunung dingin dan bersih.",
+     "The air in the mountains was cold and clean."
+    ],
+    [
+     "Rudi dan adiknya berjalan di antara pohon-pohon tinggi.",
+     "Rudi and his younger sibling walked among the tall trees."
+    ],
+    [
+     "Ibu membawa nasi, telur, dan teh panas, lalu mereka makan di bawah pohon.",
+     "Mum brought rice, eggs and hot tea, and they ate under a tree."
+    ],
+    [
+     "Sore harinya hujan mulai turun, jadi mereka cepat pulang.",
+     "In the afternoon it started to rain, so they went home quickly."
+    ],
+    [
+     "Rudi lelah tetapi sangat senang.",
+     "Rudi was tired but very happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Bagaimana keluarga Rudi pergi ke gunung?",
+     "en": "How did Rudi's family go to the mountains?",
+     "type": "mc",
+     "options": [
+      "Naik kereta",
+      "Naik bus",
+      "Naik mobil",
+      "Berjalan kaki"
+     ],
+     "answer": 2,
+     "words": [
+      "mobil"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Udara di gunung panas.",
+     "en": "The air in the mountains was hot.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "dingin"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang Ibu bawa?",
+     "en": "What did Mum bring?",
+     "type": "mc",
+     "options": [
+      "Kopi dan buah",
+      "Roti dan susu",
+      "Ikan dan sayur",
+      "Nasi, telur, dan teh"
+     ],
+     "answer": 3,
+     "words": [
+      "bawa"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Mereka pulang karena hujan.",
+     "en": "They went home because of the rain.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "hujan"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0009",
+   "lv": "A1",
+   "title": "Di sekolah",
+   "oop": {},
+   "names": [
+    "Dewi",
+    "Yogyakarta",
+    "Tini",
+    "Ani",
+    "Indonesia"
+   ],
+   "sentences": [
+    [
+     "Dewi murid kelas tiga di sebuah sekolah di Yogyakarta.",
+     "Dewi is a third-grade pupil at a school in Yogyakarta."
+    ],
+    [
+     "Setiap pagi dia berjalan ke sekolah dengan temannya, Tini.",
+     "Every morning she walks to school with her friend Tini."
+    ],
+    [
+     "Sekolah mulai pukul tujuh.",
+     "School starts at seven."
+    ],
+    [
+     "Dewi paling suka Ibu Ani, guru bahasa Indonesia.",
+     "Dewi likes Mrs Ani, the Indonesian teacher, best."
+    ],
+    [
+     "Ibu Ani sangat baik dan ceritanya selalu menarik.",
+     "Mrs Ani is very kind and her stories are always interesting."
+    ],
+    [
+     "Dewi tidak suka matematika karena menurut dia pelajaran itu sulit.",
+     "Dewi doesn't like maths because she thinks that subject is hard."
+    ],
+    [
+     "Pada pukul sepuluh, semua murid keluar kelas dan makan di luar.",
+     "At ten o'clock all the pupils leave the classroom and eat outside."
+    ],
+    [
+     "Dewi dan Tini sering bermain bola bersama teman-teman lain.",
+     "Dewi and Tini often play ball with other friends."
+    ],
+    [
+     "Sekolah selesai pukul satu siang.",
+     "School finishes at one in the afternoon."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Bagaimana Dewi pergi ke sekolah?",
+     "en": "How does Dewi go to school?",
+     "type": "mc",
+     "options": [
+      "Dia berjalan",
+      "Dia naik bus",
+      "Dia naik sepeda",
+      "Ayahnya membawa dia"
+     ],
+     "answer": 0,
+     "words": [
+      "berjalan"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Ibu Ani mengajar bahasa Inggris.",
+     "en": "Mrs Ani teaches English.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "guru",
+      "bahasa"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Mengapa Dewi tidak suka matematika?",
+     "en": "Why doesn't Dewi like maths?",
+     "type": "mc",
+     "options": [
+      "Karena gurunya marah",
+      "Karena sulit",
+      "Karena kelasnya panjang",
+      "Karena dia lelah"
+     ],
+     "answer": 1,
+     "words": [
+      "sulit"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Murid-murid makan di dalam kelas.",
+     "en": "The pupils eat inside the classroom.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "makan",
+      "luar"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Sekolah Dewi selesai pada siang hari.",
+     "en": "Dewi's school finishes in the afternoon.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "selesai",
+      "siang"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0010",
+   "lv": "A1",
+   "title": "Cara membuat susu cokelat panas",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Minuman ini mudah dibuat dan enak sekali pada malam yang dingin.",
+     "This drink is easy to make and very good on a cold night."
+    ],
+    [
+     "Untuk dua orang, Anda perlu susu, sedikit cokelat, dan gula.",
+     "For two people you need milk, a little chocolate and sugar."
+    ],
+    [
+     "Pertama, panaskan susu di atas api kecil.",
+     "First, heat the milk over a low flame."
+    ],
+    [
+     "Jangan biarkan susu terlalu panas.",
+     "Don't let the milk get too hot."
+    ],
+    [
+     "Kemudian, tambahkan cokelat dan gula.",
+     "Then add the chocolate and sugar."
+    ],
+    [
+     "Tunggu sebentar sampai cokelat tercampur dengan susu.",
+     "Wait a moment until the chocolate is mixed into the milk."
+    ],
+    [
+     "Kalau Anda suka minuman yang tidak terlalu berat, tambahkan sedikit air.",
+     "If you like a drink that isn't too heavy, add a little water."
+    ],
+    [
+     "Minum susu cokelat ini ketika masih panas, dengan roti atau buah.",
+     "Drink this hot chocolate while it is still hot, with bread or fruit."
+    ],
+    [
+     "Anak-anak pasti suka!",
+     "Children will certainly like it!"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa yang Anda panaskan pertama?",
+     "en": "What do you heat first?",
+     "type": "mc",
+     "options": [
+      "Gula",
+      "Cokelat",
+      "Susu",
+      "Air"
+     ],
+     "answer": 2,
+     "words": [
+      "pertama",
+      "susu"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Susu harus sangat panas.",
+     "en": "The milk must be very hot.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "panas"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang Anda tambahkan ke dalam susu?",
+     "en": "What do you add to the milk?",
+     "type": "mc",
+     "options": [
+      "Kopi dan cokelat",
+      "Roti dan buah",
+      "Air dan roti",
+      "Cokelat dan gula"
+     ],
+     "answer": 3,
+     "words": [
+      "cokelat",
+      "gula"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Anda bisa minum susu cokelat dengan roti.",
+     "en": "You can drink the hot chocolate with bread.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "minum",
+      "roti"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0011",
+   "lv": "A1",
+   "title": "Surat untuk Pak Hasan",
+   "oop": {},
+   "names": [
+    "Hasan",
+    "Rina",
+    "Tono"
+   ],
+   "sentences": [
+    [
+     "Selamat pagi, Pak Hasan.",
+     "Good morning, Mr Hasan."
+    ],
+    [
+     "Saya Rina, ibu dari Tono di kelas dua.",
+     "I am Rina, the mother of Tono in class two."
+    ],
+    [
+     "Maaf, hari ini Tono tidak bisa datang ke sekolah karena dia sakit.",
+     "Sorry, today Tono can't come to school because he is ill."
+    ],
+    [
+     "Tadi malam kepalanya sakit dan dia tidak bisa tidur.",
+     "Last night he had a headache and couldn't sleep."
+    ],
+    [
+     "Pagi ini kami pergi ke dokter, dan dokter memberi dia obat.",
+     "This morning we went to the doctor, and the doctor gave him medicine."
+    ],
+    [
+     "Menurut dokter, Tono harus beristirahat di rumah selama dua hari.",
+     "According to the doctor, Tono must rest at home for two days."
+    ],
+    [
+     "Mungkin dia bisa kembali ke sekolah pada hari Kamis.",
+     "Maybe he can come back to school on Thursday."
+    ],
+    [
+     "Apakah ada tugas untuk Tono?",
+     "Is there any homework for Tono?"
+    ],
+    [
+     "Terima kasih, Pak.",
+     "Thank you, sir."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Siapa yang menulis surat ini?",
+     "en": "Who wrote this letter?",
+     "type": "mc",
+     "options": [
+      "Ibu Tono",
+      "Guru Tono",
+      "Dokter",
+      "Kakak Tono"
+     ],
+     "answer": 0,
+     "words": [
+      "ibu"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Tono tidak masuk sekolah hari ini karena sakit.",
+     "en": "Tono is absent from school today because he is ill.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "sakit"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa yang terjadi tadi malam?",
+     "en": "What happened last night?",
+     "type": "mc",
+     "options": [
+      "Tono pergi ke dokter",
+      "Tono tidak bisa tidur",
+      "Tono jatuh di sekolah",
+      "Tono makan terlalu banyak"
+     ],
+     "answer": 1,
+     "words": [
+      "tidur"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Dokter tidak memberi Tono obat.",
+     "en": "The doctor didn't give Tono medicine.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "dokter",
+      "obat"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Tono akan kembali ke sekolah besok.",
+     "en": "Tono will go back to school tomorrow.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kembali"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0012",
+   "lv": "A1",
+   "title": "Pesta di rumah Lina",
+   "oop": {},
+   "names": [
+    "Lina"
+   ],
+   "sentences": [
+    [
+     "Hari Sabtu kemarin ada pesta kecil di rumah Lina.",
+     "Last Saturday there was a small party at Lina's house."
+    ],
+    [
+     "Umur Lina sekarang dua puluh tahun.",
+     "Lina is now twenty years old."
+    ],
+    [
+     "Dia mengundang sepuluh teman dari sekolah dan dari kantor.",
+     "She invited ten friends from school and from the office."
+    ],
+    [
+     "Ibu Lina memasak banyak makanan: nasi kuning, ayam, dan ikan.",
+     "Lina's mother cooked a lot of food: yellow rice, chicken and fish."
+    ],
+    [
+     "Teman-temannya membawa bunga, buku, dan sebuah tas merah.",
+     "Her friends brought flowers, books and a red bag."
+    ],
+    [
+     "Lina sangat suka tas itu.",
+     "Lina really liked that bag."
+    ],
+    [
+     "Setelah makan, mereka mendengarkan musik dan menyanyikan lagu bersama.",
+     "After eating, they listened to music and sang songs together."
+    ],
+    [
+     "Pesta itu selesai pukul sepuluh malam.",
+     "The party ended at ten at night."
+    ],
+    [
+     "Semua orang pulang dengan senang.",
+     "Everyone went home happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Berapa umur Lina sekarang?",
+     "en": "How old is Lina now?",
+     "type": "mc",
+     "options": [
+      "Dua belas tahun",
+      "Sepuluh tahun",
+      "Dua puluh tahun",
+      "Tiga puluh tahun"
+     ],
+     "answer": 2,
+     "words": [
+      "umur"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Apa yang dimasak Ibu Lina?",
+     "en": "What did Lina's mother cook?",
+     "type": "mc",
+     "options": [
+      "Daging dan sayur",
+      "Roti dan telur",
+      "Hanya ayam",
+      "Nasi kuning, ayam, dan ikan"
+     ],
+     "answer": 3,
+     "words": [
+      "masak",
+      "makanan"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Lina tidak suka tas merah itu.",
+     "en": "Lina didn't like the red bag.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "suka",
+      "tas"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Setelah makan, mereka menyanyi bersama.",
+     "en": "After eating, they sang together.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "lagu"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0013",
+   "lv": "A1",
+   "title": "Telepon dari Ibu",
+   "oop": {},
+   "names": [
+    "Joko",
+    "Jakarta"
+   ],
+   "sentences": [
+    [
+     "\"Halo, Joko? Ini Ibu.\"",
+     "\"Hello, Joko? It's Mum.\""
+    ],
+    [
+     "\"Halo, Bu! Apa kabar?\"",
+     "\"Hello, Mum! How are you?\""
+    ],
+    [
+     "\"Baik. Kamu sudah makan?\"",
+     "\"Fine. Have you eaten yet?\""
+    ],
+    [
+     "\"Belum, Bu. Saya masih di kantor, dan pekerjaan saya belum selesai.\"",
+     "\"Not yet, Mum. I'm still at the office, and my work isn't finished.\""
+    ],
+    [
+     "\"Jangan bekerja terlalu lama, ya. Kamu kapan pulang ke rumah?\"",
+     "\"Don't work too long, all right? When are you coming home?\""
+    ],
+    [
+     "\"Mungkin bulan depan, Bu. Saya ingin naik kereta dari Jakarta.\"",
+     "\"Maybe next month, Mum. I want to take the train from Jakarta.\""
+    ],
+    [
+     "\"Bagus. Ayah dan adikmu rindu padamu.\"",
+     "\"Good. Your father and your younger sibling miss you.\""
+    ],
+    [
+     "\"Nanti Ibu memasak ikan yang kamu suka, ya. Kamu juga harus tidur yang cukup.\"",
+     "\"I'll cook the fish you like, all right. And you must get enough sleep.\""
+    ],
+    [
+     "\"Baik, Bu. Nanti malam saya telepon lagi.\"",
+     "\"All right, Mum. I'll call again later tonight.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Joko sudah makan.",
+     "en": "Joko has already eaten.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "belum"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Di mana Joko sekarang?",
+     "en": "Where is Joko now?",
+     "type": "mc",
+     "options": [
+      "Di kantor",
+      "Di rumah",
+      "Di kereta",
+      "Di sekolah"
+     ],
+     "answer": 0,
+     "words": [
+      "kantor"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Kapan Joko mungkin pulang?",
+     "en": "When might Joko go home?",
+     "type": "mc",
+     "options": [
+      "Minggu ini",
+      "Bulan depan",
+      "Besok pagi",
+      "Tahun depan"
+     ],
+     "answer": 1,
+     "words": [
+      "bulan",
+      "depan"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Joko ingin pulang naik kereta.",
+     "en": "Joko wants to go home by train.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "kereta"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Joko akan menelepon ibunya lagi nanti malam.",
+     "en": "Joko will call his mother again later tonight.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "telepon",
+      "lagi"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0014",
+   "lv": "A1",
+   "title": "Musim hujan",
+   "oop": {},
+   "names": [
+    "Indonesia"
+   ],
+   "sentences": [
+    [
+     "Di Indonesia hanya ada dua musim: musim hujan dan musim kering.",
+     "In Indonesia there are only two seasons: the rainy season and the dry season."
+    ],
+    [
+     "Musim hujan biasanya mulai pada bulan Oktober atau November.",
+     "The rainy season usually starts in October or November."
+    ],
+    [
+     "Pada bulan-bulan itu, hujan turun hampir setiap hari, sering pada sore hari.",
+     "In those months it rains almost every day, often in the afternoon."
+    ],
+    [
+     "Jalan-jalan di kota penuh air, dan mobil berjalan lambat.",
+     "The streets in the city are full of water, and cars move slowly."
+    ],
+    [
+     "Banyak orang tidak mau keluar rumah pada sore hari.",
+     "Many people don't want to leave the house in the afternoon."
+    ],
+    [
+     "Anak-anak suka bermain di bawah hujan, tetapi orang tua mereka tidak senang.",
+     "Children like playing in the rain, but their parents are not happy."
+    ],
+    [
+     "Musim hujan selesai sekitar bulan April.",
+     "The rainy season ends around April."
+    ],
+    [
+     "Setelah itu, cuaca panas lagi.",
+     "After that, the weather is hot again."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Biasanya musim hujan mulai pada bulan Juli.",
+     "en": "The rainy season usually starts in July.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "musim",
+      "mulai"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Kapan hujan sering turun?",
+     "en": "When does it often rain?",
+     "type": "mc",
+     "options": [
+      "Pada malam hari",
+      "Pada pagi hari",
+      "Pada sore hari",
+      "Hanya hari Minggu"
+     ],
+     "answer": 2,
+     "words": [
+      "sore"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Bagaimana jalan-jalan di kota pada musim hujan?",
+     "en": "What are the city streets like in the rainy season?",
+     "type": "mc",
+     "options": [
+      "Penuh orang",
+      "Kering dan bersih",
+      "Penuh sampah",
+      "Penuh air"
+     ],
+     "answer": 3,
+     "words": [
+      "penuh",
+      "air"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Anak-anak senang bermain ketika hujan turun.",
+     "en": "Children enjoy playing when it rains.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "anak",
+      "bermain"
+     ],
+     "sentence": 5
+    }
+   ]
+  },
+  {
+   "id": "p0015",
+   "lv": "A1",
+   "title": "Rumah baru kami",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Bulan lalu keluarga kami pindah ke rumah baru.",
+     "Last month our family moved to a new house."
+    ],
+    [
+     "Rumah lama kami kecil dan jauh dari kota.",
+     "Our old house was small and far from town."
+    ],
+    [
+     "Rumah baru ini lebih besar dan dekat dengan sekolah saya.",
+     "This new house is bigger and close to my school."
+    ],
+    [
+     "Ada empat kamar tidur, jadi sekarang saya punya kamar sendiri.",
+     "There are four bedrooms, so now I have my own room."
+    ],
+    [
+     "Di belakang rumah ada pohon besar dan banyak bunga.",
+     "Behind the house there is a big tree and a lot of flowers."
+    ],
+    [
+     "Ayah senang karena kantornya juga tidak jauh.",
+     "Dad is happy because his office is not far either."
+    ],
+    [
+     "Ibu suka pasar di dekat rumah karena harga di sana murah.",
+     "Mum likes the market near the house because prices there are cheap."
+    ],
+    [
+     "Tetapi adik saya masih ingat teman-temannya di rumah lama, dan dia sedikit sedih.",
+     "But my younger sibling still remembers their friends at the old house, and they are a little sad."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Bagaimana rumah lama mereka?",
+     "en": "What was their old house like?",
+     "type": "mc",
+     "options": [
+      "Kecil dan jauh dari kota",
+      "Besar dan dekat sekolah",
+      "Baru dan bersih",
+      "Besar tetapi tua"
+     ],
+     "answer": 0,
+     "words": [
+      "kecil",
+      "jauh"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Rumah baru itu jauh dari sekolah.",
+     "en": "The new house is far from the school.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "dekat",
+      "sekolah"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Sekarang anak itu tidur di kamarnya sendiri.",
+     "en": "Now the child sleeps in their own room.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "kamar",
+      "sendiri"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Mengapa Ibu suka pasar di dekat rumah?",
+     "en": "Why does Mum like the market near the house?",
+     "type": "mc",
+     "options": [
+      "Karena pasarnya besar",
+      "Karena harganya murah",
+      "Karena temannya bekerja di sana",
+      "Karena buka setiap malam"
+     ],
+     "answer": 1,
+     "words": [
+      "harga",
+      "murah"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Adiknya sedih karena rindu teman-temannya.",
+     "en": "The younger sibling is sad because they miss their friends.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "sedih",
+      "teman"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0016",
+   "lv": "A1",
+   "title": "Teman baru dari Jepang",
+   "oop": {},
+   "names": [
+    "Yuki",
+    "Ayu",
+    "Bali",
+    "Jepang",
+    "Indonesia",
+    "Jakarta",
+    "Bandung"
+   ],
+   "sentences": [
+    [
+     "Halo Yuki, apa kabar?",
+     "Hello Yuki, how are you?"
+    ],
+    [
+     "Nama saya Ayu, dan saya tinggal di Bali.",
+     "My name is Ayu, and I live in Bali."
+    ],
+    [
+     "Umur saya lima belas tahun, dan saya murid kelas sepuluh.",
+     "I am fifteen years old, and I am a pupil in year ten."
+    ],
+    [
+     "Saya suka membaca, menyanyi, dan pergi ke laut dengan adik saya.",
+     "I like reading, singing and going to the sea with my younger sibling."
+    ],
+    [
+     "Saya belajar bahasa Jepang di sekolah, tetapi bahasa itu sulit untuk saya.",
+     "I study Japanese at school, but that language is hard for me."
+    ],
+    [
+     "Apakah kamu juga belajar bahasa Indonesia?",
+     "Do you also study Indonesian?"
+    ],
+    [
+     "Saya ingin tahu tentang kotamu, sekolahmu, dan keluargamu.",
+     "I want to know about your city, your school and your family."
+    ],
+    [
+     "Tolong kirim foto kotamu, ya.",
+     "Please send a photo of your city."
+    ],
+    [
+     "Saya tunggu suratmu!",
+     "I'm waiting for your letter!"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Di mana Ayu tinggal?",
+     "en": "Where does Ayu live?",
+     "type": "mc",
+     "options": [
+      "Di Jakarta",
+      "Di Jepang",
+      "Di Bali",
+      "Di Bandung"
+     ],
+     "answer": 2,
+     "words": [
+      "tinggal"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Ayu suka pergi ke laut dengan adiknya.",
+     "en": "Ayu likes going to the sea with her younger sibling.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "laut",
+      "adik"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Menurut Ayu, bahasa Jepang mudah.",
+     "en": "According to Ayu, Japanese is easy.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "sulit"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Apa yang Ayu minta dari Yuki?",
+     "en": "What does Ayu ask Yuki for?",
+     "type": "mc",
+     "options": [
+      "Foto keluarganya",
+      "Sebuah buku",
+      "Nomor telepon",
+      "Foto kotanya"
+     ],
+     "answer": 3,
+     "words": [
+      "mengirim",
+      "foto"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0017",
+   "lv": "A1",
+   "title": "Rumah makan Pak Agus",
+   "oop": {},
+   "names": [
+    "Agus",
+    "Merdeka"
+   ],
+   "sentences": [
+    [
+     "Kemarin saya makan siang di rumah makan Pak Agus di Jalan Merdeka.",
+     "Yesterday I had lunch at Mr Agus's restaurant on Merdeka Street."
+    ],
+    [
+     "Tempatnya kecil tetapi bersih, dan orang-orangnya baik.",
+     "The place is small but clean, and the people are kind."
+    ],
+    [
+     "Saya makan nasi dengan ayam dan sayur, lalu minum teh dingin.",
+     "I ate rice with chicken and vegetables, then drank iced tea."
+    ],
+    [
+     "Ayamnya enak sekali, tetapi sayurnya sedikit dingin.",
+     "The chicken was really delicious, but the vegetables were a little cold."
+    ],
+    [
+     "Harganya murah: saya hanya membayar tiga puluh ribu.",
+     "The price was cheap: I only paid thirty thousand."
+    ],
+    [
+     "Rumah makan ini buka dari pukul sepuluh pagi sampai pukul sembilan malam.",
+     "This restaurant is open from ten in the morning until nine at night."
+    ],
+    [
+     "Pada jam makan siang, banyak orang dari kantor datang ke sana, jadi Anda harus menunggu.",
+     "At lunchtime many people from the offices come there, so you have to wait."
+    ],
+    [
+     "Saya pasti akan kembali lagi.",
+     "I will certainly come back again."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa yang dia minum?",
+     "en": "What did he drink?",
+     "type": "mc",
+     "options": [
+      "Teh dingin",
+      "Kopi panas",
+      "Susu",
+      "Air putih"
+     ],
+     "answer": 0,
+     "words": [
+      "minum",
+      "teh"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Semua makanan di sana panas dan enak.",
+     "en": "All the food there was hot and delicious.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "sayur",
+      "dingin"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Makanan di rumah makan itu tidak mahal.",
+     "en": "The food at that restaurant is not expensive.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "murah"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Mengapa orang harus menunggu pada jam makan siang?",
+     "en": "Why do people have to wait at lunchtime?",
+     "type": "mc",
+     "options": [
+      "Karena tempatnya tutup",
+      "Karena banyak orang datang",
+      "Karena makanannya belum siap",
+      "Karena Pak Agus pergi"
+     ],
+     "answer": 1,
+     "words": [
+      "tunggu"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0018",
+   "lv": "A1",
+   "title": "Belajar bahasa Indonesia",
+   "oop": {},
+   "names": [
+    "Tom",
+    "Australia",
+    "Jakarta",
+    "Indonesia"
+   ],
+   "sentences": [
+    [
+     "Nama saya Tom, dan saya berasal dari Australia.",
+     "My name is Tom, and I come from Australia."
+    ],
+    [
+     "Sekarang saya tinggal di Jakarta karena pekerjaan saya.",
+     "Now I live in Jakarta because of my job."
+    ],
+    [
+     "Setiap Selasa dan Kamis saya belajar bahasa Indonesia dengan seorang guru.",
+     "Every Tuesday and Thursday I study Indonesian with a teacher."
+    ],
+    [
+     "Kelasnya dua jam, dari pukul enam sampai pukul delapan malam.",
+     "The class is two hours long, from six to eight in the evening."
+    ],
+    [
+     "Menurut saya, bahasa Indonesia tidak terlalu sulit.",
+     "In my opinion, Indonesian is not too difficult."
+    ],
+    [
+     "Tetapi saya sering lupa kata-kata baru.",
+     "But I often forget new words."
+    ],
+    [
+     "Jadi saya menulis kata-kata itu di buku kecil dan membacanya di bus.",
+     "So I write those words in a small book and read them on the bus."
+    ],
+    [
+     "Saya juga berbicara dengan orang di pasar dan di kantor.",
+     "I also talk with people at the market and at the office."
+    ],
+    [
+     "Mereka selalu senang dan membantu saya.",
+     "They are always happy and help me."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Mengapa Tom tinggal di Jakarta?",
+     "en": "Why does Tom live in Jakarta?",
+     "type": "mc",
+     "options": [
+      "Karena sekolahnya",
+      "Karena keluarganya",
+      "Karena pekerjaannya",
+      "Karena dia suka kota besar"
+     ],
+     "answer": 2,
+     "words": [
+      "pekerjaan"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Berapa lama kelasnya?",
+     "en": "How long is the class?",
+     "type": "mc",
+     "options": [
+      "Setengah jam",
+      "Satu jam",
+      "Tiga jam",
+      "Dua jam"
+     ],
+     "answer": 3,
+     "words": [
+      "jam"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Menurut Tom, bahasa Indonesia sangat sulit.",
+     "en": "According to Tom, Indonesian is very difficult.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "sulit"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Tom menulis kata-kata baru di buku kecil.",
+     "en": "Tom writes new words in a small book.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "menulis",
+      "kata"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Orang di pasar tidak mau berbicara dengan Tom.",
+     "en": "People at the market don't want to talk to Tom.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "berbicara",
+      "pasar"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0019",
+   "lv": "A1",
+   "title": "Di mana kunci saya?",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Pagi ini saya bangun terlambat.",
+     "This morning I woke up late."
+    ],
+    [
+     "Saya cepat mandi, memakai baju, dan minum air.",
+     "I quickly showered, got dressed and drank some water."
+    ],
+    [
+     "Tetapi ketika saya mau keluar, saya tidak bisa menemukan kunci rumah.",
+     "But when I wanted to go out, I couldn't find the house key."
+    ],
+    [
+     "Saya mencari kunci itu di atas meja, di dalam tas, dan di bawah tempat tidur.",
+     "I looked for the key on the table, in my bag and under the bed."
+    ],
+    [
+     "Kunci itu tidak ada di mana-mana!",
+     "The key wasn't anywhere!"
+    ],
+    [
+     "Saya menelepon istri saya di kantor.",
+     "I phoned my wife at the office."
+    ],
+    [
+     "\"Coba lihat di pintu,\" katanya.",
+     "\"Try looking in the door,\" she said."
+    ],
+    [
+     "Benar, kunci itu masih di pintu dari tadi malam.",
+     "Right, the key was still in the door from last night."
+    ],
+    [
+     "Saya tertawa, lalu pergi ke kantor naik sepeda.",
+     "I laughed, then went to the office by bicycle."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Pagi ini dia bangun terlambat.",
+     "en": "This morning he got up late.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "bangun"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Apa yang tidak bisa dia temukan?",
+     "en": "What couldn't he find?",
+     "type": "mc",
+     "options": [
+      "Kunci rumah",
+      "Tasnya",
+      "Bajunya",
+      "Teleponnya"
+     ],
+     "answer": 0,
+     "words": [
+      "kunci"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Dia mencari kunci di dalam mobil.",
+     "en": "He looked for the key in the car.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "cari",
+      "kunci"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Di mana kuncinya?",
+     "en": "Where was the key?",
+     "type": "mc",
+     "options": [
+      "Di bawah meja",
+      "Di pintu",
+      "Di kantor istrinya",
+      "Di dalam tas"
+     ],
+     "answer": 1,
+     "words": [
+      "pintu"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0020",
+   "lv": "A1",
+   "title": "Di kereta",
+   "oop": {},
+   "names": [
+    "Dimas",
+    "Jakarta",
+    "Bogor",
+    "Bandung",
+    "Bali"
+   ],
+   "sentences": [
+    [
+     "Setiap Jumat sore, Dimas naik kereta dari Jakarta ke Bogor.",
+     "Every Friday afternoon Dimas takes the train from Jakarta to Bogor."
+    ],
+    [
+     "Orang tuanya tinggal di Bogor, dan dia pulang untuk hari Sabtu dan Minggu.",
+     "His parents live in Bogor, and he goes home for Saturday and Sunday."
+    ],
+    [
+     "Kereta itu selalu penuh, jadi Dimas sering berdiri.",
+     "The train is always full, so Dimas often stands."
+    ],
+    [
+     "Kadang dia bisa duduk dekat jendela dan melihat pohon-pohon hijau.",
+     "Sometimes he can sit near the window and look at the green trees."
+    ],
+    [
+     "Di kereta, dia mendengarkan musik atau membaca berita di teleponnya.",
+     "On the train he listens to music or reads the news on his phone."
+    ],
+    [
+     "Perjalanan itu lebih dari satu jam.",
+     "The trip takes more than an hour."
+    ],
+    [
+     "Ibunya selalu menunggu dia di rumah dengan makan malam.",
+     "His mother always waits for him at home with dinner."
+    ],
+    [
+     "Dimas senang karena bisa bertemu keluarganya setiap minggu.",
+     "Dimas is happy because he can see his family every week."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Ke mana Dimas pergi setiap Jumat?",
+     "en": "Where does Dimas go every Friday?",
+     "type": "mc",
+     "options": [
+      "Ke Bandung",
+      "Ke Jakarta",
+      "Ke Bogor",
+      "Ke Bali"
+     ],
+     "answer": 2,
+     "words": [
+      "kereta"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Dimas selalu bisa duduk di kereta.",
+     "en": "Dimas can always sit on the train.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "berdiri"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa yang dia lakukan di kereta?",
+     "en": "What does he do on the train?",
+     "type": "mc",
+     "options": [
+      "Menelepon ibunya",
+      "Tidur",
+      "Makan malam",
+      "Mendengarkan musik"
+     ],
+     "answer": 3,
+     "words": [
+      "musik"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Ibu Dimas menunggu dia dengan makan malam.",
+     "en": "Dimas's mother waits for him with dinner.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "tunggu",
+      "makan"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0021",
+   "lv": "A2",
+   "title": "Liburan di Lombok",
+   "oop": {},
+   "names": [
+    "Lombok",
+    "Jakarta"
+   ],
+   "sentences": [
+    [
+     "Bulan Juli lalu, saya dan dua teman saya berlibur ke Lombok selama satu minggu.",
+     "Last July, two friends and I went on holiday to Lombok for a week."
+    ],
+    [
+     "Kami berangkat dari Jakarta naik pesawat dan tiba di sana pada siang hari.",
+     "We left Jakarta by plane and arrived there at midday."
+    ],
+    [
+     "Hotel kami kecil, tetapi kamarnya bersih dan dekat dengan pantai.",
+     "Our hotel was small, but the rooms were clean and close to the beach."
+    ],
+    [
+     "Setiap pagi kami berenang di laut sebelum sarapan.",
+     "Every morning we swam in the sea before breakfast."
+    ],
+    [
+     "Air lautnya sangat bersih, jadi kami bisa melihat banyak ikan berwarna.",
+     "The sea water was very clean, so we could see lots of coloured fish."
+    ],
+    [
+     "Pada hari ketiga, kami naik perahu kecil ke sebuah pulau.",
+     "On the third day we took a small boat to an island."
+    ],
+    [
+     "Sayangnya, hujan turun sepanjang sore, dan kami harus menunggu di sebuah rumah makan.",
+     "Unfortunately it rained all afternoon, and we had to wait in a restaurant."
+    ],
+    [
+     "Di sana kami makan ikan bakar yang enak sekali.",
+     "There we ate delicious grilled fish."
+    ],
+    [
+     "Pada hari terakhir, kami membeli kain dan kopi sebagai hadiah untuk keluarga.",
+     "On the last day we bought cloth and coffee as gifts for our families."
+    ],
+    [
+     "Liburan itu tidak mahal, dan kami ingin kembali tahun depan.",
+     "The holiday wasn't expensive, and we want to go back next year."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Berapa lama mereka berlibur di Lombok?",
+     "en": "How long were they on holiday in Lombok?",
+     "type": "mc",
+     "options": [
+      "Satu minggu",
+      "Tiga hari",
+      "Hampir dua minggu",
+      "Satu bulan"
+     ],
+     "answer": 0,
+     "words": [
+      "minggu"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Hotel mereka jauh dari laut.",
+     "en": "Their hotel was far from the sea.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "dekat",
+      "pantai"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa yang mereka lakukan setiap pagi?",
+     "en": "What did they do every morning?",
+     "type": "mc",
+     "options": [
+      "Naik perahu",
+      "Berenang di laut",
+      "Membeli kopi",
+      "Tidur sampai siang"
+     ],
+     "answer": 1,
+     "words": [
+      "berenang"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Pada hari ketiga, cuaca buruk pada sore hari.",
+     "en": "On the third day, the weather was bad in the afternoon.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "hujan",
+      "sore"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Apa yang mereka beli untuk keluarga?",
+     "en": "What did they buy for their families?",
+     "type": "mc",
+     "options": [
+      "Baju dan tas kecil",
+      "Ikan bakar",
+      "Kain dan kopi",
+      "Foto pulau"
+     ],
+     "answer": 2,
+     "words": [
+      "hadiah",
+      "keluarga"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0022",
+   "lv": "A2",
+   "title": "Pekerjaan baru Rizky",
+   "oop": {},
+   "names": [
+    "Rizky",
+    "Surabaya"
+   ],
+   "sentences": [
+    [
+     "Rizky baru mulai bekerja di sebuah perusahaan komputer di Surabaya.",
+     "Rizky has just started working at a computer company in Surabaya."
+    ],
+    [
+     "Kantornya ada di lantai lima sebuah gedung tinggi di pusat kota.",
+     "His office is on the fifth floor of a tall building in the city centre."
+    ],
+    [
+     "Pada hari pertama, bosnya mengajak dia bertemu dengan semua orang di bagiannya.",
+     "On the first day his boss took him to meet everyone in his department."
+    ],
+    [
+     "Teman-teman kantornya baik dan selalu mau membantu kalau dia punya pertanyaan.",
+     "His office colleagues are kind and always willing to help when he has questions."
+    ],
+    [
+     "Tugas Rizky adalah memperbaiki program dan menjawab pertanyaan dari orang-orang yang memakai program perusahaan itu.",
+     "Rizky's task is to fix programs and answer questions from people who use the company's programs."
+    ],
+    [
+     "Pekerjaannya menarik, tetapi kadang-kadang sulit, apalagi kalau programnya sudah tua.",
+     "His work is interesting, but sometimes difficult, especially when a program is old."
+    ],
+    [
+     "Dia mulai bekerja pukul delapan dan pulang pukul lima.",
+     "He starts work at eight and goes home at five."
+    ],
+    [
+     "Masalahnya, jalan ke kantor selalu penuh mobil dan motor pada pagi hari.",
+     "The problem is that the road to the office is always full of cars and motorbikes in the morning."
+    ],
+    [
+     "Karena itu, Rizky sekarang berangkat lebih awal dan naik kereta.",
+     "Because of that, Rizky now leaves earlier and takes the train."
+    ],
+    [
+     "Dia senang dengan pekerjaan barunya dan ingin belajar banyak hal.",
+     "He is happy with his new job and wants to learn many things."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Di mana kantor Rizky?",
+     "en": "Where is Rizky's office?",
+     "type": "mc",
+     "options": [
+      "Di sebuah rumah di desa",
+      "Di rumahnya",
+      "Di dekat laut",
+      "Di sebuah gedung tinggi"
+     ],
+     "answer": 3,
+     "words": [
+      "gedung"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Teman-teman di kantor Rizky mau membantunya.",
+     "en": "Rizky's colleagues at the office are willing to help him.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "bantu"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa tugas Rizky?",
+     "en": "What is Rizky's task?",
+     "type": "mc",
+     "options": [
+      "Memperbaiki program",
+      "Menjual mobil",
+      "Mengajar murid",
+      "Membersihkan kantor"
+     ],
+     "answer": 0,
+     "words": [
+      "memperbaiki",
+      "program"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Pada pagi hari, ada banyak kendaraan di jalan ke kantornya.",
+     "en": "In the morning there are many vehicles on the road to his office.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "jalan",
+      "penuh"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Bagaimana Rizky pergi ke kantor sekarang?",
+     "en": "How does Rizky go to the office now?",
+     "type": "mc",
+     "options": [
+      "Naik motor",
+      "Naik kereta",
+      "Naik mobil",
+      "Berjalan kaki"
+     ],
+     "answer": 1,
+     "words": [
+      "kereta"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0023",
+   "lv": "A2",
+   "title": "Ke dokter",
+   "oop": {},
+   "names": [
+    "Siti"
+   ],
+   "sentences": [
+    [
+     "Sudah tiga hari Siti sakit kepala dan badannya panas.",
+     "Siti has had a headache and a fever for three days."
+    ],
+    [
+     "Dia tidak bisa pergi ke kantor, jadi dia menelepon bosnya pada pagi hari.",
+     "She couldn't go to the office, so she phoned her boss in the morning."
+    ],
+    [
+     "Kemudian dia pergi ke dokter di dekat rumahnya.",
+     "Then she went to the doctor near her house."
+    ],
+    [
+     "Di ruang tunggu ada banyak pasien, dan Siti harus menunggu hampir satu jam.",
+     "There were many patients in the waiting room, and Siti had to wait almost an hour."
+    ],
+    [
+     "Dokter memeriksa mulut dan matanya, lalu bertanya apakah dia merokok.",
+     "The doctor checked her mouth and eyes, then asked whether she smoked."
+    ],
+    [
+     "\"Tidak, Dok, saya tidak pernah merokok,\" jawab Siti.",
+     "\"No, doctor, I have never smoked,\" Siti answered."
+    ],
+    [
+     "Menurut dokter, Siti kena flu biasa, dan penyakitnya tidak parah.",
+     "According to the doctor, Siti had an ordinary flu, and the illness was not serious."
+    ],
+    [
+     "Dia memberi Siti obat dan meminta dia beristirahat di rumah selama tiga hari.",
+     "The doctor gave Siti medicine and asked her to rest at home for three days."
+    ],
+    [
+     "Dia juga harus minum banyak air dan makan buah.",
+     "She also had to drink lots of water and eat fruit."
+    ],
+    [
+     "Setelah dua hari, Siti sudah merasa lebih baik, tetapi dia tetap tinggal di rumah sampai obatnya habis.",
+     "After two days Siti already felt better, but she still stayed at home until her medicine ran out."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Siti pergi ke kantor sebelum dia ke dokter.",
+     "en": "Siti went to the office before she went to the doctor.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kantor"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Berapa lama Siti menunggu?",
+     "en": "How long did Siti wait?",
+     "type": "mc",
+     "options": [
+      "Lebih dari dua jam",
+      "Sepuluh menit",
+      "Hampir satu jam",
+      "Setengah hari"
+     ],
+     "answer": 2,
+     "words": [
+      "tunggu",
+      "hampir"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang ditanyakan dokter?",
+     "en": "What did the doctor ask?",
+     "type": "mc",
+     "options": [
+      "Apa makanannya",
+      "Di mana dia bekerja",
+      "Berapa umurnya",
+      "Apakah dia merokok"
+     ],
+     "answer": 3,
+     "words": [
+      "merokok"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Menurut dokter, penyakit Siti tidak berbahaya.",
+     "en": "According to the doctor, Siti's illness is not dangerous.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "penyakit",
+      "parah"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Menurut dokter, Siti perlu tiga hari untuk beristirahat.",
+     "en": "According to the doctor, Siti needs three days to rest.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "beristirahat"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0024",
+   "lv": "A2",
+   "title": "Apartemen untuk disewakan",
+   "oop": {},
+   "names": [
+    "Sudirman",
+    "Jakarta",
+    "Selatan",
+    "Mega"
+   ],
+   "sentences": [
+    [
+     "Dicari: orang yang ingin menyewa apartemen di Jalan Sudirman, Jakarta Selatan.",
+     "Wanted: someone who wants to rent a flat on Sudirman Street, South Jakarta."
+    ],
+    [
+     "Apartemen ini ada di lantai empat dan punya dua kamar tidur.",
+     "This flat is on the fourth floor and has two bedrooms."
+    ],
+    [
+     "Dapurnya kecil tetapi baru, dan ada kulkas serta mesin cuci.",
+     "The kitchen is small but new, and there is a fridge and a washing machine."
+    ],
+    [
+     "Dari jendela ruang tamu, Anda bisa melihat taman yang luas.",
+     "From the living-room window you can see a large park."
+    ],
+    [
+     "Stasiun kereta hanya lima menit dengan berjalan kaki, dan ada pasar di sebelah gedung.",
+     "The train station is only five minutes' walk, and there is a market next to the building."
+    ],
+    [
+     "Harga sewanya lima juta per bulan, termasuk listrik dan air.",
+     "The rent is five million a month, including electricity and water."
+    ],
+    [
+     "Anda tidak boleh merokok di dalam apartemen, dan hewan juga tidak boleh.",
+     "You may not smoke inside the flat, and animals are not allowed either."
+    ],
+    [
+     "Apartemen ini cocok untuk pasangan atau dua pelajar.",
+     "This flat is suitable for a couple or two students."
+    ],
+    [
+     "Kalau tertarik, silakan menghubungi Ibu Mega setelah pukul lima sore.",
+     "If you are interested, please contact Mrs Mega after five in the afternoon."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Berapa kamar tidur di apartemen itu?",
+     "en": "How many bedrooms does the flat have?",
+     "type": "mc",
+     "options": [
+      "Dua",
+      "Satu",
+      "Tiga",
+      "Empat"
+     ],
+     "answer": 0,
+     "words": [
+      "kamar"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Ada taman yang bisa dilihat dari apartemen ini.",
+     "en": "A park can be seen from this flat.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "taman"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang termasuk dalam harga sewa?",
+     "en": "What is included in the rent?",
+     "type": "mc",
+     "options": [
+      "Makan pagi",
+      "Listrik dan air",
+      "Mobil dan motor",
+      "Telepon dan internet"
+     ],
+     "answer": 1,
+     "words": [
+      "termasuk",
+      "listrik"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Orang yang punya kucing bisa tinggal di apartemen ini.",
+     "en": "People who have a cat can live in this flat.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "hewan",
+      "boleh"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Anda bisa menghubungi Ibu Mega pada pagi hari.",
+     "en": "You can contact Mrs Mega in the morning.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "hubung"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0025",
+   "lv": "A2",
+   "title": "Resep nasi goreng",
+   "oop": {},
+   "names": [
+    "Indonesia"
+   ],
+   "sentences": [
+    [
+     "Nasi goreng adalah makanan yang sangat populer di Indonesia.",
+     "Fried rice is a very popular dish in Indonesia."
+    ],
+    [
+     "Banyak orang memasaknya untuk sarapan dengan nasi dari malam sebelumnya.",
+     "Many people cook it for breakfast with rice from the night before."
+    ],
+    [
+     "Untuk dua orang, Anda perlu dua piring nasi, dua telur, sedikit bawang, dan garam.",
+     "For two people you need two plates of rice, two eggs, a little onion and salt."
+    ],
+    [
+     "Pertama, potong bawang menjadi kecil-kecil.",
+     "First, cut the onion into small pieces."
+    ],
+    [
+     "Panaskan sedikit minyak di atas api, lalu tambahkan bawang.",
+     "Heat a little oil over the fire, then add the onion."
+    ],
+    [
+     "Setelah bawangnya berwarna cokelat, tambahkan telur dan campur dengan cepat.",
+     "When the onion turns brown, add the eggs and mix quickly."
+    ],
+    [
+     "Kemudian tambahkan nasi dan garam, lalu masak selama lima menit sampai semuanya panas.",
+     "Then add the rice and salt, and cook for five minutes until everything is hot."
+    ],
+    [
+     "Kalau suka, Anda bisa menambahkan ayam atau sayur.",
+     "If you like, you can add chicken or vegetables."
+    ],
+    [
+     "Nasi goreng paling enak dimakan ketika masih panas, dengan teh manis atau air dingin.",
+     "Fried rice is best eaten while it is still hot, with sweet tea or cold water."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Banyak orang makan nasi goreng pada pagi hari.",
+     "en": "Many people eat fried rice in the morning.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "sarapan"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Apa yang Anda lakukan dengan bawang pertama kali?",
+     "en": "What do you do with the onion first?",
+     "type": "mc",
+     "options": [
+      "Mencucinya dengan air panas",
+      "Memasaknya dengan nasi",
+      "Memotongnya kecil-kecil",
+      "Mencampurnya dengan nasi"
+     ],
+     "answer": 2,
+     "words": [
+      "potong",
+      "bawang"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Kapan Anda menambahkan telur?",
+     "en": "When do you add the eggs?",
+     "type": "mc",
+     "options": [
+      "Di akhir",
+      "Sebelum ada minyak",
+      "Setelah nasi masak",
+      "Setelah bawangnya cokelat"
+     ],
+     "answer": 3,
+     "words": [
+      "telur"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Nasi goreng dimasak selama setengah jam.",
+     "en": "The fried rice is cooked for half an hour.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "masak",
+      "menit"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0026",
+   "lv": "A2",
+   "title": "Hari yang buruk",
+   "oop": {
+    "ojek": "motorbike taxi: everyday Indonesian transport, no pack word"
+   },
+   "names": [
+    "Fajar"
+   ],
+   "sentences": [
+    [
+     "Kemarin adalah hari yang sangat buruk untuk Fajar.",
+     "Yesterday was a very bad day for Fajar."
+    ],
+    [
+     "Pagi itu, dia tidak mendengar suara jamnya dan bangun terlambat.",
+     "That morning he didn't hear his alarm clock and woke up late."
+    ],
+    [
+     "Dia tidak sempat sarapan dan langsung lari ke jalan besar untuk menunggu bus.",
+     "He had no time for breakfast and ran straight to the main road to wait for the bus."
+    ],
+    [
+     "Busnya sudah berangkat, jadi dia harus naik ojek.",
+     "The bus had already left, so he had to take a motorbike taxi."
+    ],
+    [
+     "Di tengah jalan, hujan turun sangat keras, dan bajunya basah semua.",
+     "Halfway there it rained very hard, and his clothes got completely wet."
+    ],
+    [
+     "Dia tiba di kantor dua puluh menit terlambat, dan rapat sudah mulai.",
+     "He arrived at the office twenty minutes late, and the meeting had already started."
+    ],
+    [
+     "Siang harinya, dia sadar bahwa dompetnya tertinggal di rumah.",
+     "At midday he realised that he had left his wallet at home."
+    ],
+    [
+     "Untungnya, seorang teman mau membayar makan siangnya.",
+     "Luckily, a friend was willing to pay for his lunch."
+    ],
+    [
+     "Malamnya, Fajar pulang dengan lelah, makan nasi dengan telur, dan langsung tidur.",
+     "In the evening Fajar went home tired, ate rice with an egg, and went straight to bed."
+    ],
+    [
+     "\"Besok pasti lebih baik,\" katanya.",
+     "\"Tomorrow will surely be better,\" he said."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Mengapa Fajar bangun terlambat?",
+     "en": "Why did Fajar wake up late?",
+     "type": "mc",
+     "options": [
+      "Dia tidak mendengar jamnya",
+      "Dia sakit",
+      "Dia pulang terlambat malam itu",
+      "Jamnya hilang"
+     ],
+     "answer": 0,
+     "words": [
+      "dengar",
+      "jam"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Fajar sempat makan pagi di rumah.",
+     "en": "Fajar had time to eat breakfast at home.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "sempat",
+      "sarapan"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa yang terjadi di tengah jalan?",
+     "en": "What happened on the way?",
+     "type": "mc",
+     "options": [
+      "Motornya rusak di jalan besar",
+      "Hujan turun dengan keras",
+      "Dia bertemu bosnya",
+      "Dia jatuh di jalan"
+     ],
+     "answer": 1,
+     "words": [
+      "hujan"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Rapat belum mulai ketika Fajar tiba.",
+     "en": "The meeting hadn't started when Fajar arrived.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "rapat",
+      "mulai"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Seorang teman membayar makan siang Fajar.",
+     "en": "A friend paid for Fajar's lunch.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "teman",
+      "bayar"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0027",
+   "lv": "A2",
+   "title": "Taman baru di kota kami",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Minggu lalu, pemerintah kota membuka sebuah taman baru di dekat sungai.",
+     "Last week the city government opened a new park near the river."
+    ],
+    [
+     "Dulu tempat itu adalah pabrik tua yang kosong dan kotor.",
+     "That place used to be an old, empty and dirty factory."
+    ],
+    [
+     "Sekarang ada banyak pohon, bunga, dan jalan kecil untuk berjalan kaki atau naik sepeda.",
+     "Now there are many trees, flowers and small paths for walking or cycling."
+    ],
+    [
+     "Di tengah taman ada sebuah kolam besar dengan ikan berwarna merah dan kuning.",
+     "In the middle of the park there is a big pond with red and yellow fish."
+    ],
+    [
+     "Anak-anak bisa bermain di tempat khusus yang aman.",
+     "Children can play in a special, safe area."
+    ],
+    [
+     "Taman ini buka setiap hari dari pukul enam pagi sampai pukul sembilan malam, dan masuknya gratis.",
+     "The park is open every day from six in the morning until nine at night, and entry is free."
+    ],
+    [
+     "Orang tidak boleh membawa motor ke dalam taman atau membuang sampah di sana.",
+     "People may not bring motorbikes into the park or throw rubbish there."
+    ],
+    [
+     "Banyak warga senang dengan taman ini.",
+     "Many residents are happy with this park."
+    ],
+    [
+     "\"Dulu anak-anak saya bermain di jalan,\" kata seorang ibu.",
+     "\"My children used to play in the street,\" said one mother."
+    ],
+    [
+     "\"Sekarang mereka punya tempat yang bersih dan hijau.\"",
+     "\"Now they have a clean, green place.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa yang ada di tempat itu dulu?",
+     "en": "What was in that place before?",
+     "type": "mc",
+     "options": [
+      "Sebuah pasar",
+      "Sebuah sekolah",
+      "Sebuah pabrik tua",
+      "Sebuah rumah sakit"
+     ],
+     "answer": 2,
+     "words": [
+      "pabrik"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Di tengah taman ada kolam dengan ikan.",
+     "en": "In the middle of the park there is a pond with fish.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "kolam",
+      "ikan"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apakah orang harus membayar untuk masuk ke taman itu?",
+     "en": "Do people have to pay to enter the park?",
+     "type": "mc",
+     "options": [
+      "Ya, tetapi hanya pada hari Minggu",
+      "Ya, sepuluh ribu",
+      "Tidak, tetapi anak-anak harus membayar",
+      "Tidak, masuknya gratis"
+     ],
+     "answer": 3,
+     "words": [
+      "gratis"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Orang boleh naik motor di dalam taman.",
+     "en": "People are allowed to ride motorbikes in the park.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "boleh",
+      "motor"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Seorang ibu berkata bahwa anak-anaknya dulu bermain di jalan.",
+     "en": "One mother said that her children used to play in the street.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "dulu",
+      "jalan"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0028",
+   "lv": "A2",
+   "title": "Pesta kejutan untuk Nenek",
+   "oop": {},
+   "names": [
+    "Hendra"
+   ],
+   "sentences": [
+    [
+     "Bulan depan nenek kami berumur tujuh puluh tahun.",
+     "Next month our grandmother turns seventy."
+    ],
+    [
+     "Kami ingin membuat pesta kejutan untuk dia di rumah Paman Hendra.",
+     "We want to throw a surprise party for her at Uncle Hendra's house."
+    ],
+    [
+     "Ibu akan memasak makanan yang paling Nenek sukai, dan saya akan membuat kue.",
+     "Mum will cook the food Grandma likes best, and I will make a cake."
+    ],
+    [
+     "Kakak saya mengundang semua saudara dan tetangga lewat telepon.",
+     "My older sibling is inviting all the relatives and neighbours by phone."
+    ],
+    [
+     "Pada hari Sabtu, Paman akan mengajak Nenek jalan-jalan ke pasar.",
+     "On Saturday Uncle will take Grandma for a walk to the market."
+    ],
+    [
+     "Sementara itu, kami menyiapkan rumah dengan bunga dan lampu.",
+     "Meanwhile, we will prepare the house with flowers and lights."
+    ],
+    [
+     "Ketika Nenek pulang, semua orang akan menyanyi bersama.",
+     "When Grandma comes home, everyone will sing together."
+    ],
+    [
+     "Masalahnya, Nenek sangat pintar dan sering tahu rahasia kami.",
+     "The problem is that Grandma is very clever and often knows our secrets."
+    ],
+    [
+     "Jadi, jangan beri tahu dia tentang pesta ini, ya!",
+     "So don't tell her about this party, all right!"
+    ],
+    [
+     "Kami berharap Nenek akan terkejut dan bahagia.",
+     "We hope Grandma will be surprised and happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Berapa umur nenek bulan depan?",
+     "en": "How old will Grandma be next month?",
+     "type": "mc",
+     "options": [
+      "Tujuh puluh tahun",
+      "Enam puluh tahun",
+      "Delapan puluh tahun",
+      "Tujuh puluh lima tahun"
+     ],
+     "answer": 0,
+     "words": [
+      "berumur"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Di mana pesta itu?",
+     "en": "Where is the party?",
+     "type": "mc",
+     "options": [
+      "Di rumah Nenek",
+      "Di rumah paman",
+      "Di pasar",
+      "Di rumah makan"
+     ],
+     "answer": 1,
+     "words": [
+      "paman"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Ibu akan membuat kue untuk pesta.",
+     "en": "Mum will make a cake for the party.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kue"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Kakaknya mengundang orang-orang dengan surat.",
+     "en": "The older sibling invites people by letter.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "undang",
+      "telepon"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Nenek sering tahu rahasia keluarganya.",
+     "en": "Grandma often knows her family's secrets.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "rahasia"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0029",
+   "lv": "A2",
+   "title": "Rencana untuk besok",
+   "oop": {},
+   "names": [
+    "Eko"
+   ],
+   "sentences": [
+    [
+     "Halo semua, ini rencana kita untuk perjalanan besok.",
+     "Hello everyone, this is our plan for tomorrow's trip."
+    ],
+    [
+     "Bus berangkat dari depan sekolah tepat pukul tujuh pagi, jadi jangan terlambat.",
+     "The bus leaves from in front of the school at seven sharp, so don't be late."
+    ],
+    [
+     "Pertama, kita akan mengunjungi sebuah desa di kaki gunung.",
+     "First we will visit a village at the foot of the mountain."
+    ],
+    [
+     "Di sana orang desa akan menjelaskan cara menanam kopi.",
+     "There the villagers will explain how to grow coffee."
+    ],
+    [
+     "Kita makan siang bersama di rumah kepala desa sekitar pukul dua belas.",
+     "We will have lunch together at the village head's house around twelve."
+    ],
+    [
+     "Setelah itu, kita berjalan ke sebuah danau kecil yang indah.",
+     "After that we will walk to a small, beautiful lake."
+    ],
+    [
+     "Kalian boleh berenang, tetapi hanya di tempat yang aman.",
+     "You may swim, but only in the safe place."
+    ],
+    [
+     "Kita pulang pukul empat dan tiba di sekolah sekitar pukul enam.",
+     "We will leave at four and arrive at school around six."
+    ],
+    [
+     "Jangan lupa membawa topi, air minum, dan baju ganti.",
+     "Don't forget to bring a hat, drinking water and a change of clothes."
+    ],
+    [
+     "Kalau ada pertanyaan, hubungi Pak Eko.",
+     "If you have questions, contact Mr Eko."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Bus berangkat pada pukul delapan.",
+     "en": "The bus leaves at eight o'clock.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "berangkat"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Apa yang akan dijelaskan orang desa?",
+     "en": "What will the villagers explain?",
+     "type": "mc",
+     "options": [
+      "Cara memasak nasi",
+      "Sejarah desa itu",
+      "Cara menanam kopi",
+      "Jalan ke danau"
+     ],
+     "answer": 2,
+     "words": [
+      "menjelaskan",
+      "tanam"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Di mana mereka makan siang?",
+     "en": "Where will they have lunch?",
+     "type": "mc",
+     "options": [
+      "Di dalam bus",
+      "Di dekat danau",
+      "Di sekolah",
+      "Di rumah kepala desa"
+     ],
+     "answer": 3,
+     "words": [
+      "makan",
+      "kepala"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Mereka boleh berenang di mana saja di danau itu.",
+     "en": "They may swim anywhere in the lake.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "berenang",
+      "aman"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Mereka harus membawa topi.",
+     "en": "They must bring a hat.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "topi"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0030",
+   "lv": "A2",
+   "title": "Film apa yang kita tonton?",
+   "oop": {},
+   "names": [
+    "Nina",
+    "Bayu"
+   ],
+   "sentences": [
+    [
+     "\"Nina, kamu mau menonton film malam ini?\" tanya Bayu.",
+     "\"Nina, do you want to watch a film tonight?\" Bayu asked."
+    ],
+    [
+     "\"Boleh. Film apa?\" jawab Nina.",
+     "\"Sure. Which film?\" Nina answered."
+    ],
+    [
+     "\"Ada film baru tentang dua orang yang tersesat di hutan. Katanya sangat menakutkan.\"",
+     "\"There's a new film about two people who get lost in a forest. They say it's very scary.\""
+    ],
+    [
+     "\"Saya tidak suka film yang menakutkan. Nanti malam saya tidak bisa tidur, dan besok saya ada ujian.\"",
+     "\"I don't like scary films. I won't be able to sleep tonight, and tomorrow I have an exam.\""
+    ],
+    [
+     "\"Bagaimana dengan film lucu tentang keluarga yang pindah ke desa?\"",
+     "\"How about the funny film about a family that moves to a village?\""
+    ],
+    [
+     "\"Itu lebih baik. Jam berapa filmnya mulai?\"",
+     "\"That's better. What time does the film start?\""
+    ],
+    [
+     "\"Pukul tujuh dan pukul sembilan. Kita pilih yang pukul tujuh saja, ya, karena besok saya harus bangun pagi,\" jawab Bayu.",
+     "\"At seven and at nine. Let's just choose the seven o'clock one, because I have to get up early tomorrow,\" Bayu answered."
+    ],
+    [
+     "\"Oke. Saya beli tiketnya lewat internet sekarang,\" kata Nina.",
+     "\"OK. I'll buy the tickets on the internet now,\" said Nina."
+    ],
+    [
+     "\"Terima kasih! Nanti saya yang membayar makan malam.\"",
+     "\"Thanks! I'll pay for dinner later.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Nina suka film yang menakutkan.",
+     "en": "Nina likes scary films.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "suka"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Film apa yang akhirnya mereka pilih?",
+     "en": "Which film do they choose in the end?",
+     "type": "mc",
+     "options": [
+      "Film lucu tentang sebuah keluarga",
+      "Film tentang hutan",
+      "Film tentang dua orang yang tersesat",
+      "Film tentang sekolah"
+     ],
+     "answer": 0,
+     "words": [
+      "lucu"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Mengapa mereka memilih film pukul tujuh?",
+     "en": "Why do they choose the seven o'clock film?",
+     "type": "mc",
+     "options": [
+      "Film pukul sembilan sudah penuh",
+      "Bayu harus bangun pagi besok",
+      "Nina harus bekerja malam",
+      "Tiketnya lebih murah"
+     ],
+     "answer": 1,
+     "words": [
+      "bangun"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Nina membeli tiket di internet.",
+     "en": "Nina buys the tickets on the internet.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "tiket",
+      "internet"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0031",
+   "lv": "A2",
+   "title": "Pertandingan hari Sabtu",
+   "oop": {},
+   "names": [
+    "Andi"
+   ],
+   "sentences": [
+    [
+     "Setiap Sabtu sore, Andi bermain sepak bola dengan teman-teman dari desanya.",
+     "Every Saturday afternoon Andi plays football with friends from his village."
+    ],
+    [
+     "Sabtu lalu, tim mereka bermain melawan tim dari desa sebelah.",
+     "Last Saturday their team played against a team from the next village."
+    ],
+    [
+     "Pertandingan itu mulai pukul empat di sebuah lapangan dekat sekolah.",
+     "The match started at four on a field near the school."
+    ],
+    [
+     "Banyak orang datang untuk menonton, termasuk orang tua Andi.",
+     "Many people came to watch, including Andi's parents."
+    ],
+    [
+     "Pada awalnya, tim desa sebelah bermain lebih cepat, dan mereka memasukkan bola pertama.",
+     "At first the team from the next village played faster, and they scored the first goal."
+    ],
+    [
+     "Andi dan teman-temannya tidak menyerah dan terus berusaha.",
+     "Andi and his friends didn't give up and kept trying."
+    ],
+    [
+     "Sepuluh menit sebelum pertandingan selesai, Andi menendang bola dari jauh, dan bola itu masuk!",
+     "Ten minutes before the match ended, Andi kicked the ball from far away, and it went in!"
+    ],
+    [
+     "Akhirnya tidak ada tim yang menang.",
+     "In the end neither team won."
+    ],
+    [
+     "Setelah pertandingan, kedua tim minum es teh bersama di bawah pohon besar.",
+     "After the match both teams drank iced tea together under a big tree."
+    ],
+    [
+     "Andi sangat lelah, tetapi dia bangga dengan timnya.",
+     "Andi was very tired, but he was proud of his team."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Di mana pertandingan itu?",
+     "en": "Where was the match?",
+     "type": "mc",
+     "options": [
+      "Di tengah kota",
+      "Di dekat sungai",
+      "Di dekat sekolah",
+      "Di sebuah taman"
+     ],
+     "answer": 2,
+     "words": [
+      "pertandingan"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Tidak ada orang yang datang untuk menonton.",
+     "en": "Nobody came to watch.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "menonton"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Tim mana yang memasukkan bola pertama?",
+     "en": "Which team scored the first goal?",
+     "type": "mc",
+     "options": [
+      "Tim dari kota",
+      "Tim Andi",
+      "Tim sekolah",
+      "Tim desa sebelah"
+     ],
+     "answer": 3,
+     "words": [
+      "bola"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Andi menendang bola dari tempat yang jauh.",
+     "en": "Andi kicked the ball from a long way off.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "jauh"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Bagaimana hasil pertandingan itu?",
+     "en": "What was the result of the match?",
+     "type": "mc",
+     "options": [
+      "Tidak ada tim yang menang",
+      "Tim Andi menang",
+      "Tim desa sebelah menang",
+      "Pertandingan tidak selesai"
+     ],
+     "answer": 0,
+     "words": [
+      "menang"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0032",
+   "lv": "A2",
+   "title": "Kehidupan di universitas",
+   "oop": {},
+   "names": [
+    "Rina",
+    "Malang",
+    "Medan"
+   ],
+   "sentences": [
+    [
+     "Rina adalah mahasiswa tahun pertama di sebuah universitas di Malang.",
+     "Rina is a first-year student at a university in Malang."
+    ],
+    [
+     "Dia belajar ekonomi, dan dia tinggal di sebuah kamar kecil dekat kampus bersama dua mahasiswa lain.",
+     "She studies economics, and she lives in a small room near the campus with two other students."
+    ],
+    [
+     "Setiap hari dia punya dua atau tiga kuliah.",
+     "Every day she has two or three lectures."
+    ],
+    [
+     "Kuliah pertama biasanya mulai pukul tujuh pagi, jadi dia harus bangun pukul lima.",
+     "The first lecture usually starts at seven in the morning, so she has to get up at five."
+    ],
+    [
+     "Pada sore hari, Rina sering belajar di perpustakaan karena tempatnya tenang dan nyaman.",
+     "In the afternoon Rina often studies in the library because it is quiet and comfortable."
+    ],
+    [
+     "Dia juga ikut kelompok musik dan bermain gitar dua kali seminggu.",
+     "She also joined a music group and plays guitar twice a week."
+    ],
+    [
+     "Kadang-kadang dia rindu keluarganya di Medan, tetapi dia menelepon mereka setiap malam.",
+     "Sometimes she misses her family in Medan, but she calls them every evening."
+    ],
+    [
+     "Ujian pertamanya bulan depan.",
+     "Her first exam is next month."
+    ],
+    [
+     "Dia sedikit takut, tetapi teman-temannya membantu dia belajar.",
+     "She is a little afraid, but her friends help her study."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa yang Rina pelajari?",
+     "en": "What does Rina study?",
+     "type": "mc",
+     "options": [
+      "Musik",
+      "Ekonomi",
+      "Bahasa Inggris",
+      "Matematika"
+     ],
+     "answer": 1,
+     "words": [
+      "ekonomi"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Rina tinggal sendirian di rumah yang besar.",
+     "en": "Rina lives alone in a big house.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kamar",
+      "kecil"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Mengapa Rina suka belajar di perpustakaan?",
+     "en": "Why does Rina like studying in the library?",
+     "type": "mc",
+     "options": [
+      "Karena buka sampai malam",
+      "Karena dekat pasar",
+      "Karena tempatnya tenang",
+      "Karena temannya bekerja di sana"
+     ],
+     "answer": 2,
+     "words": [
+      "perpustakaan",
+      "tenang"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Rina bermain gitar dengan sebuah kelompok musik.",
+     "en": "Rina plays guitar with a music group.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "kelompok",
+      "musik"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Ujian pertama Rina minggu ini.",
+     "en": "Rina's first exam is this week.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "ujian",
+      "bulan"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0033",
+   "lv": "A2",
+   "title": "Informasi untuk penumpang",
+   "oop": {},
+   "names": [
+    "Argo",
+    "Jakarta",
+    "Yogyakarta"
+   ],
+   "sentences": [
+    [
+     "Perhatian, perhatian.",
+     "Attention, please."
+    ],
+    [
+     "Kereta api Argo dari Jakarta ke Yogyakarta yang seharusnya berangkat pukul sepuluh pagi terlambat satu jam.",
+     "The Argo train from Jakarta to Yogyakarta, which was due to leave at ten in the morning, is one hour late."
+    ],
+    [
+     "Ada masalah dengan mesin kereta, dan petugas sedang memperbaikinya.",
+     "There is a problem with the train's engine, and staff are repairing it."
+    ],
+    [
+     "Kereta itu baru akan berangkat pukul sebelas dari jalur tiga, bukan dari jalur satu.",
+     "The train will only leave at eleven, from platform three, not from platform one."
+    ],
+    [
+     "Penumpang yang sudah punya tiket tidak perlu membeli tiket baru.",
+     "Passengers who already have a ticket do not need to buy a new one."
+    ],
+    [
+     "Sambil menunggu, Anda bisa duduk di ruang tunggu di lantai dua.",
+     "While waiting, you can sit in the waiting room on the second floor."
+    ],
+    [
+     "Di sana ada air minum gratis dan beberapa toko kecil.",
+     "There is free drinking water and some small shops there."
+    ],
+    [
+     "Kalau Anda ingin membatalkan perjalanan, silakan datang ke kantor tiket, dan uang Anda akan dikembalikan.",
+     "If you want to cancel your trip, please come to the ticket office, and your money will be returned."
+    ],
+    [
+     "Kami minta maaf atas keadaan ini.",
+     "We apologise for this situation."
+    ],
+    [
+     "Terima kasih.",
+     "Thank you."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Mengapa kereta itu terlambat?",
+     "en": "Why is the train late?",
+     "type": "mc",
+     "options": [
+      "Petugasnya sakit",
+      "Terlalu banyak penumpang di stasiun",
+      "Cuacanya buruk",
+      "Ada masalah dengan mesinnya"
+     ],
+     "answer": 3,
+     "words": [
+      "masalah",
+      "mesin"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Pukul berapa kereta itu akan berangkat sekarang?",
+     "en": "What time will the train leave now?",
+     "type": "mc",
+     "options": [
+      "Pukul sebelas",
+      "Pukul sepuluh",
+      "Pukul dua belas",
+      "Pukul satu"
+     ],
+     "answer": 0,
+     "words": [
+      "berangkat"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Kereta itu akan berangkat dari jalur satu.",
+     "en": "The train will leave from platform one.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "jalur"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Tiket yang sudah dibeli masih bisa dipakai.",
+     "en": "Tickets already bought can still be used.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "tiket"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Air minum di ruang tunggu tidak perlu dibayar.",
+     "en": "You don't have to pay for the drinking water in the waiting room.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "gratis"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0034",
+   "lv": "A2",
+   "title": "Pasar pagi hari Minggu",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Setiap hari Minggu, ada pasar pagi di lapangan dekat rumah saya.",
+     "Every Sunday there is a morning market on the field near my house."
+    ],
+    [
+     "Pasar itu mulai pukul lima pagi dan selesai sekitar pukul sepuluh.",
+     "The market starts at five in the morning and finishes around ten."
+    ],
+    [
+     "Saya suka datang lebih awal karena sayur dan buahnya masih segar dan udaranya belum panas.",
+     "I like coming early because the vegetables and fruit are still fresh and the air is not yet hot."
+    ],
+    [
+     "Di pasar ini orang menjual hampir semua barang: ikan, daging, kue, baju, bahkan mainan.",
+     "At this market people sell almost everything: fish, meat, cakes, clothes, even toys."
+    ],
+    [
+     "Harga di sini biasanya lebih murah daripada di toko besar.",
+     "Prices here are usually cheaper than in big shops."
+    ],
+    [
+     "Minggu lalu saya membeli beberapa apel dan sepatu olahraga.",
+     "Last week I bought some apples and sports shoes."
+    ],
+    [
+     "Sepatu itu bagus sekali dan harganya hanya seratus ribu.",
+     "The shoes are very nice and they only cost a hundred thousand."
+    ],
+    [
+     "Setelah itu, saya selalu sarapan nasi kuning di sana.",
+     "After that I always have yellow rice for breakfast there."
+    ],
+    [
+     "Pasar pagi itu selalu penuh orang, tetapi saya senang karena bisa bertemu tetangga.",
+     "The morning market is always full of people, but I like it because I can meet my neighbours."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Pasar itu buka pada hari Sabtu.",
+     "en": "The market is open on Saturday.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "minggu"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Mengapa dia suka datang pagi?",
+     "en": "Why does she like coming early?",
+     "type": "mc",
+     "options": [
+      "Pasarnya kosong",
+      "Sayur dan buahnya masih segar",
+      "Dia harus bekerja",
+      "Harganya lebih murah pada pagi hari"
+     ],
+     "answer": 1,
+     "words": [
+      "sayur",
+      "buah"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa yang dia beli minggu lalu?",
+     "en": "What did she buy last week?",
+     "type": "mc",
+     "options": [
+      "Kue dan baju",
+      "Ikan dan daging",
+      "Apel dan sepatu",
+      "Mainan dan buku"
+     ],
+     "answer": 2,
+     "words": [
+      "apel",
+      "sepatu"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Sepatu itu mahal.",
+     "en": "The shoes were expensive.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "harga"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Di pasar pagi, dia bisa bertemu tetangganya.",
+     "en": "At the morning market she can meet her neighbours.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "tetangga"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0035",
+   "lv": "A2",
+   "title": "Lingkungan saya",
+   "oop": {},
+   "names": [
+    "Semarang",
+    "Umar"
+   ],
+   "sentences": [
+    [
+     "Saya tinggal di sebuah kampung kecil di kota Semarang.",
+     "I live in a small neighbourhood in the city of Semarang."
+    ],
+    [
+     "Jalan-jalan di sini sempit, jadi mobil jarang lewat, tetapi banyak motor.",
+     "The streets here are narrow, so cars rarely pass, but there are many motorbikes."
+    ],
+    [
+     "Di ujung jalan saya ada sebuah masjid, sebuah sekolah dasar, dan toko kecil milik Pak Umar.",
+     "At the end of my street there is a mosque, a primary school and a small shop owned by Mr Umar."
+    ],
+    [
+     "Toko itu menjual hampir semua barang, dari gula sampai obat.",
+     "That shop sells almost everything, from sugar to medicine."
+    ],
+    [
+     "Tetangga-tetangga saya sangat baik.",
+     "My neighbours are very kind."
+    ],
+    [
+     "Kalau ada orang yang sakit, mereka datang membawa makanan.",
+     "If someone is ill, they come and bring food."
+    ],
+    [
+     "Setiap bulan, semua warga membersihkan jalan dan taman bersama-sama.",
+     "Every month all the residents clean the streets and the park together."
+    ],
+    [
+     "Kekurangannya, kampung ini agak jauh dari pusat kota, dan bus hanya lewat setiap setengah jam.",
+     "The downside is that the neighbourhood is rather far from the city centre, and buses only come every half hour."
+    ],
+    [
+     "Tetapi saya tidak mau pindah, karena di sini saya merasa seperti di rumah sendiri.",
+     "But I don't want to move, because here I feel at home."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Di jalan-jalan kampung itu, ada lebih banyak motor daripada mobil.",
+     "en": "On the neighbourhood's streets there are more motorbikes than cars.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "motor"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Apa yang ada di ujung jalan?",
+     "en": "What is at the end of the street?",
+     "type": "mc",
+     "options": [
+      "Stasiun dan kantor pos",
+      "Pasar dan bank",
+      "Rumah sakit dan taman",
+      "Masjid, sekolah, dan toko"
+     ],
+     "answer": 3,
+     "words": [
+      "ujung"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa yang dilakukan tetangga kalau ada orang sakit?",
+     "en": "What do the neighbours do when someone is ill?",
+     "type": "mc",
+     "options": [
+      "Membawa makanan",
+      "Menelepon dokter",
+      "Memberi uang",
+      "Membersihkan rumahnya"
+     ],
+     "answer": 0,
+     "words": [
+      "sakit",
+      "makanan"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Bus lewat kampung itu setiap lima menit.",
+     "en": "The bus passes through the neighbourhood every five minutes.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "bus",
+      "setengah"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Dia tidak mau pindah dari kampungnya.",
+     "en": "She doesn't want to move out of her neighbourhood.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "pindah"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0036",
+   "lv": "A2",
+   "title": "Jatuh dari sepeda",
+   "oop": {
+    "helm": "helmet (safety lesson of the story): no pack word"
+   },
+   "names": [
+    "Eko"
+   ],
+   "sentences": [
+    [
+     "Hari Rabu lalu, Eko jatuh dari sepedanya ketika dia pulang dari sekolah.",
+     "Last Wednesday Eko fell off his bicycle when he was coming home from school."
+    ],
+    [
+     "Waktu itu hujan baru berhenti, dan jalannya masih basah.",
+     "The rain had just stopped, and the road was still wet."
+    ],
+    [
+     "Seekor kucing lari ke tengah jalan, dan Eko tidak bisa berhenti.",
+     "A cat ran into the middle of the road, and Eko couldn't stop."
+    ],
+    [
+     "Dia jatuh, dan kaki kirinya sakit sekali.",
+     "He fell, and his left leg hurt a lot."
+    ],
+    [
+     "Seorang ibu yang lewat membantu dia berdiri dan menelepon ayahnya.",
+     "A woman who was passing helped him stand up and phoned his father."
+    ],
+    [
+     "Ayah Eko datang dengan mobil dan membawa dia ke rumah sakit.",
+     "Eko's father came by car and took him to the hospital."
+    ],
+    [
+     "Untungnya, kakinya tidak patah, tetapi dia harus beristirahat selama satu minggu.",
+     "Luckily his leg wasn't broken, but he had to rest for a week."
+    ],
+    [
+     "Sepedanya juga rusak, jadi ayahnya membawanya ke tukang sepeda.",
+     "His bike was damaged too, so his father took it to a bicycle repairman."
+    ],
+    [
+     "Sekarang Eko selalu memakai helm dan naik sepeda lebih pelan ketika jalan basah.",
+     "Now Eko always wears a helmet and rides more slowly when the road is wet."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Mengapa jalannya basah?",
+     "en": "Why was the road wet?",
+     "type": "mc",
+     "options": [
+      "Ada air dari sungai",
+      "Hujan baru berhenti",
+      "Orang membersihkan jalan",
+      "Mobil membawa air"
+     ],
+     "answer": 1,
+     "words": [
+      "hujan",
+      "basah"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Eko jatuh karena seekor anjing.",
+     "en": "Eko fell because of a dog.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kucing"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Siapa yang membawa Eko ke rumah sakit?",
+     "en": "Who took Eko to the hospital?",
+     "type": "mc",
+     "options": [
+      "Gurunya",
+      "Seorang ibu",
+      "Ayahnya",
+      "Temannya"
+     ],
+     "answer": 2,
+     "words": [
+      "ayah"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Kaki Eko patah.",
+     "en": "Eko's leg was broken.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kaki",
+      "patah"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Sekarang Eko naik sepeda lebih cepat daripada dulu.",
+     "en": "Now Eko rides his bike faster than before.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "sepeda",
+      "pelan"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0037",
+   "lv": "A2",
+   "title": "Kelas bahasa Inggris untuk orang dewasa",
+   "oop": {},
+   "names": [
+    "Inggris",
+    "Cerdas",
+    "Diponegoro"
+   ],
+   "sentences": [
+    [
+     "Apakah Anda ingin belajar bahasa Inggris, tetapi tidak punya waktu pada siang hari?",
+     "Do you want to learn English but have no time during the day?"
+    ],
+    [
+     "Pusat bahasa \"Cerdas\" membuka kelas baru untuk orang dewasa mulai bulan Maret.",
+     "The \"Cerdas\" language centre is opening new classes for adults from March."
+    ],
+    [
+     "Kelas diadakan dua kali seminggu, pada hari Selasa dan Kamis, dari pukul tujuh sampai pukul sembilan malam.",
+     "Classes are held twice a week, on Tuesday and Thursday, from seven to nine in the evening."
+    ],
+    [
+     "Setiap kelas hanya punya sepuluh murid, jadi guru bisa membantu setiap orang.",
+     "Each class has only ten students, so the teacher can help everyone."
+    ],
+    [
+     "Semua guru kami punya pengalaman lebih dari lima tahun.",
+     "All our teachers have more than five years' experience."
+    ],
+    [
+     "Di kelas, Anda akan belajar berbicara di kantor, di hotel, dan di bandara.",
+     "In class you will learn to speak at the office, at a hotel and at the airport."
+    ],
+    [
+     "Biaya kelas satu juta untuk tiga bulan, termasuk buku.",
+     "The fee is one million for three months, including books."
+    ],
+    [
+     "Sebelum kelas mulai, Anda harus mengikuti tes kecil untuk memilih kelas yang cocok.",
+     "Before classes start, you must take a short test to choose the right class."
+    ],
+    [
+     "Tes ini gratis.",
+     "This test is free."
+    ],
+    [
+     "Untuk informasi lebih lanjut, datang ke kantor kami di Jalan Diponegoro.",
+     "For more information, come to our office on Diponegoro Street."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Untuk siapa kelas ini?",
+     "en": "Who are these classes for?",
+     "type": "mc",
+     "options": [
+      "Guru bahasa",
+      "Anak-anak sekolah",
+      "Mahasiswa",
+      "Orang dewasa"
+     ],
+     "answer": 3,
+     "words": [
+      "dewasa"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Kelas diadakan setiap hari.",
+     "en": "Classes are held every day.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "mengadakan"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Mengapa setiap kelas hanya punya sepuluh murid?",
+     "en": "Why does each class only have ten students?",
+     "type": "mc",
+     "options": [
+      "Supaya guru bisa membantu setiap orang",
+      "Karena ruang kelasnya tidak terlalu besar",
+      "Karena gurunya sedikit",
+      "Supaya biayanya murah"
+     ],
+     "answer": 0,
+     "words": [
+      "murid",
+      "bantu"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Biaya kelas termasuk buku.",
+     "en": "The fee includes books.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "biaya",
+      "termasuk"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Anda harus membayar untuk tes sebelum kelas.",
+     "en": "You have to pay for the test before the classes.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "gratis"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0038",
+   "lv": "A2",
+   "title": "Surat dari Belanda",
+   "oop": {},
+   "names": [
+    "Sari",
+    "Belanda",
+    "Indonesia",
+    "Amsterdam",
+    "Dian"
+   ],
+   "sentences": [
+    [
+     "Halo Sari,",
+     "Hello Sari,"
+    ],
+    [
+     "Sudah tiga bulan saya tinggal di Belanda, dan saya mau menceritakan sedikit tentang kehidupan saya di sini.",
+     "I've been living in the Netherlands for three months, and I want to tell you a little about my life here."
+    ],
+    [
+     "Kota tempat saya tinggal kecil, tetapi sangat indah dan bersih.",
+     "The town where I live is small, but very beautiful and clean."
+    ],
+    [
+     "Hampir semua orang naik sepeda, bahkan orang yang sudah tua dan anak kecil.",
+     "Almost everyone rides a bicycle, even old people and small children."
+    ],
+    [
+     "Saya juga sudah membeli sepeda bekas, jadi setiap hari saya naik sepeda ke universitas.",
+     "I've also bought a second-hand bicycle, so every day I cycle to university."
+    ],
+    [
+     "Cuacanya sering dingin dan banyak angin, dan matahari jarang muncul.",
+     "The weather is often cold and windy, and the sun rarely comes out."
+    ],
+    [
+     "Saya sangat rindu nasi dan makanan pedas dari rumah!",
+     "I really miss rice and spicy food from home!"
+    ],
+    [
+     "Untungnya, ada toko Indonesia dekat stasiun, jadi kadang-kadang saya bisa memasak sendiri.",
+     "Luckily there is an Indonesian shop near the station, so sometimes I can cook for myself."
+    ],
+    [
+     "Bulan depan saya akan mengunjungi sebuah museum terkenal di Amsterdam dengan teman-teman kelas.",
+     "Next month I will visit a famous museum in Amsterdam with classmates."
+    ],
+    [
+     "Tolong sampaikan salam saya untuk keluargamu.",
+     "Please give my regards to your family."
+    ],
+    [
+     "Salam, Dian",
+     "Regards, Dian"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Dian sudah tinggal di Belanda selama satu tahun.",
+     "en": "Dian has lived in the Netherlands for a year.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "bulan"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Bagaimana Dian pergi ke universitas?",
+     "en": "How does Dian get to university?",
+     "type": "mc",
+     "options": [
+      "Naik bus",
+      "Naik sepeda",
+      "Berjalan kaki",
+      "Naik kereta"
+     ],
+     "answer": 1,
+     "words": [
+      "sepeda"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Di mana toko Indonesia itu?",
+     "en": "Where is the Indonesian shop?",
+     "type": "mc",
+     "options": [
+      "Di Amsterdam",
+      "Dekat universitas",
+      "Dekat stasiun",
+      "Di sebelah rumahnya"
+     ],
+     "answer": 2,
+     "words": [
+      "toko"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Dian kadang-kadang bisa memasak makanan Indonesia.",
+     "en": "Dian can sometimes cook Indonesian food.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "masak"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0039",
+   "lv": "A2",
+   "title": "Tujuh belas Agustus di desa",
+   "oop": {
+    "kerupuk": "crackers (traditional eating contest): no pack word"
+   },
+   "names": [
+    "Hari Kemerdekaan",
+    "Indonesia",
+    "Joko"
+   ],
+   "sentences": [
+    [
+     "Setiap tanggal tujuh belas Agustus, orang Indonesia mengadakan pesta besar untuk Hari Kemerdekaan.",
+     "Every 17 August, Indonesians hold a big celebration for Independence Day."
+    ],
+    [
+     "Di desa Pak Joko, acaranya selalu sangat menyenangkan.",
+     "In Mr Joko's village the event is always a lot of fun."
+    ],
+    [
+     "Seminggu sebelumnya, warga memasang bendera merah putih di depan setiap rumah.",
+     "A week before, residents put up red and white flags in front of every house."
+    ],
+    [
+     "Pada pagi hari, semua orang berkumpul di depan sekolah untuk upacara.",
+     "In the morning everyone gathers in front of the school for a ceremony."
+    ],
+    [
+     "Setelah itu, ada banyak lomba untuk anak-anak dan orang dewasa.",
+     "After that there are lots of contests for children and adults."
+    ],
+    [
+     "Anak-anak mencoba makan kerupuk dengan cepat tanpa memakai tangan.",
+     "The children try to eat crackers as fast as possible without using their hands."
+    ],
+    [
+     "Para bapak bermain sepak bola dengan memakai baju perempuan, dan semua orang tertawa melihat mereka jatuh.",
+     "The men play football wearing women's clothes, and everyone laughs watching them fall."
+    ],
+    [
+     "Tim yang menang mendapat hadiah seperti sepeda, radio, atau tas.",
+     "The winning team gets prizes such as a bicycle, a radio or bags."
+    ],
+    [
+     "Malamnya, ada makan bersama dan musik di depan kantor kepala desa.",
+     "In the evening there is a shared meal and music in front of the village head's office."
+    ],
+    [
+     "Pada hari itu, semua warga merasa seperti satu keluarga besar.",
+     "On that day all the residents feel like one big family."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa yang dipasang di depan rumah?",
+     "en": "What is put up in front of the houses?",
+     "type": "mc",
+     "options": [
+      "Foto keluarga",
+      "Lampu kuning",
+      "Bunga",
+      "Bendera"
+     ],
+     "answer": 3,
+     "words": [
+      "bendera"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Upacara diadakan pada malam hari.",
+     "en": "The ceremony is held in the evening.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "pagi",
+      "upacara"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang dipakai para bapak ketika bermain sepak bola?",
+     "en": "What do the men wear when they play football?",
+     "type": "mc",
+     "options": [
+      "Baju perempuan",
+      "Baju merah putih",
+      "Baju sekolah",
+      "Baju olahraga baru"
+     ],
+     "answer": 0,
+     "words": [
+      "baju"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Tim yang kalah juga mendapat sepeda.",
+     "en": "The losing team also gets a bicycle.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "menang",
+      "hadiah"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Pada malam hari, warga makan bersama.",
+     "en": "In the evening the residents eat together.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "makan",
+      "bersama"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0040",
+   "lv": "A2",
+   "title": "Masalah dengan ponsel",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Kemarin ponsel saya mati dan tidak mau menyala lagi.",
+     "Yesterday my phone died and wouldn't turn on again."
+    ],
+    [
+     "Tetapi baterainya masih penuh.",
+     "But the battery was still full."
+    ],
+    [
+     "Saya mencoba menekan semua tombol, tetapi ponselnya tetap mati.",
+     "I tried pressing all the buttons, but the phone stayed dead."
+    ],
+    [
+     "Semua foto dan nomor telepon teman-teman saya ada di ponsel itu!",
+     "All my photos and my friends' phone numbers were on that phone!"
+    ],
+    [
+     "Saya membawa ponsel itu ke toko tempat saya membelinya tahun lalu.",
+     "I took the phone to the shop where I bought it last year."
+    ],
+    [
+     "Petugas di toko memeriksanya dan berkata bahwa ada masalah dengan programnya.",
+     "The staff member at the shop checked it and said there was a problem with its software."
+    ],
+    [
+     "Dia bisa memperbaikinya dalam dua hari, dan perbaikannya gratis karena ponsel saya masih baru.",
+     "They could repair it in two days, and the repair was free because my phone was still new."
+    ],
+    [
+     "Selama dua hari itu, saya tidak bisa menelepon atau membaca pesan.",
+     "For those two days I couldn't phone or read messages."
+    ],
+    [
+     "Awalnya saya bingung, tetapi kemudian saya membaca buku dan tidur lebih awal.",
+     "At first I was confused, but then I read a book and went to bed earlier."
+    ],
+    [
+     "Ternyata hidup tanpa ponsel tidak terlalu buruk.",
+     "It turns out life without a phone isn't too bad."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Ponsel itu mati karena baterainya habis.",
+     "en": "The phone died because the battery ran out.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "baterai",
+      "penuh"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Ke mana dia membawa ponselnya?",
+     "en": "Where did he take his phone?",
+     "type": "mc",
+     "options": [
+      "Ke rumah temannya di dekat stasiun",
+      "Ke toko tempat dia membelinya",
+      "Ke kantor pos",
+      "Ke sekolah"
+     ],
+     "answer": 1,
+     "words": [
+      "bawa"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Berapa lama perbaikan ponselnya?",
+     "en": "How long did the phone repair take?",
+     "type": "mc",
+     "options": [
+      "Satu jam",
+      "Satu minggu",
+      "Dua hari",
+      "Satu bulan"
+     ],
+     "answer": 2,
+     "words": [
+      "memperbaiki"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Dia harus membayar untuk memperbaiki ponselnya.",
+     "en": "He had to pay to repair his phone.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "gratis"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Tanpa ponsel, dia tidur lebih awal.",
+     "en": "Without his phone, he went to bed earlier.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "tidur",
+      "awal"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0041",
+   "lv": "B1",
+   "title": "Keputusan yang sulit",
+   "oop": {
+    "dosen": "university lecturer: no pack word"
+   },
+   "names": [
+    "Hendra",
+    "Jakarta",
+    "Flores",
+    "Lebaran"
+   ],
+   "sentences": [
+    [
+     "Setelah lulus dari universitas, Hendra mendapat dua tawaran kerja pada minggu yang sama.",
+     "After graduating from university, Hendra got two job offers in the same week."
+    ],
+    [
+     "Yang pertama dari sebuah bank besar di Jakarta, dengan gaji yang tinggi dan kantor yang modern.",
+     "The first was from a big bank in Jakarta, with a high salary and a modern office."
+    ],
+    [
+     "Yang kedua dari sebuah organisasi kecil di Flores yang membantu petani kopi menjual kopi mereka.",
+     "The second was from a small organisation in Flores that helps coffee farmers sell their coffee."
+    ],
+    [
+     "Gajinya jauh lebih rendah, dan dia harus tinggal jauh dari keluarganya.",
+     "The salary was much lower, and he would have to live far from his family."
+    ],
+    [
+     "Orang tuanya ingin dia memilih bank, karena menurut mereka pekerjaan itu lebih aman untuk masa depannya.",
+     "His parents wanted him to choose the bank, because in their opinion that job was safer for his future."
+    ],
+    [
+     "Tetapi Hendra selalu tertarik pada pertanian, dan dia ingin pekerjaannya bermanfaat untuk orang lain.",
+     "But Hendra had always been interested in agriculture, and he wanted his work to be useful to others."
+    ],
+    [
+     "Dia berbicara dengan seorang dosen yang pernah bekerja di Flores selama lima tahun.",
+     "He talked with a lecturer who had once worked in Flores for five years."
+    ],
+    [
+     "Dosen itu berkata bahwa hidup di sana tidak mudah, tetapi pengalamannya sangat berharga.",
+     "The lecturer said that life there was not easy, but the experience was very valuable."
+    ],
+    [
+     "Akhirnya Hendra memilih organisasi kecil itu, dengan janji kepada orang tuanya bahwa dia akan pulang setiap Lebaran.",
+     "In the end Hendra chose the small organisation, promising his parents that he would come home every Eid."
+    ],
+    [
+     "Sekarang, setelah satu tahun, dia tidak menyesali keputusannya.",
+     "Now, after one year, he does not regret his decision."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa kelebihan pekerjaan di bank?",
+     "en": "What was the advantage of the job at the bank?",
+     "type": "mc",
+     "options": [
+      "Kantornya di Flores",
+      "Dekat dengan petani",
+      "Pekerjaannya bermanfaat untuk orang lain",
+      "Gajinya tinggi"
+     ],
+     "answer": 3,
+     "words": [
+      "gaji",
+      "tinggi"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Organisasi di Flores membantu petani menjual kopi.",
+     "en": "The organisation in Flores helps farmers sell coffee.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "petani",
+      "kopi"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Mengapa orang tua Hendra ingin dia bekerja di bank?",
+     "en": "Why did Hendra's parents want him to work at the bank?",
+     "type": "mc",
+     "options": [
+      "Menurut mereka, bank lebih aman",
+      "Mereka bekerja di bank itu",
+      "Kantornya dekat dengan rumah mereka",
+      "Dia tidak suka pertanian"
+     ],
+     "answer": 0,
+     "words": [
+      "aman",
+      "masa"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Menurut dosen itu, hidup di Flores tidak mudah.",
+     "en": "According to the lecturer, life in Flores is not easy.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "hidup",
+      "mudah"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Hendra sekarang menyesal karena tidak memilih bank.",
+     "en": "Hendra now regrets not choosing the bank.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "menyesal"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0042",
+   "lv": "B1",
+   "title": "Keluhan untuk hotel",
+   "oop": {},
+   "names": [
+    "Yth",
+    "Melati",
+    "Bambang",
+    "Susilo"
+   ],
+   "sentences": [
+    [
+     "Kepada Yth. Manajer Hotel Melati,",
+     "To the manager of the Melati Hotel,"
+    ],
+    [
+     "Saya menginap di hotel Anda dari tanggal tiga sampai lima Mei bersama istri dan dua anak saya.",
+     "I stayed at your hotel from the third to the fifth of May with my wife and two children."
+    ],
+    [
+     "Saya memesan kamar keluarga dengan pemandangan laut lewat situs hotel dua bulan sebelumnya.",
+     "I booked a family room with a sea view on the hotel's website two months in advance."
+    ],
+    [
+     "Namun, ketika kami tiba, petugas berkata bahwa kamar itu tidak tersedia, dan kami diberi dua kamar kecil di lantai satu yang menghadap ke tempat parkir.",
+     "However, when we arrived, the receptionist said that the room was not available, and we were given two small rooms on the ground floor facing the car park."
+    ],
+    [
+     "Selain itu, air panas di kamar mandi tidak keluar selama dua hari, dan lampu di kamar anak-anak rusak.",
+     "In addition, no hot water came out in the bathroom for two days, and the light in the children's room was broken."
+    ],
+    [
+     "Saya sudah menyampaikan masalah ini kepada petugas beberapa kali, tetapi tidak ada yang datang untuk memperbaikinya.",
+     "I reported these problems to the staff several times, but nobody came to repair them."
+    ],
+    [
+     "Sarapannya enak dan pegawai restoran sangat ramah, tetapi pengalaman kami secara umum mengecewakan.",
+     "Breakfast was good and the restaurant staff were very friendly, but on the whole our experience was disappointing."
+    ],
+    [
+     "Kami membayar harga kamar dengan pemandangan laut, jadi saya meminta hotel mengembalikan sebagian uang kami.",
+     "We paid the price of a sea-view room, so I am asking the hotel to return part of our money."
+    ],
+    [
+     "Saya menunggu balasan Anda.",
+     "I look forward to your reply."
+    ],
+    [
+     "Hormat saya, Bambang Susilo",
+     "Yours faithfully, Bambang Susilo"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Kamar apa yang dipesan Bambang?",
+     "en": "What room did Bambang book?",
+     "type": "mc",
+     "options": [
+      "Dua kamar kecil",
+      "Kamar keluarga yang menghadap laut",
+      "Kamar di dekat tempat parkir mobil",
+      "Kamar untuk satu orang"
+     ],
+     "answer": 1,
+     "words": [
+      "memesan",
+      "pemandangan"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Keluarga itu mendapat kamar yang mereka pesan.",
+     "en": "The family got the room they booked.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "tersedia"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Masalah apa yang ada di kamar mandi?",
+     "en": "What problem was there in the bathroom?",
+     "type": "mc",
+     "options": [
+      "Kamar mandinya kotor",
+      "Pintunya rusak",
+      "Tidak ada air panas",
+      "Tidak ada handuk"
+     ],
+     "answer": 2,
+     "words": [
+      "air",
+      "panas"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Menurut Bambang, pegawai restoran baik kepada tamu.",
+     "en": "According to Bambang, the restaurant staff were nice to guests.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "pegawai",
+      "ramah"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Bambang ingin hotel mengembalikan semua uangnya.",
+     "en": "Bambang wants the hotel to return all of his money.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "mengembalikan",
+      "sebagian"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0043",
+   "lv": "B1",
+   "title": "Pabrik tua akan ditutup",
+   "oop": {},
+   "names": [
+    "Bandung",
+    "Ratna"
+   ],
+   "sentences": [
+    [
+     "Pabrik kain di tepi kota Bandung, yang sudah berdiri sejak tahun 1970, akan ditutup pada akhir tahun ini.",
+     "The textile factory on the edge of Bandung, which has stood since 1970, will close at the end of this year."
+    ],
+    [
+     "Menurut pemiliknya, perusahaan itu mengalami kerugian selama tiga tahun terakhir karena harga bahan naik dan kain dari luar negeri lebih murah.",
+     "According to its owner, the company has made a loss for the last three years because the price of materials rose and cloth from abroad is cheaper."
+    ],
+    [
+     "Sekitar empat ratus pekerja akan kehilangan pekerjaan mereka.",
+     "About four hundred workers will lose their jobs."
+    ],
+    [
+     "Banyak dari mereka sudah bekerja di sana lebih dari dua puluh tahun.",
+     "Many of them have worked there for more than twenty years."
+    ],
+    [
+     "\"Saya tidak tahu harus bekerja di mana lagi pada umur lima puluh,\" kata Ibu Ratna, yang menjahit di pabrik itu sejak muda.",
+     "\"I don't know where else I can work at fifty,\" said Mrs Ratna, who has sewn at the factory since she was young."
+    ],
+    [
+     "Pemerintah kota berjanji akan membantu para pekerja dengan pelatihan gratis dan informasi tentang pekerjaan di perusahaan lain.",
+     "The city government has promised to help the workers with free training and information about jobs at other companies."
+    ],
+    [
+     "Beberapa warga berharap gedung pabrik itu tidak dihancurkan, tetapi diubah menjadi pasar atau pusat kegiatan untuk anak muda.",
+     "Some residents hope the factory building will not be demolished, but turned into a market or a centre for young people's activities."
+    ],
+    [
+     "Keputusan tentang gedung itu akan diambil tahun depan.",
+     "The decision about the building will be taken next year."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Mengapa pabrik itu ditutup?",
+     "en": "Why is the factory closing?",
+     "type": "mc",
+     "options": [
+      "Pemerintah melarangnya",
+      "Gedungnya terlalu tua",
+      "Pemiliknya pindah ke luar negeri",
+      "Perusahaan itu kehilangan uang"
+     ],
+     "answer": 3,
+     "words": [
+      "kerugian"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Banyak pekerja sudah lama bekerja di pabrik itu.",
+     "en": "Many workers have worked at the factory for a long time.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "bekerja"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa janji pemerintah kota?",
+     "en": "What is the city government's promise?",
+     "type": "mc",
+     "options": [
+      "Pelatihan gratis untuk pekerja",
+      "Uang untuk pemilik pabrik",
+      "Pabrik baru di Bandung",
+      "Gedung baru untuk anak muda kota"
+     ],
+     "answer": 0,
+     "words": [
+      "pelatihan",
+      "gratis"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Ada warga yang ingin gedung pabrik itu dijadikan pasar.",
+     "en": "Some residents want the factory building to become a market.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "pasar"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Keputusan tentang gedung itu sudah diambil.",
+     "en": "The decision about the building has already been made.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "keputusan"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0044",
+   "lv": "B1",
+   "title": "Masa kecil kakek saya",
+   "oop": {},
+   "names": [
+    "Jawa Tengah",
+    "Semarang"
+   ],
+   "sentences": [
+    [
+     "Kakek saya lahir di sebuah desa kecil di Jawa Tengah pada tahun 1950.",
+     "My grandfather was born in a small village in Central Java in 1950."
+    ],
+    [
+     "Waktu itu desanya belum punya listrik, jadi pada malam hari keluarganya memakai lampu minyak.",
+     "At that time his village had no electricity yet, so at night his family used oil lamps."
+    ],
+    [
+     "Setiap pagi, sebelum sekolah, dia harus membawa kambing-kambing ayahnya ke lapangan dan mengambil air dari sungai.",
+     "Every morning before school he had to take his father's goats to the field and fetch water from the river."
+    ],
+    [
+     "Sekolahnya jauh, dan dia berjalan kaki hampir satu jam tanpa sepatu.",
+     "His school was far away, and he walked almost an hour without shoes."
+    ],
+    [
+     "Kakek bercerita bahwa dia hanya punya dua baju dan satu buku tulis, yang harus dia jaga dengan baik.",
+     "Grandfather told us that he had only two shirts and one exercise book, which he had to look after carefully."
+    ],
+    [
+     "Mainan mereka dibuat sendiri dari kayu.",
+     "Their toys were home-made from wood."
+    ],
+    [
+     "Walaupun hidupnya susah, dia berkata bahwa masa kecilnya bahagia karena semua anak di desa bermain bersama dan saling membantu.",
+     "Although life was hard, he says his childhood was happy because all the children in the village played together and helped each other."
+    ],
+    [
+     "Ketika dia berumur delapan belas tahun, dia pindah ke Semarang untuk bekerja di sebuah toko.",
+     "When he was eighteen, he moved to Semarang to work in a shop."
+    ],
+    [
+     "Sekarang Kakek sering berkata kepada kami bahwa anak-anak zaman sekarang sangat beruntung.",
+     "Now Grandfather often tells us that children these days are very lucky."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Ketika kakeknya kecil, desanya sudah punya listrik.",
+     "en": "When his grandfather was small, the village already had electricity.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "listrik"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Apa yang harus dia lakukan setiap pagi sebelum sekolah?",
+     "en": "What did he have to do every morning before school?",
+     "type": "mc",
+     "options": [
+      "Membantu ibunya memasak",
+      "Membawa kambing dan mengambil air",
+      "Bekerja di toko",
+      "Membersihkan sekolah bersama gurunya"
+     ],
+     "answer": 1,
+     "words": [
+      "kambing",
+      "ambil"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Bagaimana dia pergi ke sekolah?",
+     "en": "How did he get to school?",
+     "type": "mc",
+     "options": [
+      "Naik kuda",
+      "Naik sepeda tua",
+      "Berjalan kaki",
+      "Naik bus"
+     ],
+     "answer": 2,
+     "words": [
+      "berjalan",
+      "kaki"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Mainan anak-anak di desa itu dibeli di kota.",
+     "en": "The village children's toys were bought in town.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "mainan"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Menurut kakek, anak-anak sekarang beruntung.",
+     "en": "According to Grandfather, children today are lucky.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "beruntung"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0045",
+   "lv": "B1",
+   "title": "Bagaimana cara tidur lebih baik?",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Banyak orang dewasa di kota besar mengeluh bahwa mereka sulit tidur atau sering bangun pada malam hari.",
+     "Many adults in big cities complain that they find it hard to sleep or often wake up at night."
+    ],
+    [
+     "Menurut para ahli, orang dewasa membutuhkan tujuh sampai delapan jam tidur setiap malam.",
+     "According to experts, adults need seven to eight hours of sleep every night."
+    ],
+    [
+     "Kurang tidur bisa membuat kita lelah, sulit berpikir, dan lebih cepat marah.",
+     "Lack of sleep can make us tired, unable to think clearly and quicker to anger."
+    ],
+    [
+     "Ada beberapa kebiasaan sederhana yang bisa membantu.",
+     "There are some simple habits that can help."
+    ],
+    [
+     "Pertama, cobalah tidur dan bangun pada jam yang sama setiap hari, juga pada akhir pekan.",
+     "First, try to go to bed and get up at the same time every day, including at weekends."
+    ],
+    [
+     "Kedua, jangan minum kopi atau teh setelah pukul empat sore.",
+     "Second, don't drink coffee or tea after four in the afternoon."
+    ],
+    [
+     "Ketiga, matikan ponsel dan televisi satu jam sebelum tidur, karena cahaya dari ponsel dan televisi membuat otak tetap aktif.",
+     "Third, turn off your phone and television an hour before bed, because the light from phones and televisions keeps the brain active."
+    ],
+    [
+     "Kamar tidur juga harus gelap, tenang, dan tidak terlalu panas.",
+     "The bedroom should also be dark, quiet and not too hot."
+    ],
+    [
+     "Olahraga ringan pada pagi atau sore hari juga bermanfaat, tetapi sebaiknya tidak dilakukan larut malam.",
+     "Light exercise in the morning or afternoon is also useful, but it is better not to do it late at night."
+    ],
+    [
+     "Kalau masalah tidur Anda berlangsung lebih dari sebulan, sebaiknya Anda pergi ke dokter.",
+     "If your sleep problem lasts more than a month, you should see a doctor."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Kurang tidur bisa membuat orang cepat marah.",
+     "en": "Lack of sleep can make people quick to anger.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "kurang",
+      "marah"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Setelah pukul berapa kita sebaiknya tidak minum kopi?",
+     "en": "After what time should we not drink coffee?",
+     "type": "mc",
+     "options": [
+      "Pukul enam pagi",
+      "Pukul delapan malam",
+      "Pukul dua belas siang",
+      "Pukul empat sore"
+     ],
+     "answer": 3,
+     "words": [
+      "kopi"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Mengapa ponsel harus dimatikan sebelum tidur?",
+     "en": "Why should phones be turned off before bed?",
+     "type": "mc",
+     "options": [
+      "Otak tetap aktif karena cahayanya",
+      "Ponsel bisa rusak pada malam hari",
+      "Suaranya mengganggu tetangga",
+      "Baterainya cepat habis"
+     ],
+     "answer": 0,
+     "words": [
+      "cahaya",
+      "otak"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Kamar tidur sebaiknya panas dan terang.",
+     "en": "The bedroom should be hot and bright.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "gelap"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Artikel ini menyarankan olahraga larut malam.",
+     "en": "This article recommends exercising late at night.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "olahraga",
+      "larut"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0046",
+   "lv": "B1",
+   "title": "Hari Sabtu di perpustakaan",
+   "oop": {},
+   "names": [
+    "Veteran",
+    "Indonesia",
+    "Inggris",
+    "Yanti"
+   ],
+   "sentences": [
+    [
+     "Perpustakaan kota di Jalan Veteran baru saja dibuka kembali setelah diperbaiki selama enam bulan.",
+     "The city library on Veteran Street has just reopened after six months of renovation."
+    ],
+    [
+     "Sekarang gedungnya lebih terang, dan ada ruang baca yang luas dengan kursi yang nyaman.",
+     "The building is now brighter, and there is a large reading room with comfortable chairs."
+    ],
+    [
+     "Selain buku, perpustakaan menyediakan komputer, internet gratis, dan koleksi film Indonesia lama.",
+     "Besides books, the library provides computers, free internet and a collection of old Indonesian films."
+    ],
+    [
+     "Setiap Sabtu pagi, ada kegiatan membaca cerita untuk anak-anak, dan orang tua boleh ikut.",
+     "Every Saturday morning there is a story-reading session for children, and parents may join in."
+    ],
+    [
+     "Pada sore hari, para pelajar bisa mendapat bantuan untuk tugas sekolah mereka, seperti matematika dan bahasa Inggris.",
+     "In the afternoon students can get help with their schoolwork, such as maths and English."
+    ],
+    [
+     "Kepala perpustakaan, Ibu Yanti, berkata bahwa sejak gedung dibuka kembali, jumlah orang yang datang setiap hari naik dari seratus menjadi dua ratus.",
+     "The head librarian, Mrs Yanti, said that since the building reopened, the number of people coming each day has risen from one hundred to two hundred."
+    ],
+    [
+     "\"Dulu anak muda jarang datang ke sini. Sekarang mereka datang untuk belajar bersama dan mengerjakan proyek,\" katanya.",
+     "\"Young people used to come here rarely. Now they come to study together and work on projects,\" she said."
+    ],
+    [
+     "Untuk menjadi anggota, Anda hanya perlu membawa kartu identitas.",
+     "To become a member, you only need to bring an identity card."
+    ],
+    [
+     "Anggota boleh meminjam lima buku selama dua minggu.",
+     "Members may borrow five books for two weeks."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Perpustakaan itu tutup selama enam bulan.",
+     "en": "The library was closed for six months.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "bulan"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Apa yang disediakan perpustakaan selain buku?",
+     "en": "What does the library provide besides books?",
+     "type": "mc",
+     "options": [
+      "Makanan dan minuman",
+      "Komputer dan internet gratis",
+      "Kelas musik",
+      "Tempat parkir yang luas dan gratis"
+     ],
+     "answer": 1,
+     "words": [
+      "menyediakan",
+      "komputer"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Kapan ada kegiatan membaca cerita untuk anak-anak?",
+     "en": "When is there a story-reading session for children?",
+     "type": "mc",
+     "options": [
+      "Setiap hari",
+      "Sabtu sore",
+      "Sabtu pagi",
+      "Minggu pagi"
+     ],
+     "answer": 2,
+     "words": [
+      "kegiatan",
+      "cerita"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Menurut Ibu Yanti, sekarang lebih sedikit orang datang ke perpustakaan.",
+     "en": "According to Mrs Yanti, fewer people now come to the library.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "jumlah"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Berapa buku yang boleh dipinjam anggota?",
+     "en": "How many books may members borrow?",
+     "type": "mc",
+     "options": [
+      "Tiga",
+      "Dua",
+      "Sepuluh",
+      "Lima"
+     ],
+     "answer": 3,
+     "words": [
+      "anggota",
+      "pinjam"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0047",
+   "lv": "B1",
+   "title": "Mengurangi mobil di pusat kota",
+   "oop": {},
+   "names": [
+    "Yogyakarta",
+    "Malioboro"
+   ],
+   "sentences": [
+    [
+     "Mulai bulan depan, pemerintah kota Yogyakarta akan menutup Jalan Malioboro untuk mobil dan motor setiap akhir pekan.",
+     "From next month, the Yogyakarta city government will close Malioboro Street to cars and motorbikes every weekend."
+    ],
+    [
+     "Tujuannya adalah mengurangi kemacetan dan membuat udara di pusat kota lebih bersih.",
+     "The aim is to reduce traffic jams and make the air in the city centre cleaner."
+    ],
+    [
+     "Pada hari Sabtu dan Minggu, hanya orang yang berjalan kaki atau naik sepeda dan kendaraan listrik kecil yang boleh masuk.",
+     "On Saturday and Sunday only people on foot or on bicycles, and small electric vehicles, will be allowed in."
+    ],
+    [
+     "Pemerintah juga menambah bus gratis dari tempat parkir besar di luar pusat kota.",
+     "The government is also adding free buses from large car parks outside the city centre."
+    ],
+    [
+     "Banyak warga mendukung rencana ini.",
+     "Many residents support this plan."
+    ],
+    [
+     "\"Sekarang anak-anak bisa berjalan dengan aman, dan kita bisa menikmati suasana kota,\" kata seorang guru.",
+     "\"Now children can walk safely, and we can enjoy the atmosphere of the city,\" said a teacher."
+    ],
+    [
+     "Namun, beberapa pemilik toko khawatir bahwa pelanggan mereka akan berkurang karena tidak bisa parkir di depan toko.",
+     "However, some shop owners are worried that they will have fewer customers because people cannot park in front of the shops."
+    ],
+    [
+     "Pemerintah menjawab bahwa di kota-kota lain, jumlah pelanggan naik setelah jalan ditutup untuk kendaraan.",
+     "The government replied that in other cities, the number of customers rose after streets were closed to vehicles."
+    ],
+    [
+     "Rencana ini akan dicoba selama enam bulan, lalu hasilnya akan dibahas bersama warga.",
+     "The plan will be tried for six months, and then the results will be discussed with residents."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Kapan jalan itu ditutup untuk mobil dan motor?",
+     "en": "When will the street be closed to cars and motorbikes?",
+     "type": "mc",
+     "options": [
+      "Setiap akhir pekan",
+      "Setiap hari",
+      "Setiap malam hari Jumat",
+      "Hanya hari Senin"
+     ],
+     "answer": 0,
+     "words": [
+      "akhir",
+      "pekan"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Salah satu tujuan rencana ini adalah udara yang lebih bersih.",
+     "en": "One of the plan's aims is cleaner air.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "udara",
+      "bersih"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Apa yang ditambah pemerintah?",
+     "en": "What is the government adding?",
+     "type": "mc",
+     "options": [
+      "Tempat parkir di pusat kota",
+      "Bus gratis",
+      "Toko baru",
+      "Jalan untuk motor"
+     ],
+     "answer": 1,
+     "words": [
+      "menambah",
+      "bus"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Semua pemilik toko senang dengan rencana ini.",
+     "en": "All the shop owners are happy with this plan.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "pemilik",
+      "khawatir"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Rencana itu akan dicoba selama setengah tahun.",
+     "en": "The plan will be tried for half a year.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "coba",
+      "bulan"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0048",
+   "lv": "B1",
+   "title": "Perjalanan pertama saya sendirian",
+   "oop": {
+    "pelabuhan": "port, harbour: no pack word"
+   },
+   "names": [
+    "Surabaya",
+    "Makassar",
+    "Bugis"
+   ],
+   "sentences": [
+    [
+     "Tahun lalu, ketika saya berumur sembilan belas tahun, saya bepergian sendirian untuk pertama kalinya.",
+     "Last year, when I was nineteen, I travelled alone for the first time."
+    ],
+    [
+     "Saya naik kapal dari Surabaya ke Makassar, dan perjalanannya hampir dua hari.",
+     "I took a ship from Surabaya to Makassar, and the journey took almost two days."
+    ],
+    [
+     "Sebelum berangkat, ibu saya sangat khawatir dan memberi saya daftar panjang berisi nasihat.",
+     "Before I left, my mother was very worried and gave me a long list of advice."
+    ],
+    [
+     "Di kapal, saya berbagi kamar dengan tiga penumpang lain yang tidak saya kenal.",
+     "On the ship I shared a cabin with three other passengers I didn't know."
+    ],
+    [
+     "Awalnya saya gugup, tetapi mereka ternyata sangat ramah.",
+     "At first I was nervous, but they turned out to be very friendly."
+    ],
+    [
+     "Salah satu dari mereka, seorang nenek dari Makassar, mengajari saya beberapa kata dalam bahasa Bugis dan berbagi kue buatannya dengan kami.",
+     "One of them, a grandmother from Makassar, taught me a few words of Buginese and shared her home-made cakes with us."
+    ],
+    [
+     "Pada malam kedua, laut agak kasar, dan banyak orang mabuk laut, termasuk saya.",
+     "On the second night the sea was rather rough, and many people were seasick, including me."
+    ],
+    [
+     "Ketika akhirnya tiba di Makassar, sepupu saya sudah menunggu di pelabuhan.",
+     "When I finally arrived in Makassar, my cousin was already waiting at the port."
+    ],
+    [
+     "Perjalanan itu mengajari saya bahwa saya bisa mengurus diri sendiri dan bahwa orang asing sering lebih baik daripada yang kita kira.",
+     "The trip taught me that I can look after myself and that strangers are often kinder than we think."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Bagaimana dia pergi ke Makassar?",
+     "en": "How did he travel to Makassar?",
+     "type": "mc",
+     "options": [
+      "Naik bus",
+      "Naik pesawat",
+      "Naik kapal",
+      "Naik kereta"
+     ],
+     "answer": 2,
+     "words": [
+      "kapal"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Ibunya tidak khawatir sama sekali.",
+     "en": "His mother wasn't worried at all.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "khawatir"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa yang dilakukan nenek dari Makassar?",
+     "en": "What did the grandmother from Makassar do?",
+     "type": "mc",
+     "options": [
+      "Membawa dia ke dokter",
+      "Menunggunya di Makassar",
+      "Memberi dia daftar nasihat",
+      "Mengajarinya beberapa kata"
+     ],
+     "answer": 3,
+     "words": [
+      "nenek"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Pada malam kedua, dia sakit karena laut tidak tenang.",
+     "en": "On the second night he was ill because the sea was not calm.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "laut",
+      "mabuk"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Siapa yang menunggu dia di Makassar?",
+     "en": "Who was waiting for him in Makassar?",
+     "type": "mc",
+     "options": [
+      "Sepupunya",
+      "Ibunya",
+      "Nenek dari kapal",
+      "Temannya"
+     ],
+     "answer": 0,
+     "words": [
+      "sepupu",
+      "tunggu"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0049",
+   "lv": "B1",
+   "title": "Anak muda dan ponsel",
+   "oop": {},
+   "names": [
+    "Indonesia"
+   ],
+   "sentences": [
+    [
+     "Sebuah studi baru di Indonesia menunjukkan bahwa remaja menggunakan ponsel sekitar tujuh jam sehari.",
+     "A new study in Indonesia shows that teenagers use their phones about seven hours a day."
+    ],
+    [
+     "Sebagian besar waktu itu dipakai untuk media sosial, video, dan permainan.",
+     "Most of that time is spent on social media, videos and games."
+    ],
+    [
+     "Banyak orang tua khawatir karena anak-anak mereka jarang berbicara di rumah dan tidur terlalu larut.",
+     "Many parents are worried because their children rarely talk at home and go to bed too late."
+    ],
+    [
+     "Beberapa guru juga melaporkan bahwa murid-murid sulit fokus di kelas.",
+     "Some teachers also report that pupils find it hard to focus in class."
+    ],
+    [
+     "Namun, para ahli berkata bahwa ponsel tidak selalu buruk.",
+     "However, experts say that phones are not always bad."
+    ],
+    [
+     "Remaja bisa belajar bahasa, mencari informasi untuk tugas sekolah, dan tetap berhubungan dengan teman-teman yang tinggal jauh.",
+     "Teenagers can learn languages, look up information for schoolwork and stay in touch with friends who live far away."
+    ],
+    [
+     "Yang penting adalah tidak memakainya terlalu lama.",
+     "What matters is not using them for too long."
+    ],
+    [
+     "Para ahli menyarankan agar keluarga membuat aturan bersama, contohnya tidak ada ponsel saat makan malam atau di kamar tidur setelah pukul sembilan.",
+     "Experts suggest that families make rules together, for example no phones at dinner or in the bedroom after nine o'clock."
+    ],
+    [
+     "Orang tua juga harus memberi contoh yang baik, karena anak-anak sering meniru apa yang mereka lihat.",
+     "Parents must also set a good example, because children often copy what they see."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Berapa lama remaja memakai ponsel setiap hari?",
+     "en": "How long do teenagers use their phones each day?",
+     "type": "mc",
+     "options": [
+      "Dua jam",
+      "Sekitar tujuh jam",
+      "Kurang dari satu jam",
+      "Dua belas jam"
+     ],
+     "answer": 1,
+     "words": [
+      "remaja"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Guru-guru berkata bahwa murid-murid mudah fokus di kelas.",
+     "en": "Teachers say pupils find it easy to focus in class.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "fokus"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Menurut para ahli, ponsel juga bisa berguna.",
+     "en": "According to experts, phones can also be useful.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "ahli"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Apa contoh aturan yang disarankan para ahli?",
+     "en": "What is an example of a rule the experts suggest?",
+     "type": "mc",
+     "options": [
+      "Ponsel hanya boleh dipakai pada akhir pekan",
+      "Tidak ada ponsel di sekolah",
+      "Ponsel tidak dipakai ketika makan malam",
+      "Remaja tidak boleh punya ponsel"
+     ],
+     "answer": 2,
+     "words": [
+      "aturan",
+      "makan"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Anak-anak sering meniru orang tua mereka.",
+     "en": "Children often copy their parents.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "tiru"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0050",
+   "lv": "B1",
+   "title": "Surat tentang tetangga baru",
+   "oop": {},
+   "names": [
+    "Yth",
+    "Mawar",
+    "RT"
+   ],
+   "sentences": [
+    [
+     "Yth. Bapak Ketua RT,",
+     "Dear Head of the Neighbourhood Association,"
+    ],
+    [
+     "Saya tinggal di rumah nomor dua belas, Jalan Mawar.",
+     "I live at number twelve, Mawar Street."
+    ],
+    [
+     "Dengan surat ini saya ingin menyampaikan keluhan tentang suara keras dari rumah nomor lima belas.",
+     "With this letter I would like to make a complaint about loud noise from house number fifteen."
+    ],
+    [
+     "Selama dua bulan terakhir, orang yang baru tinggal di rumah itu sering mengadakan acara sampai jam dua atau tiga pagi.",
+     "For the last two months, the people who recently moved into that house have often held gatherings until two or three in the morning."
+    ],
+    [
+     "Mereka memutar musik dengan sangat keras dan berteriak di halaman.",
+     "They play music very loudly and shout in the yard."
+    ],
+    [
+     "Saya sudah dua kali datang dan meminta mereka dengan sopan untuk mengecilkan suara, tetapi keadaannya tidak berubah.",
+     "I have gone round twice and politely asked them to turn the volume down, but the situation has not changed."
+    ],
+    [
+     "Anak saya yang masih bayi sering terbangun, dan istri saya, yang bekerja sebagai perawat, tidak bisa beristirahat sebelum bekerja.",
+     "My baby often wakes up, and my wife, who works as a nurse, cannot rest before going to work."
+    ],
+    [
+     "Beberapa tetangga lain juga mengalami masalah yang sama.",
+     "Several other neighbours have the same problem."
+    ],
+    [
+     "Saya mohon Bapak dapat berbicara dengan mereka dan mengingatkan mereka tentang aturan kampung kita.",
+     "I ask you to talk to them and remind them of our neighbourhood rules."
+    ],
+    [
+     "Terima kasih atas perhatian Bapak.",
+     "Thank you for your attention."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Tentang apa keluhan ini?",
+     "en": "What is this complaint about?",
+     "type": "mc",
+     "options": [
+      "Anjing tetangga",
+      "Sampah di jalan",
+      "Mobil yang parkir di depan rumah",
+      "Suara keras pada malam hari"
+     ],
+     "answer": 3,
+     "words": [
+      "suara",
+      "keras"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Masalah ini sering terjadi selama dua bulan terakhir.",
+     "en": "This problem has often happened over the last two months.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "sering"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Penulis surat sudah berbicara dengan tetangganya.",
+     "en": "The letter writer has already spoken to his neighbours.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "sopan"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Apa pekerjaan istri penulis?",
+     "en": "What is the writer's wife's job?",
+     "type": "mc",
+     "options": [
+      "Perawat",
+      "Pegawai bank",
+      "Dokter",
+      "Polisi"
+     ],
+     "answer": 0,
+     "words": [
+      "perawat"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Hanya penulis surat yang merasa terganggu.",
+     "en": "Only the letter writer feels disturbed.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "tetangga"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0051",
+   "lv": "B1",
+   "title": "Berganti pekerjaan pada umur empat puluh",
+   "oop": {},
+   "names": [
+    "Wulan",
+    "Jakarta"
+   ],
+   "sentences": [
+    [
+     "Selama lima belas tahun, Wulan bekerja di bagian keuangan sebuah bank di Jakarta.",
+     "For fifteen years Wulan worked in the finance department of a bank in Jakarta."
+    ],
+    [
+     "Gajinya bagus, tetapi dia merasa bosan dan lelah karena setiap hari hanya duduk di depan komputer.",
+     "Her salary was good, but she felt bored and tired because every day she just sat in front of a computer."
+    ],
+    [
+     "Sejak kecil, dia suka membuat kue, dan teman-temannya selalu berkata bahwa kue buatannya paling enak.",
+     "Since childhood she had liked baking, and her friends always said her cakes were the best."
+    ],
+    [
+     "Ketika berumur empat puluh tahun, dia memutuskan untuk berhenti bekerja dan membuka toko kue kecil di dekat rumahnya.",
+     "When she was forty, she decided to quit her job and open a small cake shop near her home."
+    ],
+    [
+     "Keluarganya terkejut, dan suaminya awalnya tidak setuju karena mereka masih harus membayar sekolah anak-anak.",
+     "Her family was surprised, and her husband at first disagreed because they still had to pay for the children's school."
+    ],
+    [
+     "Wulan mengikuti pelatihan bisnis selama enam bulan dan menyimpan uang untuk membeli peralatan dapur.",
+     "Wulan took business training for six months and put money aside to buy kitchen equipment."
+    ],
+    [
+     "Tahun pertama sangat sulit: dia bekerja dari pukul empat pagi sampai malam, dan tokonya sering kosong.",
+     "The first year was very hard: she worked from four in the morning until night, and the shop was often empty."
+    ],
+    [
+     "Tetapi setelah seorang pelanggan menulis komentar yang bagus di internet, semakin banyak orang datang.",
+     "But after a customer wrote a good comment on the internet, more and more people came."
+    ],
+    [
+     "Sekarang Wulan punya tiga pegawai, dan dia merasa lebih bahagia daripada sebelumnya.",
+     "Now Wulan has three employees, and she feels happier than before."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Mengapa Wulan tidak senang dengan pekerjaannya di bank?",
+     "en": "Why was Wulan unhappy with her job at the bank?",
+     "type": "mc",
+     "options": [
+      "Gajinya terlalu kecil",
+      "Pekerjaannya membosankan",
+      "Bosnya tidak ramah",
+      "Kantornya jauh dari rumah"
+     ],
+     "answer": 1,
+     "words": [
+      "bosan"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Suami Wulan langsung setuju dengan rencananya.",
+     "en": "Wulan's husband agreed with her plan straight away.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "setuju"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Apa yang Wulan lakukan sebelum membuka toko?",
+     "en": "What did Wulan do before opening the shop?",
+     "type": "mc",
+     "options": [
+      "Bekerja di toko kue",
+      "Pindah ke kota lain",
+      "Mengikuti pelatihan bisnis",
+      "Belajar lagi di universitas"
+     ],
+     "answer": 2,
+     "words": [
+      "mengikuti",
+      "bisnis"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Pada tahun pertama, toko Wulan selalu penuh.",
+     "en": "In the first year, Wulan's shop was always full.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "sulit"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Sebuah komentar di internet membantu toko Wulan.",
+     "en": "A comment on the internet helped Wulan's shop.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "komentar",
+      "internet"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0052",
+   "lv": "B1",
+   "title": "Kebun di atas atap",
+   "oop": {},
+   "names": [
+    "Jakarta",
+    "Rahmat"
+   ],
+   "sentences": [
+    [
+     "Di tengah kota Jakarta yang padat, sebuah sekolah dasar membuat kebun sayur di atas atap gedungnya.",
+     "In the middle of crowded Jakarta, a primary school has made a vegetable garden on the roof of its building."
+    ],
+    [
+     "Idenya datang dari seorang guru ilmu alam, Pak Rahmat, yang ingin murid-muridnya belajar tentang alam secara langsung.",
+     "The idea came from a science teacher, Mr Rahmat, who wanted his pupils to learn about nature first-hand."
+    ],
+    [
+     "Bersama orang tua murid, dia membawa tanah, kotak-kotak kayu, dan tanaman kecil ke atap.",
+     "Together with the pupils' parents, he took soil, wooden boxes and small plants up to the roof."
+    ],
+    [
+     "Setiap kelas mengurus satu bagian kebun.",
+     "Each class looks after one part of the garden."
+    ],
+    [
+     "Anak-anak memberi air pada tanaman setiap pagi dan menulis di buku berapa cepat tanaman itu tumbuh.",
+     "The children water the plants every morning and write in a notebook how quickly they grow."
+    ],
+    [
+     "Air hujan disimpan di beberapa tempat besar, jadi sekolah tidak perlu membayar banyak untuk air.",
+     "Rainwater is stored in several large containers, so the school doesn't need to pay much for water."
+    ],
+    [
+     "Setelah tiga bulan, mereka mengambil sayur pertama dari kebun itu.",
+     "After three months they picked the first vegetables from the garden."
+    ],
+    [
+     "Sebagian sayur dimasak di dapur sekolah untuk makan siang, dan sebagian lagi dijual kepada orang tua.",
+     "Some of the vegetables are cooked in the school kitchen for lunch, and the rest are sold to parents."
+    ],
+    [
+     "Uangnya dipakai untuk membeli tanaman baru.",
+     "The money is used to buy new plants."
+    ],
+    [
+     "Menurut Pak Rahmat, sekarang murid-murid lebih suka makan sayur karena mereka menanamnya sendiri.",
+     "According to Mr Rahmat, the pupils now like eating vegetables more because they grew them themselves."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Ide kebun itu datang dari kepala sekolah.",
+     "en": "The idea for the garden came from the head teacher.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "ide",
+      "guru"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Siapa yang membantu Pak Rahmat membawa tanah ke atap?",
+     "en": "Who helped Mr Rahmat take soil up to the roof?",
+     "type": "mc",
+     "options": [
+      "Tetangga sekolah",
+      "Guru-guru lain",
+      "Kepala sekolah",
+      "Orang tua murid"
+     ],
+     "answer": 3,
+     "words": [
+      "tanah"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa yang dilakukan anak-anak setiap pagi?",
+     "en": "What do the children do every morning?",
+     "type": "mc",
+     "options": [
+      "Memberi tanaman air",
+      "Menjual sayur",
+      "Memasak di dapur",
+      "Membeli tanaman baru"
+     ],
+     "answer": 0,
+     "words": [
+      "tanaman",
+      "pagi"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Sekolah menyimpan air hujan.",
+     "en": "The school stores rainwater.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "hujan"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Menurut Pak Rahmat, murid-murid sekarang lebih suka makan sayur.",
+     "en": "According to Mr Rahmat, the pupils now prefer to eat vegetables.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "suka",
+      "sayur"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0053",
+   "lv": "B1",
+   "title": "Lomba memasak di kampung",
+   "oop": {
+    "rendang": "rendang (Padang beef dish): no pack word"
+   },
+   "names": [
+    "Dedi",
+    "Padang"
+   ],
+   "sentences": [
+    [
+     "Bulan lalu, kampung kami mengadakan lomba memasak untuk merayakan ulang tahun kota.",
+     "Last month our neighbourhood held a cooking competition to celebrate the town's anniversary."
+    ],
+    [
+     "Setiap orang yang ikut harus memasak hidangan tradisional dari daerah asalnya dalam waktu dua jam.",
+     "Everyone who took part had to cook a traditional dish from their home region within two hours."
+    ],
+    [
+     "Ada dua puluh orang yang ikut, dari anak muda sampai nenek-nenek.",
+     "Twenty people took part, from young people to grandmothers."
+    ],
+    [
+     "Tiga orang memberi nilai: seorang ahli masak dari hotel, seorang penulis buku resep, dan kepala kampung.",
+     "Three people gave the marks: a cooking expert from a hotel, a cookbook writer and the neighbourhood head."
+    ],
+    [
+     "Mereka memberi nilai untuk rasa, penampilan, dan tempat memasak yang bersih.",
+     "They gave marks for taste, appearance and a clean cooking area."
+    ],
+    [
+     "Tetangga saya, Pak Dedi, membuat sup ayam dengan resep dari ibunya.",
+     "My neighbour, Mr Dedi, made chicken soup with his mother's recipe."
+    ],
+    [
+     "Supnya enak sekali, tetapi dia terlambat lima menit, jadi nilainya dikurangi.",
+     "His soup was really delicious, but he was five minutes late, so points were taken off."
+    ],
+    [
+     "Yang menang adalah seorang mahasiswa dari Padang yang memasak rendang daging dengan rasa yang pedas dan lezat.",
+     "The winner was a university student from Padang who cooked beef rendang with a spicy, delicious taste."
+    ],
+    [
+     "Dia mendapat hadiah uang dan kesempatan memasak di restoran hotel selama seminggu.",
+     "She won prize money and the chance to cook in the hotel restaurant for a week."
+    ],
+    [
+     "Setelah lomba, semua orang mencoba makanan bersama, dan tidak ada sisa sedikit pun.",
+     "After the competition everyone tried the food together, and there wasn't a scrap left."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa yang harus dimasak setiap orang?",
+     "en": "What did everyone have to cook?",
+     "type": "mc",
+     "options": [
+      "Kue ulang tahun",
+      "Masakan tradisional",
+      "Makanan dari luar negeri",
+      "Sup ayam"
+     ],
+     "answer": 1,
+     "words": [
+      "hidangan",
+      "tradisional"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Nilai hanya diberikan untuk rasa makanan.",
+     "en": "Marks were only given for the taste of the food.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "rasa",
+      "penampilan"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Mengapa nilai Pak Dedi dikurangi?",
+     "en": "Why were Mr Dedi's points reduced?",
+     "type": "mc",
+     "options": [
+      "Tempat memasaknya kotor",
+      "Supnya kurang enak",
+      "Dia datang terlambat",
+      "Dia lupa resepnya"
+     ],
+     "answer": 2,
+     "words": [
+      "terlambat",
+      "nilai"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Seorang mahasiswa dari Padang menang lomba itu.",
+     "en": "A university student from Padang won the competition.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "menang",
+      "mahasiswa"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Setelah lomba, banyak makanan yang tidak dimakan.",
+     "en": "After the competition, a lot of food was not eaten.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "sisa"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0054",
+   "lv": "B1",
+   "title": "Pernikahan sepupu saya",
+   "oop": {
+    "adat": "custom, tradition (adat Batak): no pack word"
+   },
+   "names": [
+    "Medan",
+    "Tika",
+    "Batak",
+    "Jakarta",
+    "Bandung",
+    "Surabaya"
+   ],
+   "sentences": [
+    [
+     "Minggu lalu saya pergi ke Medan untuk menghadiri pernikahan sepupu saya, Tika.",
+     "Last week I went to Medan to attend my cousin Tika's wedding."
+    ],
+    [
+     "Pernikahannya diadakan dengan adat Batak, jadi acaranya berlangsung hampir sehari penuh.",
+     "The wedding was held according to Batak custom, so the event lasted almost a whole day."
+    ],
+    [
+     "Pada pagi hari, keluarga pengantin laki-laki datang ke rumah Tika dengan membawa makanan dan hadiah.",
+     "In the morning the groom's family came to Tika's house bringing food and gifts."
+    ],
+    [
+     "Setelah upacara di gereja, semua tamu pergi ke sebuah gedung besar untuk pesta.",
+     "After the ceremony at the church, all the guests went to a large hall for the reception."
+    ],
+    [
+     "Ada lebih dari lima ratus tamu, dan sebagian besar dari mereka adalah saudara.",
+     "There were more than five hundred guests, and most of them were relatives."
+    ],
+    [
+     "Selama berjam-jam, keluarga memberi nasihat kepada pasangan baru itu, sambil menari dengan musik tradisional.",
+     "For hours the family gave advice to the new couple, while dancing to traditional music."
+    ],
+    [
+     "Saya belum pernah melihat pesta sebesar itu, dan saya agak bingung karena tidak tahu semua aturannya.",
+     "I had never seen a party that big, and I was a bit confused because I didn't know all the rules."
+    ],
+    [
+     "Untungnya, bibi saya menjelaskan arti setiap bagian acara.",
+     "Luckily my aunt explained the meaning of each part of the event."
+    ],
+    [
+     "Pada akhir hari, saya sangat lelah, tetapi saya senang bisa bertemu keluarga besar yang sudah lama tidak saya lihat.",
+     "At the end of the day I was very tired, but I was glad to see my extended family whom I hadn't seen for a long time."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Di mana pernikahan itu diadakan?",
+     "en": "Where was the wedding held?",
+     "type": "mc",
+     "options": [
+      "Di Surabaya",
+      "Di Jakarta",
+      "Di Bandung",
+      "Di Medan"
+     ],
+     "answer": 3,
+     "words": [
+      "pernikahan"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Acara itu berlangsung hampir sepanjang hari.",
+     "en": "The event lasted almost all day.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "berlangsung"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Siapa kebanyakan tamu di pesta itu?",
+     "en": "Who were most of the guests at the reception?",
+     "type": "mc",
+     "options": [
+      "Saudara",
+      "Teman kantor",
+      "Tetangga",
+      "Orang asing"
+     ],
+     "answer": 0,
+     "words": [
+      "tamu",
+      "saudara"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Penulis tahu semua aturan acara itu.",
+     "en": "The writer knew all the rules of the event.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "aturan",
+      "bingung"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Bibinya membantu dia mengerti acara itu.",
+     "en": "His aunt helped him understand the event.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "bibi",
+      "menjelaskan"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0055",
+   "lv": "B1",
+   "title": "Museum buka sampai malam",
+   "oop": {},
+   "names": [
+    "Museum Nasional",
+    "Jakarta",
+    "Indonesia",
+    "SD",
+    "Rudi"
+   ],
+   "sentences": [
+    [
+     "Mulai bulan ini, Museum Nasional di Jakarta buka sampai pukul sembilan malam setiap Jumat dan Sabtu.",
+     "From this month, the National Museum in Jakarta is open until nine at night every Friday and Saturday."
+    ],
+    [
+     "Menurut kepala museum, banyak pekerja kantor tidak sempat datang pada siang hari, dan mereka ingin punya kesempatan untuk mengenal sejarah dan budaya Indonesia.",
+     "According to the museum's director, many office workers have no time to come during the day, and they want a chance to get to know Indonesian history and culture."
+    ],
+    [
+     "Pada malam hari, museum juga mengadakan acara khusus, seperti konser musik tradisional dan film.",
+     "In the evenings the museum also holds special events, such as traditional music concerts and films."
+    ],
+    [
+     "Harga tiket tetap sama, dan pelajar hanya membayar setengah harga.",
+     "Ticket prices stay the same, and students pay only half price."
+    ],
+    [
+     "Pada minggu pertama, lebih dari tiga ribu orang datang pada malam hari, kebanyakan anak muda.",
+     "In the first week more than three thousand people came in the evening, mostly young people."
+    ],
+    [
+     "\"Saya tidak pernah ke museum lagi sejak SD,\" kata Rudi, seorang pegawai bank berumur dua puluh enam tahun.",
+     "\"I never went to a museum again after primary school,\" said Rudi, a twenty-six-year-old bank employee."
+    ],
+    [
+     "\"Ternyata menarik sekali, apalagi koleksi batu dan emas dari zaman kerajaan kuno.\"",
+     "\"It turned out to be really interesting, especially the collection of stones and gold from the era of the ancient kingdoms.\""
+    ],
+    [
+     "Kepala museum berharap acara malam seperti ini bisa menjadi kebiasaan baru untuk warga kota.",
+     "The museum's director hopes these evening events can become a new habit for the city's residents."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Kapan museum buka sampai malam?",
+     "en": "When is the museum open until night?",
+     "type": "mc",
+     "options": [
+      "Setiap hari",
+      "Jumat dan Sabtu",
+      "Sabtu dan Minggu",
+      "Senin sampai Jumat"
+     ],
+     "answer": 1,
+     "words": [
+      "buka"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Museum ingin pekerja kantor juga bisa datang.",
+     "en": "The museum wants office workers to be able to come too.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "pekerja",
+      "kantor"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Berapa yang dibayar pelajar?",
+     "en": "How much do students pay?",
+     "type": "mc",
+     "options": [
+      "Harga yang sama",
+      "Tidak membayar",
+      "Setengah harga",
+      "Dua kali harga biasa"
+     ],
+     "answer": 2,
+     "words": [
+      "pelajar",
+      "setengah"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Kebanyakan orang yang datang pada malam hari sudah tua.",
+     "en": "Most of the people who came in the evening were old.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kebanyakan",
+      "muda"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Rudi sering pergi ke museum.",
+     "en": "Rudi often goes to museums.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "museum"
+     ],
+     "sentence": 5
+    }
+   ]
+  },
+  {
+   "id": "p0056",
+   "lv": "B1",
+   "title": "Bekerja dari rumah",
+   "oop": {
+    "disiplin": "discipline: no pack word"
+   },
+   "names": [
+    "Yusuf",
+    "Singapura",
+    "Inggris",
+    "Indonesia"
+   ],
+   "sentences": [
+    [
+     "Sejak tiga tahun lalu, Yusuf bekerja dari rumah sebagai penerjemah untuk sebuah perusahaan di Singapura.",
+     "For the last three years Yusuf has worked from home as a translator for a company in Singapore."
+    ],
+    [
+     "Dia menerjemahkan dokumen dari bahasa Inggris ke bahasa Indonesia, dan semua pekerjaannya dikirim lewat internet.",
+     "He translates documents from English into Indonesian, and all his work is sent over the internet."
+    ],
+    [
+     "Ada banyak kelebihan: dia tidak perlu menghabiskan dua jam sehari di jalan, dan dia bisa makan siang bersama anak-anaknya.",
+     "There are many advantages: he doesn't need to spend two hours a day on the road, and he can have lunch with his children."
+    ],
+    [
+     "Namun, bekerja di rumah juga punya tantangan.",
+     "However, working at home also has its challenges."
+    ],
+    [
+     "Kadang-kadang sulit fokus karena anak-anak bermain di ruang sebelah atau tetangga sedang memperbaiki rumah.",
+     "Sometimes it is hard to focus because the children are playing in the next room or a neighbour is renovating."
+    ],
+    [
+     "Yusuf juga merasa kesepian karena jarang bertemu teman kerja.",
+     "Yusuf also feels lonely because he rarely meets colleagues."
+    ],
+    [
+     "Untuk mengatasi masalah ini, dia membuat jadwal yang ketat: mulai bekerja pukul delapan, istirahat pukul dua belas, dan selesai pukul lima.",
+     "To deal with these problems, he made a strict schedule: start work at eight, break at twelve and finish at five."
+    ],
+    [
+     "Dia juga menyewa meja di sebuah kantor bersama dua kali seminggu, supaya bisa bertemu orang lain.",
+     "He also rents a desk at a shared office twice a week, so he can meet other people."
+    ],
+    [
+     "Menurut Yusuf, kunci keberhasilannya adalah disiplin.",
+     "According to Yusuf, the key to his success is discipline."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Apa pekerjaan Yusuf?",
+     "en": "What is Yusuf's job?",
+     "type": "mc",
+     "options": [
+      "Pegawai bank",
+      "Guru bahasa Inggris",
+      "Penulis buku",
+      "Penerjemah"
+     ],
+     "answer": 3,
+     "words": [
+      "penerjemah"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Yusuf tidak perlu pergi ke kantor setiap hari.",
+     "en": "Yusuf doesn't need to go to an office every day.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "menghabiskan",
+      "jalan"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Mengapa Yusuf kadang-kadang sulit fokus?",
+     "en": "Why does Yusuf sometimes find it hard to focus?",
+     "type": "mc",
+     "options": [
+      "Suara anak-anak dan tetangga",
+      "Internetnya lambat",
+      "Dia terlalu lelah",
+      "Pekerjaannya sangat membosankan"
+     ],
+     "answer": 0,
+     "words": [
+      "fokus"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Yusuf sering bertemu teman kerjanya.",
+     "en": "Yusuf often meets his colleagues.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kesepian",
+      "jarang"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Apa yang dia lakukan dua kali seminggu?",
+     "en": "What does he do twice a week?",
+     "type": "mc",
+     "options": [
+      "Pergi ke Singapura",
+      "Bekerja di kantor bersama",
+      "Mengajar bahasa Inggris",
+      "Bermain dengan anak-anaknya"
+     ],
+     "answer": 1,
+     "words": [
+      "sewa",
+      "meja"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0057",
+   "lv": "B1",
+   "title": "Sepeda yang hilang",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Hari Kamis lalu, sepeda baru saya hilang di depan perpustakaan kampus.",
+     "Last Thursday my new bicycle disappeared in front of the campus library."
+    ],
+    [
+     "Saya memarkirnya pukul sembilan pagi, dan ketika saya keluar pukul satu siang, sepeda itu sudah tidak ada.",
+     "I parked it at nine in the morning, and when I came out at one in the afternoon, it was gone."
+    ],
+    [
+     "Saya yakin saya sudah menguncinya, tetapi kuncinya ternyata tidak terlalu kuat.",
+     "I'm sure I had locked it, but the lock turned out not to be very strong."
+    ],
+    [
+     "Saya langsung melapor kepada petugas keamanan kampus, dan mereka memeriksa video dari kamera.",
+     "I immediately reported it to the campus security staff, and they checked the video from the camera."
+    ],
+    [
+     "Di video itu terlihat seorang laki-laki dengan jaket hitam yang membawa sepeda saya ke arah jalan besar.",
+     "The video showed a man in a black jacket taking my bicycle towards the main road."
+    ],
+    [
+     "Petugas menyarankan saya untuk melaporkan kejadian ini ke polisi juga.",
+     "The staff advised me to report the incident to the police as well."
+    ],
+    [
+     "Polisi menulis semua informasi, tetapi mereka berkata bahwa sepeda yang dicuri jarang ditemukan kembali.",
+     "The police took down all the information, but they said stolen bicycles are rarely found again."
+    ],
+    [
+     "Dua minggu kemudian, seorang teman melihat sepeda yang mirip dengan milik saya dijual di internet.",
+     "Two weeks later a friend saw a bicycle similar to mine being sold on the internet."
+    ],
+    [
+     "Kami memberi tahu polisi, dan akhirnya sepeda itu kembali kepada saya.",
+     "We told the police, and in the end the bicycle came back to me."
+    ],
+    [
+     "Sekarang saya memakai dua kunci yang besar.",
+     "Now I use two big locks."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Sepedanya hilang pada pagi hari sebelum pukul sembilan.",
+     "en": "The bike disappeared in the morning before nine o'clock.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "sepeda"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Apa yang diperiksa petugas keamanan?",
+     "en": "What did the security staff check?",
+     "type": "mc",
+     "options": [
+      "Foto di ponsel penulis",
+      "Kunci sepeda",
+      "Video dari kamera",
+      "Tempat parkir"
+     ],
+     "answer": 2,
+     "words": [
+      "kamera"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Apa yang terlihat di video itu?",
+     "en": "What could be seen in the video?",
+     "type": "mc",
+     "options": [
+      "Seorang petugas kampus",
+      "Dua orang mahasiswa",
+      "Seorang perempuan dengan motor merah",
+      "Laki-laki yang memakai jaket hitam"
+     ],
+     "answer": 3,
+     "words": [
+      "jaket",
+      "hitam"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Menurut polisi, sepeda yang dicuri biasanya ditemukan lagi.",
+     "en": "According to the police, stolen bicycles are usually found again.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "polisi",
+      "jarang"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Seorang teman melihat di internet sepeda yang mirip dengan sepeda penulis.",
+     "en": "A friend saw a bicycle similar to the writer's on the internet.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "teman",
+      "internet"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0058",
+   "lv": "B1",
+   "title": "Makan siang di warung Bu Ningsih",
+   "oop": {
+    "warung": "small eatery: no pack word",
+    "sambal": "chilli sauce: no pack word"
+   },
+   "names": [
+    "Ningsih",
+    "Bogor"
+   ],
+   "sentences": [
+    [
+     "Warung Bu Ningsih di dekat stasiun Bogor bukan restoran yang mahal, tetapi makanannya termasuk yang terbaik di kota ini.",
+     "Bu Ningsih's eatery near Bogor station is not an expensive restaurant, but its food is among the best in town."
+    ],
+    [
+     "Tempatnya sederhana: hanya ada enam meja kayu dan beberapa lampu tua.",
+     "The place is simple: there are just six wooden tables and a few old lamps."
+    ],
+    [
+     "Makanannya berubah setiap hari, tergantung sayur dan ikan yang segar di pasar pagi itu.",
+     "The food changes every day, depending on which vegetables and fish are fresh at the market that morning."
+    ],
+    [
+     "Saya memesan nasi dengan ikan bakar, sayur asam, dan sambal.",
+     "I ordered rice with grilled fish, sour vegetable soup and chilli sauce."
+    ],
+    [
+     "Ikannya dimasak dengan sempurna, dan sambalnya pedas tetapi tidak terlalu kuat.",
+     "The fish was cooked perfectly, and the chilli sauce was hot but not overpowering."
+    ],
+    [
+     "Pelayanannya cepat, dan Bu Ningsih sendiri sering datang ke meja untuk bertanya apakah tamunya puas.",
+     "Service is fast, and Bu Ningsih herself often comes to the tables to ask whether her guests are satisfied."
+    ],
+    [
+     "Harganya juga masuk akal: saya membayar tiga puluh lima ribu untuk makan siang dan es jeruk.",
+     "The prices are reasonable too: I paid thirty-five thousand for lunch and a glass of iced orange juice."
+    ],
+    [
+     "Kekurangannya, warung ini sangat ramai pada jam makan siang, dan tidak ada tempat parkir.",
+     "The downside is that the place is very crowded at lunchtime, and there is no parking."
+    ],
+    [
+     "Kalau Anda tidak suka menunggu, datanglah sebelum pukul dua belas.",
+     "If you don't like waiting, come before twelve."
+    ],
+    [
+     "Nilai saya: empat dari lima.",
+     "My rating: four out of five."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Warung itu adalah restoran yang mahal.",
+     "en": "The eatery is an expensive restaurant.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "restoran"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Mengapa makanannya berubah setiap hari?",
+     "en": "Why does the food change every day?",
+     "type": "mc",
+     "options": [
+      "Karena bahan di pasar berubah",
+      "Karena ada tukang masak yang baru",
+      "Karena tamunya memilih",
+      "Karena harganya naik"
+     ],
+     "answer": 0,
+     "words": [
+      "tergantung",
+      "segar"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Bu Ningsih sering bertanya kepada tamu apakah mereka puas.",
+     "en": "Bu Ningsih often asks guests whether they are satisfied.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "puas"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Apa kekurangan warung ini?",
+     "en": "What is the downside of this eatery?",
+     "type": "mc",
+     "options": [
+      "Makanannya terlalu pedas untuk anak",
+      "Terlalu ramai pada siang hari",
+      "Harganya mahal",
+      "Pelayanannya lambat"
+     ],
+     "answer": 1,
+     "words": [
+      "kekurangan",
+      "ramai"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "Nilai apa yang diberikan penulis?",
+     "en": "What rating does the writer give?",
+     "type": "mc",
+     "options": [
+      "Lima dari lima",
+      "Tiga dari lima",
+      "Empat dari lima",
+      "Empat dari sepuluh"
+     ],
+     "answer": 2,
+     "words": [
+      "nilai"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0059",
+   "lv": "B1",
+   "title": "Belajar bahasa asing sebagai orang dewasa",
+   "oop": {},
+   "names": [
+    "Lestari",
+    "Jepang",
+    "Bandung"
+   ],
+   "sentences": [
+    [
+     "Banyak orang percaya bahwa hanya anak-anak yang bisa belajar bahasa asing dengan mudah.",
+     "Many people believe that only children can learn a foreign language easily."
+    ],
+    [
+     "Memang benar bahwa anak kecil biasanya lebih cepat meniru suara dan cara bicara orang lain.",
+     "It is true that small children usually copy other people's sounds and way of speaking more quickly."
+    ],
+    [
+     "Namun, orang dewasa juga punya kelebihan.",
+     "However, adults also have advantages."
+    ],
+    [
+     "Mereka sudah tahu cara belajar, bisa memahami aturan tata bahasa, dan biasanya punya tujuan yang jelas, contohnya untuk pekerjaan atau perjalanan.",
+     "They already know how to learn, can understand grammar rules, and usually have a clear goal, for example for work or travel."
+    ],
+    [
+     "Ibu Lestari, seorang guru bahasa Jepang di Bandung, mengajar banyak murid berumur di atas empat puluh tahun.",
+     "Mrs Lestari, a Japanese teacher in Bandung, teaches many students over forty."
+    ],
+    [
+     "Menurut dia, masalah terbesar orang dewasa bukan otak mereka, tetapi rasa malu.",
+     "In her opinion, adults' biggest problem is not their brains but embarrassment."
+    ],
+    [
+     "\"Mereka takut membuat kesalahan di depan orang lain, jadi mereka jarang berbicara,\" katanya.",
+     "\"They are afraid of making mistakes in front of others, so they rarely speak,\" she said."
+    ],
+    [
+     "Dia menyarankan murid-muridnya untuk berlatih sedikit setiap hari, mendengarkan lagu atau menonton film, dan tidak khawatir tentang kesalahan kecil.",
+     "She advises her students to practise a little every day, listen to songs or watch films, and not worry about small mistakes."
+    ],
+    [
+     "\"Yang penting bukan umur, tetapi kebiasaan,\" katanya.",
+     "\"What matters is not age but habit,\" she said."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Menurut teks ini, orang dewasa tidak punya kelebihan dalam belajar bahasa.",
+     "en": "According to this text, adults have no advantages in learning languages.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kelebihan"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Apa kelebihan orang dewasa?",
+     "en": "What is one advantage adults have?",
+     "type": "mc",
+     "options": [
+      "Mereka punya lebih banyak waktu",
+      "Mereka lebih cepat meniru suara",
+      "Mereka tidak pernah malu",
+      "Tujuan mereka jelas"
+     ],
+     "answer": 3,
+     "words": [
+      "tujuan",
+      "jelas"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Menurut Ibu Lestari, apa masalah terbesar orang dewasa?",
+     "en": "According to Mrs Lestari, what is adults' biggest problem?",
+     "type": "mc",
+     "options": [
+      "Rasa malu",
+      "Otak mereka",
+      "Kurang waktu",
+      "Guru yang buruk"
+     ],
+     "answer": 0,
+     "words": [
+      "malu"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Murid-murid dewasa sering takut membuat kesalahan.",
+     "en": "Adult students are often afraid of making mistakes.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "takut",
+      "kesalahan"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Ibu Lestari menyarankan belajar lama, hanya satu kali seminggu.",
+     "en": "Mrs Lestari recommends studying for a long time, only once a week.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "menyarankan",
+      "hari"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0060",
+   "lv": "B1",
+   "title": "Sepuluh tahun lagi",
+   "oop": {},
+   "names": [
+    "Indonesia",
+    "Jakarta",
+    "Inggris",
+    "Korea"
+   ],
+   "sentences": [
+    [
+     "Guru bahasa Indonesia kami meminta setiap murid menulis tentang kehidupan mereka sepuluh tahun lagi.",
+     "Our Indonesian teacher asked every pupil to write about their life ten years from now."
+    ],
+    [
+     "Ini tulisan saya.",
+     "This is my piece."
+    ],
+    [
+     "Sepuluh tahun lagi, saya akan berumur dua puluh tujuh tahun.",
+     "In ten years I will be twenty-seven."
+    ],
+    [
+     "Saya harap saya sudah lulus dari universitas dan bekerja sebagai dokter hewan, karena sejak kecil saya sangat menyukai binatang.",
+     "I hope I will have graduated from university and be working as a vet, because I have loved animals since I was small."
+    ],
+    [
+     "Mungkin saya akan tinggal di sebuah kota kecil dekat gunung, bukan di Jakarta, karena saya tidak suka kemacetan dan udara yang kotor.",
+     "Maybe I will live in a small town near the mountains, not in Jakarta, because I don't like traffic jams and dirty air."
+    ],
+    [
+     "Saya ingin punya rumah sederhana dengan kebun, dua anjing, dan beberapa ekor ayam.",
+     "I want to have a simple house with a garden, two dogs and a few chickens."
+    ],
+    [
+     "Saya juga ingin berbicara tiga bahasa: bahasa Indonesia, bahasa Inggris, dan bahasa Korea.",
+     "I also want to speak three languages: Indonesian, English and Korean."
+    ],
+    [
+     "Tentu saja saya tidak tahu apakah semua rencana ini akan menjadi kenyataan.",
+     "Of course I don't know whether all these plans will come true."
+    ],
+    [
+     "Tetapi saya yakin bahwa kalau saya berusaha keras, sebagian besar mimpi saya bisa tercapai.",
+     "But I am sure that if I work hard, most of my dreams can come true."
+    ],
+    [
+     "Yang paling penting, saya ingin keluarga saya sehat dan bahagia.",
+     "Most importantly, I want my family to be healthy and happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Berapa umur penulis sekarang?",
+     "en": "How old is the writer now?",
+     "type": "mc",
+     "options": [
+      "Dua puluh tujuh tahun",
+      "Tujuh belas tahun",
+      "Sepuluh tahun",
+      "Dua puluh tahun"
+     ],
+     "answer": 1,
+     "words": [
+      "berumur"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Mengapa dia ingin menjadi dokter hewan?",
+     "en": "Why does she want to become a vet?",
+     "type": "mc",
+     "options": [
+      "Ayahnya dokter hewan",
+      "Gajinya tinggi",
+      "Dia sangat menyukai binatang",
+      "Dia ingin tinggal di kota besar"
+     ],
+     "answer": 2,
+     "words": [
+      "binatang",
+      "menyukai"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Dia ingin tinggal di Jakarta.",
+     "en": "She wants to live in Jakarta.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "tinggal"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Dia ingin bisa berbicara bahasa Korea.",
+     "en": "She wants to be able to speak Korean.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "bahasa"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Dia yakin semua rencananya pasti menjadi kenyataan.",
+     "en": "She is sure that all her plans will definitely come true.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kenyataan"
+     ],
+     "sentence": 7
+    }
+   ]
+  }
+ ]
+}

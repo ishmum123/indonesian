@@ -81,3 +81,38 @@ README.
 - Derived words Wiktionary does not list (persahabatan, terserah, penyebab,
   pemanas) link nothing, so a sentence using one does not illustrate its
   root.
+
+## Reading passages
+- Pack gaps: words the passages wanted and the pack lacks. They were
+  rewritten with pack words, or kept as a declared out-of-pack word where the
+  text needs them. daun, tiba-tiba, padahal, misalnya, layar, dosen, warung,
+  helm, pelabuhan, rupiah, menu, penelitian, rata-rata ("on average"; the
+  pack's rata is "even"), karyawan, pengumuman, ojek, sambal, kursus, panen,
+  pinggir, lowongan, disiplin, adat, doa, rekaman, mencatat, mewah, ulasan,
+  pemandu, penghuni; also kerupuk, rendang, nyenyak, bising, keseimbangan,
+  justru, pembeli, pejalan (kaki), bambu, tur, pemutaran.
+- Alt defect in the word build: 17 -kan/-i forms are alts of a root verb
+  while their me- verb is itself a pack word. masuk: masukkan, dimasukkan
+  (memasukkan, B1). turun: diturunkan, turunkan (menurunkan). perlu:
+  diperlukan (memerlukan). lahir: dilahirkan (melahirkan). menemui: temukan
+  (menemukan). habis: dihabiskan, habiskan (menghabiskan). ganti: digantikan
+  (menggantikan). tunjuk: tunjukkan (menunjukkan). hadir: dihadiri
+  (menghadiri). putus: putuskan, diputuskan (memutuskan). sembuh:
+  disembuhkan (menyembuhkan). The corpus links these forms to the root, so
+  fixing the alts changes sentences.json. Passages already link the me- verb
+  (`passage_retag`: dikembalikan -> mengembalikan).
+- Display-only glosses: warga, hidangan, jalan, dasar, bakar and the
+  compound senses on first words (orang "(orang tua) parents", rumah "(rumah sakit) hospital"...) are
+  in `tools/gloss_display.json`, merged into words.json after linking and
+  example choice. In `tools/gloss_overrides.json` they changed the corpus
+  build: `_idiom_pairs` reads hand glosses ("Tata Surya" linked tata), and
+  gloss words steer example ranking and word rank (warga swapped an example,
+  hidangan reordered words.json). Candidate: move a sense into
+  gloss_overrides only when its effect on links and examples is wanted.
+- Declared names split into words: a word of a multiword name is a name
+  wherever it appears capitalised in that passage. p0039 was rephrased
+  ("Pada hari itu") because of "Hari Kemerdekaan".
+- The level budget does not count titles or numeral-like option words
+  ("Setengah jam", p0018); REPORT_passages.md lists them as a note.
+- luar negeri (p0043) keeps two links (outside + country), which read as a
+  transparent compound.

@@ -3,7 +3,10 @@
 Static data pack for a language-agnostic vocab trainer (`key: "id"`). It has
 2000 words spanning A1-B1. Each word has a short English gloss. Example
 sentences come with English translations. There is no recorded audio: the
-trainer speaks every word and sentence with the browser's `id-ID` voice.
+trainer speaks every word and sentence with the browser's `id-ID` voice
+(Apple devices ship no Indonesian voice, so the speaker buttons are silent
+there). The Read tab adds 60 short reading passages with comprehension
+questions (see "Reading passages" below).
 
 **Live:** https://ishmum123.github.io/indonesian/
 
@@ -44,6 +47,42 @@ sentences, and rape or abuse sentences are left out at every level. Levels
 are frequency bands, not CEFR. Rules, counts and seeds are in
 `tools/REPORT.md`, and residuals are in `TODO.md`.
 
+## Reading passages (Read tab)
+
+`pack/passages.json` holds 60 short reading texts, 20 each at A1, A2 and B1,
+with comprehension questions each. The format is in the engine's
+`docs/PACK_SCHEMA.md`. The texts were written for this pack (`"src": "gen"`)
+and their source is `tools/passages_src.json`. Rebuild from that source with:
+
+```
+PYTHONPATH=engine/tools python3 -m packbuilder passages --lang id .   # --check: report only
+python3 engine/tools/jsonify_pack.py pack                             # passages go into sentences.js
+```
+
+The builder links word ids the same way it does for the example sentences.
+It enforces in-pack coverage of at least 95% at A1 and A2, and at least 93%
+at B1. It also enforces a level budget: an A1 passage may use at most 3 A2
+words (and no B1 words) and an A2 passage at most 3 B1 words. Words per
+passage (by whitespace count) run 66-78 at A1, 92-112 at A2 and 121-136 at
+B1; coverage is 1.000 at every level's median and never drops below 0.965.
+The 60 passages carry 89 questions at A1, 97 at A2 and 100 at B1 (a mix of
+multiple-choice and true/false). Per-passage numbers and the QA notes are in
+`tools/REPORT_passages.md`.
+
+A level's 20 passages unlock once the learner has learned 70% of that
+level's words. Tapping any word in a passage shows its gloss, including
+affixed and reduplicated forms and multiword compounds, which read as a
+single tap. Comprehension questions feed missed words back into the review
+queue as weak words.
+
+`tools/gloss_display.json` holds 41 display-only glosses (senses shown to
+the learner that don't feed word linking or example choice), added while
+writing the passages; see `engine/tools/packbuilder/README.md` under
+"gloss_display" for the format.
+
+The passages and questions are machine-written by Claude, checked by an
+automated QA pass; they have not had a native-speaker review.
+
 ## Layout
 
 ```
@@ -58,6 +97,7 @@ engine/             git submodule -> vocab-engine (UI, drill logic, build/valida
 tools/
   build_pack.py     shim: runs `python3 -m packbuilder build --lang id --repo .` from engine/tools
   gloss_overrides.json  hand gloss fixes ("lemma|pos")
+  gloss_display.json    display-only glosses ("lemma|pos"), merged into words.json after linking
   forced_a1.txt     A1 core list, forced into A1 (the closed sets are in langs/id.py)
   generated_sentences.tsv  sentences written for this pack (word, Indonesian, English)
   id_map_v1.json    frozen "lemma|pos" -> word id (keeps learner progress across rebuilds)
