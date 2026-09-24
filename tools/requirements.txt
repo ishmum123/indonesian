@@ -1,0 +1,7 @@
+# Shared builder deps (spacy, wordfreq, simplemma), pinned in vocab-engine:
+-r ../engine/tools/packbuilder/requirements.txt
+# Stanza tagger (Apache-2.0; build time only). Its Indonesian model (gsd, trained on
+# UD_Indonesian-GSD, CC BY-SA 4.0) downloads on first use: python -c "import stanza; stanza.download('id', package='gsd')"
+stanza==1.14.0
+# Sastrawi stemmer (MIT): me-/di- verb roots
+Sastrawi==1.0.1

@@ -1,0 +1,25 @@
+# A1 core list: everyday words forced into A1 (the closed sets - days, months,
+# numbers, colours, pronouns, question words, prepositions, conjunctions, time
+# words, greetings, function words - are in engine/tools/packbuilder/langs/id.py).
+# Verbs are listed by their Wiktionary headword: the root for me-/di- verbs
+# (baca, not membaca), the ber- form for ber- verbs (bekerja, berjalan).
+[NOUN]
+rumah air makanan minuman nasi roti buku orang anak ibu ayah bapak kakak adik
+teman keluarga suami istri pria wanita laki-laki perempuan bayi
+sekolah kantor kota negara jalan mobil bus kereta pesawat sepeda
+uang kerja pekerjaan nama kamar pintu jendela meja kursi tempat toko pasar
+dokter guru murid polisi kopi teh susu buah sayur ikan ayam daging telur gula
+hujan matahari baju sepatu tas telepon kunci
+kepala tangan kaki mata rambut badan anjing kucing burung pohon bunga laut
+bahasa kata pertanyaan jawaban waktu
+[VERB]
+makan minum tidur pergi datang pulang bekerja belajar baca tulis lihat dengar
+berbicara beli jual suka tahu mengerti punya bangun duduk berdiri berjalan lari
+masuk keluar buka tutup tinggal tunggu cari bawa beri ambil pakai mandi masak
+bermain naik turun tanya jawab bantu kenal ingat lupa mulai selesai bayar
+[ADJ]
+besar kecil baru lama baik bagus buruk cantik mahal murah panas dingin senang
+sedih sakit sehat lapar haus lelah tinggi pendek panjang jauh dekat cepat
+lambat mudah sulit penting benar salah muda tua bersih kotor enak
+[ADV]
+juga sangat hanya saja lagi masih pernah selalu sering banyak sedikit sini sana
