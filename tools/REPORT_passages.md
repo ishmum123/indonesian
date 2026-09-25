@@ -35,7 +35,7 @@ tokens of the passage text, the count the app shows (report only).
 | p0018 | A1 | Belajar bahasa Indonesia | 80 | 78 | 1.000 | 1.000 | - | A2: berasal |
 | p0019 | A1 | Di mana kunci saya? | 74 | 73 | 1.000 | 1.000 | - | A2: terlambat, tertawa |
 | p0020 | A1 | Di kereta | 75 | 74 | 1.000 | 1.000 | - | A2: kadang |
-| p0021 | A2 | Liburan di Lombok | 110 | 110 | 1.000 | 1.000 | - | B1: kain, perahu |
+| p0021 | A2 | Liburan di Lombok | 110 | 110 | 1.000 | 1.000 | - | B1: berlibur, kain, perahu |
 | p0022 | A2 | Pekerjaan baru Rizky | 113 | 110 | 1.000 | 1.000 | - | - |
 | p0023 | A2 | Ke dokter | 110 | 110 | 1.000 | 1.000 | - | B1: flu |
 | p0024 | A2 | Apartemen untuk disewakan | 96 | 96 | 1.000 | 1.000 | - | B1: kulkas, sewa |

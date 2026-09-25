@@ -39,7 +39,7 @@ nih, tuh, kok and dong are words of their own, glossed "(colloquial)" and
 kept to A2 or higher. Sentences with the Jakarta pronouns gue/lo are left
 out, because the pack does not teach them. A1 examples prefer formal or
 neutral sentences. Tatoeba had fewer than two usable sentences for several
-hundred words, so 470 simple sentences were written for this pack; each is marked
+hundred words, so 461 simple sentences were written for this pack; each is marked
 `"src": "gen"` in `pack/sentences.json`, and the exact count is in
 `pack/attribution.json`. They are machine-written and reviewed, but not by a
 native Indonesian speaker. Sexual content and violence are kept out of A1/A2

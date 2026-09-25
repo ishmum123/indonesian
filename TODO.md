@@ -93,6 +93,11 @@ README.
   with generated sentences (rupanya, istimewa, kesal, dampak, berdarah,
   aliran, keadilan ...); any rebuild that changes the ranking can surface
   new ones. check: every word in words.json appears in sentences.json.
+- drop_keys film/TV register (langs/id.py, 35 words: pistol, mayat,
+  setan, penjahat, mata-mata, dendam ...): the subtitle list ranks crime,
+  weapon and horror words above their everyday use, so they give their
+  slots to everyday words near the cut. Their tokens link nothing. If a
+  passage or generated sentence should teach one, remove it from the list.
 - keep_keys words the passages use (pedas, kemacetan, keluhan, kelebihan,
   handuk, tiru, keberhasilan, penerjemah, pengantin, hidangan, bermanfaat)
   are kept by hand; a passage word pushed out by a later rank change fails

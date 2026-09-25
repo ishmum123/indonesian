@@ -23,14 +23,14 @@ Fallback lemmas whose POS could not be attached from another surface: 98,864. Cl
 
 ## Word-selection funnel
 
-Candidate pool: 6,812 (lemma, POS) keys in blended-rank order, one POS per lemma (its best-ranked corpus POS), plus forced items.
+Candidate pool: 6,810 (lemma, POS) keys in blended-rank order, one POS per lemma (its best-ranked corpus POS), plus forced items.
 
 | Exclusion | Count | Examples |
 |---|---|---|
-| no usable Wiktionary entry for corpus POS | 1,972 | banding, sang, tv, hei, yah, paksa, derita, siap, selanjutnya, sebanyak, ikuti, nikmat |
-| surface unseen in the tagged corpus (POS from dictionary only) | 836 | sepertinya, ha, dewa, jaring, wakil, serang, kim, tarung, go, sihir, de, sobat |
+| no usable Wiktionary entry for corpus POS | 1,993 | banding, sang, tv, hei, yah, paksa, derita, siap, selanjutnya, sebanyak, ikuti, nikmat |
+| surface unseen in the tagged corpus (POS from dictionary only) | 842 | sepertinya, ha, dewa, jaring, wakil, serang, kim, tarung, go, sihir, de, sobat |
 | proper noun (corpus PROPN/capitalised majority) | 195 | tom, tuhan, in, la, al, bung, natal, david, mr, at, ma, city |
-| second POS entry without a distinct sense | 74 | semua, sendiri, depan, bersama, cinta, sebelum, kembali, coba, tetap, setelah, bahkan, jawab |
+| second POS entry without a distinct sense | 73 | semua, sendiri, depan, bersama, cinta, sebelum, kembali, coba, tetap, setelah, bahkan, jawab |
 | noun reading glossed only from another POS (not a noun) | 26 | asal, lawan, potong, izin, ganti, malu, ketinggalan, berikut, bekas, biji, final, potensi |
 | English loanword unattested in Indonesian corpus | 23 | bar, web, gay, target, level, unit, anti, real, set, transfer, partner, sport |
 | interjection (not in forced greetings) | 11 | oh, eh, ah, apa-apaan, astaga, he, aduh, yuk, alhamdulillah, hop, syukur |
@@ -40,19 +40,19 @@ Candidate pool: 6,812 (lemma, POS) keys in blended-rank order, one POS per lemma
 Forced A1 items (days, months, numbers (0-11, belas, puluh, ratus, ribu, juta), colours, pronouns, question words, core prepositions/conjunctions, time words, greetings and phrases, function words, A1 core list): 310/311 included; missing: tulis.
 Word ids reused from v1 for unchanged (lemma, pos): 2,000; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
 
-Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1003, 'verb': 467, 'adj': 274, 'adv': 96, 'prep': 45, 'conj': 27, 'pron': 25, 'num': 20, 'det': 17, 'part': 14, 'phrase': 8, 'intj': 4}.
+Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1000, 'verb': 466, 'adj': 277, 'adv': 96, 'prep': 45, 'conj': 27, 'pron': 25, 'num': 20, 'det': 18, 'part': 14, 'phrase': 8, 'intj': 4}.
 
 ## Sentences
 
-- Final sentences: **3,092**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Final sentences: **3,089**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
 - Word coverage: 0 = 0, 1 = 9, 2 = 1991.
-- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 17,839. Rejected for a content lemma outside pack/top-3000: 2,643.
-- Primary word level of each sentence: {'A1': 694, 'A2': 1161, 'B1': 1237}.
+- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 17,838. Rejected for a content lemma outside pack/top-3000: 2,643.
+- Primary word level of each sentence: {'A1': 694, 'A2': 1157, 'B1': 1238}.
 - Token-length distribution of the final set:
 
 | tokens | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| sentences | 2 | 142 | 979 | 679 | 745 | 302 | 126 | 53 | 33 | 15 | 10 | 6 |
+| sentences | 2 | 143 | 977 | 672 | 744 | 305 | 128 | 54 | 32 | 16 | 10 | 6 |
 
 ## Top 100 by rank (lemma [pos] gloss)
 
@@ -162,7 +162,9 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1003, 'verb': 467, 'adj
 <!-- manual:begin -->
 ## QA (manual)
 
-### Pack gaps round (2026-09-25, engine e8542e2)
+### Pack gaps round (2026-09-25, engine 0a0ace2)
+
+- Engine ff88f44's shared word ceiling moves senjata and narkoba to B1.
 
 - Everyday words the passages needed and the pack lacked (TODO "Pack
   gaps"): 38 of 41 kept via `keep_keys` (langs/id.py), all with >= 2
@@ -180,13 +182,31 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1003, 'verb': 467, 'adj
   contohnya; quotative katanya stays kata + nya); (4) core keep_keys
   dropped a kept word already near the end of the chosen list (tiru,
   pengantin); the cut now removes unkept words only.
-- Words: 65 in, 65 out (the lowest-ranked; passage words among them kept
+- Revision (same day): 29 everyday words the first pass displaced are kept
+  (beasiswa, keponakan, garasi, mangkuk, tepung, rapi, mendadak, luang,
+  email, masker, pinjaman, sepasang, pas, pengobatan, tema, kritik,
+  produksi "to produce", berlibur, berkeliling, kelima, ucapan, lirik,
+  mentah, penutup, laboratorium, konferensi, jabatan, atasan, bab). 35
+  film/TV-subtitle-register words give their slots (drop_keys, as de):
+  terbunuh, peluru, setan, iblis, teroris, senapan, pistol, pedang,
+  monster, mayat, penjahat, detektif, mata-mata, menusuk, ledakan, judi,
+  kriminal, penyelidikan, menyelidiki, sandi, tahanan, dendam, berdarah,
+  membuang-buang, bandar, jin, budak, bercinta, telanjang, kegelapan,
+  meledak, kejam, jebak, pelaku, prajurit. Their tokens link nothing.
+  Final: 61 in, 61 out against the shipped pack; the natural tail that
+  goes: angkut, aula, berkaitan, berlayar, bijak, cedera, ciuman,
+  demokrasi, didik, diragukan, gambaran, gurun, harimau, kelelahan,
+  kepribadian, kesedihan, lunak, medali, melaksanakan, melangkah,
+  membedakan, mengakibatkan, pemburu, peningkatan, roboh, romantis,
+  terbangun, terkesan, tuduh, tuduhan. pas keeps its shipped id w2052
+  (it had been unfrozen; the first pass gave w2052 to apa-apa, now w2117).
+- First pass words: 65 in, 65 out (the lowest-ranked; passage words among them kept
   via keep_keys: pedas, kemacetan, keluhan, kelebihan, handuk, tiru,
   keberhasilan, penerjemah, pengantin, hidangan, bermanfaat). pura-pura
   links berpura-pura (one word for one meaning). 12 gloss overrides
   (dosen "lecturer", warung, ulasan, kerupuk, pembeli ...), nyenyak and
   penghuni get entries from hand glosses.
-- Sentences: 3,092; 470 generated (A1 5, A2 69, B1 396). 87 new ones
+- Sentences: 3,089; 461 generated (A1 5, A2 68, B1 388). 87 new ones
   written (tools/generated_sentences.tsv) for kept words and for words the single refill pass left
   without an example (rupanya, istimewa, kesal, dampak, berdarah, aliran,
   keadilan ...). 0 words without an example. The shared drop-everywhere
