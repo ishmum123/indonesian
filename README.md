@@ -226,6 +226,8 @@ The builder's Indonesian module handles what the shared pipeline cannot guess.
 | Sentence translations | Tatoeba `eng_sentences.tsv` + `ind-eng_links.tsv` | CC-BY 2.0 FR | English translations |
 | Generated sentences | written for this pack, `tools/generated_sentences.tsv` | CC-BY-SA 4.0 | sentences for words Tatoeba covers with fewer than 2 usable sentences, marked `"src": "gen"` |
 
+Licence: code MIT, pack data CC BY-SA 4.0, see LICENSE.
+
 Tatoeba has only 18 permissively licensed Indonesian audio clips, so the pack
 links none and relies on TTS. No licence is non-commercial. No graded
 Indonesian word list is used or shipped.
