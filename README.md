@@ -38,8 +38,8 @@ their formal word (udah toward sudah). nggak, gimana and the particles sih,
 nih, tuh, kok and dong are words of their own, glossed "(colloquial)" and
 kept to A2 or higher. Sentences with the Jakarta pronouns gue/lo are left
 out, because the pack does not teach them. A1 examples prefer formal or
-neutral sentences. Tatoeba had fewer than two usable sentences for about 400
-words, so 421 simple sentences were written for this pack; each is marked
+neutral sentences. Tatoeba had fewer than two usable sentences for several
+hundred words, so 470 simple sentences were written for this pack; each is marked
 `"src": "gen"` in `pack/sentences.json`, and the exact count is in
 `pack/attribution.json`. They are machine-written and reviewed, but not by a
 native Indonesian speaker. Sexual content and violence are kept out of A1/A2
@@ -64,7 +64,7 @@ It enforces in-pack coverage of at least 95% at A1 and A2, and at least 93%
 at B1. It also enforces a level budget: an A1 passage may use at most 3 A2
 words (and no B1 words) and an A2 passage at most 3 B1 words. Words per
 passage (by whitespace count) run 66-78 at A1, 92-112 at A2 and 121-136 at
-B1; coverage is 1.000 at every level's median and never drops below 0.965.
+B1; coverage is 1.000 at every level's median and never drops below 0.989.
 The 60 passages carry 89 questions at A1, 97 at A2 and 100 at B1 (a mix of
 multiple-choice and true/false). Per-passage numbers and the QA notes are in
 `tools/REPORT_passages.md`.

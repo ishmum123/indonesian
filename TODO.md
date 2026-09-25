@@ -83,14 +83,20 @@ README.
   root.
 
 ## Reading passages
-- Pack gaps: words the passages wanted and the pack lacks. They were
-  rewritten with pack words, or kept as a declared out-of-pack word where the
-  text needs them. daun, tiba-tiba, padahal, misalnya, layar, dosen, warung,
-  helm, pelabuhan, rupiah, menu, penelitian, rata-rata ("on average"; the
-  pack's rata is "even"), karyawan, pengumuman, ojek, sambal, kursus, panen,
-  pinggir, lowongan, disiplin, adat, doa, rekaman, mencatat, mewah, ulasan,
-  pemandu, penghuni; also kerupuk, rendang, nyenyak, bising, keseimbangan,
-  justru, pembeli, pejalan (kaki), bambu, tur, pemutaran.
+- Pack gaps left after the 2026-09-25 round (tools/REPORT.md): ojek ranks
+  past the 6,500-lemma candidate pool (core/words.py POOL_KEYS), which
+  keep_keys cannot reach; a fix is keep_keys joining the pool as forced keys
+  do. rendang, pejalan (kaki) and pemutaran were left out as too narrow;
+  passages keep rendang as a declared out-of-pack word.
+- Refill runs once (core/pipeline.py finish_words): a word the refill pass
+  brings in can itself have no example. This round covered each such word
+  with generated sentences (rupanya, istimewa, kesal, dampak, berdarah,
+  aliran, keadilan ...); any rebuild that changes the ranking can surface
+  new ones. check: every word in words.json appears in sentences.json.
+- keep_keys words the passages use (pedas, kemacetan, keluhan, kelebihan,
+  handuk, tiru, keberhasilan, penerjemah, pengantin, hidangan, bermanfaat)
+  are kept by hand; a passage word pushed out by a later rank change fails
+  `passages --check` as out-of-pack.
 - Alt defect in the word build: 17 -kan/-i forms are alts of a root verb
   while their me- verb is itself a pack word. masuk: masukkan, dimasukkan
   (memasukkan, B1). turun: diturunkan, turunkan (menurunkan). perlu:

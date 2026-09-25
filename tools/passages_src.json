@@ -4000,9 +4000,7 @@
    "id": "p0036",
    "lv": "A2",
    "title": "Jatuh dari sepeda",
-   "oop": {
-    "helm": "helmet (safety lesson of the story): no pack word"
-   },
+   "oop": {},
    "names": [
     "Eko"
    ],
@@ -4356,9 +4354,7 @@
    "id": "p0039",
    "lv": "A2",
    "title": "Tujuh belas Agustus di desa",
-   "oop": {
-    "kerupuk": "crackers (traditional eating contest): no pack word"
-   },
+   "oop": {},
    "names": [
     "Hari Kemerdekaan",
     "Indonesia",
@@ -4382,8 +4378,8 @@
      "In the morning everyone gathers in front of the school for a ceremony."
     ],
     [
-     "Setelah itu, ada banyak lomba untuk anak-anak dan orang dewasa.",
-     "After that there are lots of contests for children and adults."
+     "Setelah itu, ada banyak permainan untuk anak-anak dan orang dewasa.",
+     "After that there are lots of games for children and adults."
     ],
     [
      "Anak-anak mencoba makan kerupuk dengan cepat tanpa memakai tangan.",
@@ -4599,9 +4595,7 @@
    "id": "p0041",
    "lv": "B1",
    "title": "Keputusan yang sulit",
-   "oop": {
-    "dosen": "university lecturer: no pack word"
-   },
+   "oop": {},
    "names": [
     "Hendra",
     "Jakarta",
@@ -5444,9 +5438,7 @@
    "id": "p0048",
    "lv": "B1",
    "title": "Perjalanan pertama saya sendirian",
-   "oop": {
-    "pelabuhan": "port, harbour: no pack word"
-   },
+   "oop": {},
    "names": [
     "Surabaya",
     "Makassar",
@@ -5603,7 +5595,7 @@
      "What matters is not using them for too long."
     ],
     [
-     "Para ahli menyarankan agar keluarga membuat aturan bersama, contohnya tidak ada ponsel saat makan malam atau di kamar tidur setelah pukul sembilan.",
+     "Para ahli menyarankan agar keluarga membuat aturan bersama, misalnya tidak ada ponsel saat makan malam atau di kamar tidur setelah pukul sembilan.",
      "Experts suggest that families make rules together, for example no phones at dinner or in the bedroom after nine o'clock."
     ],
     [
@@ -6169,9 +6161,7 @@
    "id": "p0054",
    "lv": "B1",
    "title": "Pernikahan sepupu saya",
-   "oop": {
-    "adat": "custom, tradition (adat Batak): no pack word"
-   },
+   "oop": {},
    "names": [
     "Medan",
     "Tika",
@@ -6410,9 +6400,7 @@
    "id": "p0056",
    "lv": "B1",
    "title": "Bekerja dari rumah",
-   "oop": {
-    "disiplin": "discipline: no pack word"
-   },
+   "oop": {},
    "names": [
     "Yusuf",
     "Singapura",
@@ -6656,10 +6644,7 @@
    "id": "p0058",
    "lv": "B1",
    "title": "Makan siang di warung Bu Ningsih",
-   "oop": {
-    "warung": "small eatery: no pack word",
-    "sambal": "chilli sauce: no pack word"
-   },
+   "oop": {},
    "names": [
     "Ningsih",
     "Bogor"
@@ -6805,7 +6790,7 @@
      "However, adults also have advantages."
     ],
     [
-     "Mereka sudah tahu cara belajar, bisa memahami aturan tata bahasa, dan biasanya punya tujuan yang jelas, contohnya untuk pekerjaan atau perjalanan.",
+     "Mereka sudah tahu cara belajar, bisa memahami aturan tata bahasa, dan biasanya punya tujuan yang jelas, misalnya untuk pekerjaan atau perjalanan.",
      "They already know how to learn, can understand grammar rules, and usually have a clear goal, for example for work or travel."
     ],
     [

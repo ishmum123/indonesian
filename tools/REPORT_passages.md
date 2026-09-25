@@ -11,7 +11,7 @@ tokens of the passage text, the count the app shows (report only).
 
 - **A1**: 20 passages; words/passage 67-80 (median 72.5); ws_words 66-78; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 40, tf 49
 - **A2**: 20 passages; words/passage 93-113 (median 100.0); ws_words 92-112; coverage min 0.989, median 1.000 (rule >= 0.95); linked min 0.989; questions mc 43, tf 54
-- **B1**: 20 passages; words/passage 121-136 (median 126.5); ws_words 121-136; coverage min 0.965, median 1.000 (rule >= 0.93); linked min 0.965; questions mc 44, tf 56
+- **B1**: 20 passages; words/passage 121-136 (median 126.5); ws_words 121-136; coverage min 0.992, median 1.000 (rule >= 0.93); linked min 0.992; questions mc 44, tf 56
 
 | id | lv | title | words | ws_words | coverage | linked | out-of-pack lemmas (reason) | higher-level lemmas |
 |---|---|---|---|---|---|---|---|---|
@@ -32,10 +32,10 @@ tokens of the passage text, the count the app shows (report only).
 | p0015 | A1 | Rumah baru kami | 77 | 76 | 1.000 | 1.000 | - | A2: rindu |
 | p0016 | A1 | Teman baru dari Jepang | 67 | 67 | 1.000 | 1.000 | - | A2: nyanyi, umur |
 | p0017 | A1 | Rumah makan Pak Agus | 78 | 77 | 1.000 | 1.000 | - | - |
-| p0018 | A1 | Belajar bahasa Indonesia | 80 | 78 | 1.000 | 1.000 | - | - |
+| p0018 | A1 | Belajar bahasa Indonesia | 80 | 78 | 1.000 | 1.000 | - | A2: berasal |
 | p0019 | A1 | Di mana kunci saya? | 74 | 73 | 1.000 | 1.000 | - | A2: terlambat, tertawa |
 | p0020 | A1 | Di kereta | 75 | 74 | 1.000 | 1.000 | - | A2: kadang |
-| p0021 | A2 | Liburan di Lombok | 110 | 110 | 1.000 | 1.000 | - | B1: berlibur, kain, perahu |
+| p0021 | A2 | Liburan di Lombok | 110 | 110 | 1.000 | 1.000 | - | B1: kain, perahu |
 | p0022 | A2 | Pekerjaan baru Rizky | 113 | 110 | 1.000 | 1.000 | - | - |
 | p0023 | A2 | Ke dokter | 110 | 110 | 1.000 | 1.000 | - | B1: flu |
 | p0024 | A2 | Apartemen untuk disewakan | 96 | 96 | 1.000 | 1.000 | - | B1: kulkas, sewa |
@@ -50,29 +50,29 @@ tokens of the passage text, the count the app shows (report only).
 | p0033 | A2 | Informasi untuk penumpang | 95 | 95 | 1.000 | 1.000 | - | B1: membatalkan, penumpang |
 | p0034 | A2 | Pasar pagi hari Minggu | 101 | 101 | 1.000 | 1.000 | - | B1: lapangan, segar |
 | p0035 | A2 | Lingkungan saya | 100 | 97 | 1.000 | 1.000 | - | B1: kampung, masjid, sempit |
-| p0036 | A2 | Jatuh dari sepeda | 93 | 93 | 0.989 | 0.989 | helm x1 (helmet (safety lesson of the story): no pack word) | B1: pelan, untung |
+| p0036 | A2 | Jatuh dari sepeda | 93 | 93 | 1.000 | 1.000 | - | B1: helm, pelan, untung |
 | p0037 | A2 | Kelas bahasa Inggris untuk orang dewasa | 112 | 112 | 1.000 | 1.000 | - | - |
 | p0038 | A2 | Surat dari Belanda | 110 | 108 | 1.000 | 1.000 | - | B1: museum, pedas, untung |
-| p0039 | A2 | Tujuh belas Agustus di desa | 111 | 109 | 0.990 | 0.990 | kerupuk x1 (crackers (traditional eating contest): no pack word) | B1: lomba, upacara |
+| p0039 | A2 | Tujuh belas Agustus di desa | 111 | 109 | 1.000 | 1.000 | - | B1: bendera, kerupuk, upacara |
 | p0040 | A2 | Masalah dengan ponsel | 100 | 99 | 1.000 | 1.000 | - | B1: baterai, perbaikan |
-| p0041 | B1 | Keputusan yang sulit | 136 | 136 | 0.984 | 0.984 | dosen x2 (university lecturer: no pack word) | - |
+| p0041 | B1 | Keputusan yang sulit | 136 | 136 | 1.000 | 1.000 | - | - |
 | p0042 | B1 | Keluhan untuk hotel | 131 | 130 | 1.000 | 1.000 | - | - |
 | p0043 | B1 | Pabrik tua akan ditutup | 123 | 124 | 1.000 | 1.000 | - | - |
 | p0044 | B1 | Masa kecil kakek saya | 125 | 124 | 1.000 | 1.000 | - | - |
 | p0045 | B1 | Bagaimana cara tidur lebih baik? | 131 | 131 | 1.000 | 1.000 | - | - |
 | p0046 | B1 | Hari Sabtu di perpustakaan | 128 | 127 | 1.000 | 1.000 | - | - |
 | p0047 | B1 | Mengurangi mobil di pusat kota | 128 | 126 | 1.000 | 1.000 | - | - |
-| p0048 | B1 | Perjalanan pertama saya sendirian | 126 | 126 | 0.991 | 0.991 | pelabuhan x1 (port, harbour: no pack word) | - |
+| p0048 | B1 | Perjalanan pertama saya sendirian | 126 | 126 | 1.000 | 1.000 | - | - |
 | p0049 | B1 | Anak muda dan ponsel | 125 | 121 | 1.000 | 1.000 | - | - |
 | p0050 | B1 | Surat tentang tetangga baru | 121 | 121 | 1.000 | 1.000 | - | - |
 | p0051 | B1 | Berganti pekerjaan pada umur empat puluh | 134 | 132 | 1.000 | 1.000 | - | - |
 | p0052 | B1 | Kebun di atas atap | 133 | 129 | 1.000 | 1.000 | - | - |
 | p0053 | B1 | Lomba memasak di kampung | 130 | 129 | 0.992 | 0.992 | rendang x1 (rendang (Padang beef dish): no pack word) | - |
-| p0054 | B1 | Pernikahan sepupu saya | 123 | 121 | 0.991 | 0.991 | adat x1 (custom, tradition (adat Batak): no pack word) | - |
+| p0054 | B1 | Pernikahan sepupu saya | 123 | 121 | 1.000 | 1.000 | - | - |
 | p0055 | B1 | Museum buka sampai malam | 122 | 122 | 1.000 | 1.000 | - | - |
-| p0056 | B1 | Bekerja dari rumah | 125 | 122 | 0.991 | 0.991 | disiplin x1 (discipline: no pack word) | - |
+| p0056 | B1 | Bekerja dari rumah | 125 | 122 | 1.000 | 1.000 | - | - |
 | p0057 | B1 | Sepeda yang hilang | 127 | 126 | 1.000 | 1.000 | - | - |
-| p0058 | B1 | Makan siang di warung Bu Ningsih | 125 | 125 | 0.965 | 0.965 | sambal x2 (chilli sauce: no pack word), warung x2 (small eatery: no pack word) | - |
+| p0058 | B1 | Makan siang di warung Bu Ningsih | 125 | 125 | 1.000 | 1.000 | - | - |
 | p0059 | B1 | Belajar bahasa asing sebagai orang dewasa | 125 | 123 | 1.000 | 1.000 | - | - |
 | p0060 | B1 | Sepuluh tahun lagi | 130 | 130 | 1.000 | 1.000 | - | - |
 
