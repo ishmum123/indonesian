@@ -340,4 +340,5 @@ menulis, lakukan -> melakukan ...; the 44 other words are new).
   gloss matches the shared gloss regex (check passes).
 - Two builds with different PYTHONHASHSEED give byte-identical pack/*.json
   and REPORT.md; tools/id_map_v1.json frozen, 2000/2000 ids reused.
+- 2026-09-25 engine bump: 072795d (voice-init fix, no-voice notice timing, word ceiling). Indonesian was already rebuilt with the shared word-level ceiling; words/sentences/passages are byte-identical to the previous build. No rank, id, level or gloss changed.
 <!-- manual:end -->
