@@ -8,10 +8,10 @@ trainer speaks every word and sentence with the browser's `id-ID` voice
 there). The Read tab adds 60 short reading passages with comprehension
 questions (see "Reading passages" below).
 
-**Live:** https://ishmum123.github.io/indonesian/
+**Live:** https://bannerless-studio.github.io/indonesian/
 
 This repo holds the Indonesian data pack and the Indonesian data files its
-build reads. It includes [`vocab-engine`](https://github.com/ishmum123/vocab-engine)
+build reads. It includes [`vocab-engine`](https://github.com/Bannerless-Studio/vocab-engine)
 as a git submodule at `engine/`. The engine holds the shared UI, the drill
 logic and the shared pack builder, `engine/tools/packbuilder`. The builder's
 Indonesian rules live in `engine/tools/packbuilder/langs/id.py`.

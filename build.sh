@@ -1,6 +1,6 @@
 #!/bin/sh
 # Builds the self-contained Indonesian trainer and writes it to index.html at
-# the repo root, so GitHub Pages serves it at https://ishmum123.github.io/indonesian/
+# the repo root, so GitHub Pages serves it at https://bannerless-studio.github.io/indonesian/
 # Usage: ./build.sh   (or: sh build.sh)
 set -e
 cd "$(dirname "$0")"
